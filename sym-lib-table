@@ -1,4 +1,4 @@
 (sym_lib_table
 	(version 7)
-	(lib (name "LM5146RGYR") (type "KiCad") (uri "${KIPRJMOD}/lib/LM5146RGYR.kicad_sym") (options "") (descr ""))
+	(lib (name "LM5146RGYR") (type "KiCad") (uri "${KIPRJMOD}/lib/LM5146RGYR/LM5146RGYR.kicad_sym") (options "") (descr ""))
 )
