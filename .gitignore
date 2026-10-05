@@ -8,3 +8,4 @@ fp-info-cache
 # KiCad låsefiler
 *.kicad_prl
 *.lck
+.history/
