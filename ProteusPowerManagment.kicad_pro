@@ -1,6 +1,12 @@
 {
   "board": {
     "3dviewports": [],
+    "design_settings": {
+      "diff_pair_dimensions": [],
+      "drc_exclusions": [],
+      "track_widths": [],
+      "via_dimensions": []
+    },
     "ipc2581": {
       "bom_rev": "",
       "dist": "",
@@ -251,6 +257,7 @@
       "wire_dangling": "error"
     }
   },
+  "legacy": [],
   "libraries": {
     "pinned_footprint_libs": [],
     "pinned_symbol_libs": []
@@ -386,7 +393,7 @@
       "include_excluded_from_bom": true,
       "name": "Default Editing",
       "sort_asc": true,
-      "sort_field": "Referanse"
+      "sort_field": "Reference"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -403,14 +410,14 @@
       "intersheets_ref_show": false,
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
-      "label_size_ratio": 0.375,
+      "label_size_ratio": 0.25,
       "operating_point_overlay_i_precision": 3,
       "operating_point_overlay_i_range": "~A",
       "operating_point_overlay_v_precision": 3,
       "operating_point_overlay_v_range": "~V",
       "overbar_offset_ratio": 1.23,
-      "pin_symbol_size": 25.0,
-      "text_offset_ratio": 0.15
+      "pin_symbol_size": 0.0,
+      "text_offset_ratio": 0.08
     },
     "legacy_lib_dir": "",
     "legacy_lib_list": [],
@@ -429,11 +436,7 @@
         "uuid": "c24111dd-5300-4143-a3c3-2d963194a3cb"
       }
     ],
-<<<<<<< HEAD
-    "used_designators": "U1-2,R1-3,C1-3,#PWR1-4,R_FB3",
-=======
-    "used_designators": "U1",
->>>>>>> master
+    "used_designators": "#PWR5-8,R1-5,C2-3",
     "variants": []
   },
   "sheets": [
