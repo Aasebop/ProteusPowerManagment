@@ -292,7 +292,38 @@
       "version": 5
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "Net-(C_C1-Pad2)": [
+        "comp"
+      ],
+      "Net-(C_C2-Pad2)": [
+        "FB"
+      ],
+      "Net-(C_C4-Pad2)": [
+        "comp"
+      ],
+      "Net-(C_C5-Pad2)": [
+        "FB"
+      ],
+      "Net-(R_C2-Pad1)": [
+        "V_out"
+      ],
+      "Net-(R_C4-Pad1)": [
+        "V_out"
+      ],
+      "unconnected-(U1-COMP-Pad4)": [
+        "comp"
+      ],
+      "unconnected-(U1-FB-Pad5)": [
+        "FB"
+      ],
+      "unconnected-(U3-COMP-Pad4)": [
+        "comp"
+      ],
+      "unconnected-(U3-FB-Pad5)": [
+        "FB"
+      ]
+    },
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -393,7 +424,7 @@
       "include_excluded_from_bom": true,
       "name": "Default Editing",
       "sort_asc": true,
-      "sort_field": "Referanse"
+      "sort_field": "Reference"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -429,11 +460,34 @@
     "reuse_designators": true,
     "subpart_first_id": 65,
     "subpart_id_separator": 0,
-    "top_level_sheets": [],
-    "used_designators": "",
+    "top_level_sheets": [
+      {
+        "filename": "ProteusPowerManagment.kicad_sch",
+        "name": "ProteusPowerManagment",
+        "uuid": "c24111dd-5300-4143-a3c3-2d963194a3cb"
+      }
+    ],
+    "used_designators": "#PWR5-23,R_BST1-2,R1-9,C_ss1-2,C2-6,C_BST1-2,C_Vin1-2,C_In1-9,C_C4-9,R_C3-6,R_FB3-4,R_RT1-2,U3-4,R_UV3-6,R_Vin1-2,Q1-4,L1-2,C_VCC1,C_Out1-9,C_ILIM1,R_ILIM1",
     "variants": []
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "c24111dd-5300-4143-a3c3-2d963194a3cb",
+      "ProteusPowerManagment"
+    ],
+    [
+      "02b1550a-377b-4da6-a00f-9f724cf4d25c",
+      "24Vbuck"
+    ],
+    [
+      "c1246cae-1020-4e2b-a9f1-a2035453bc0c",
+      "12Vbuck"
+    ],
+    [
+      "ff489ca0-c022-46f0-934f-be95c81d38e4",
+      "5Vbuck"
+    ]
+  ],
   "text_variables": {},
   "tuning_profiles": {
     "meta": {
