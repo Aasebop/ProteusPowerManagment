@@ -2473,7 +2473,7 @@
 			)
 		)
 	)
-	(global_label "V_out"
+	(global_label "12VV_out"
 		(shape input)
 		(at 193.04 80.01 0)
 		(fields_autoplaced yes)
@@ -2485,7 +2485,7 @@
 		)
 		(uuid "fb14fa50-98e4-4947-b57d-a1d0a63d451b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 200.4509 80.01 0)
+			(at 203.9585 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2509,7 +2509,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0202717a-5bdf-4301-aff9-92257589efa5")
-		(property "Reference" "R_FB1"
+		(property "Reference" "R308"
 			(at 240.03 118.1099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2564,6 +2564,16 @@
 				)
 			)
 		)
+		(property "Field5" "R_FB1"
+			(at 237.49 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "cd04db38-8ccb-4905-b29c-4a254a94f43d")
 		)
@@ -2573,7 +2583,7 @@
 		(instances
 			(project "ProteusPowerManagment"
 				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/c1246cae-1020-4e2b-a9f1-a2035453bc0c"
-					(reference "R_FB1")
+					(reference "R308")
 					(unit 1)
 				)
 			)
@@ -2590,7 +2600,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "06835ceb-a6aa-4f85-b7ba-791876e569a3")
-		(property "Reference" "C_C2"
+		(property "Reference" "C307"
 			(at 227.33 111.252 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2643,6 +2653,16 @@
 				)
 			)
 		)
+		(property "Field5" "C_C2"
+			(at 227.33 107.95 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "4042aa26-c46b-4698-8625-5aa75157d5a4")
 		)
@@ -2652,7 +2672,7 @@
 		(instances
 			(project "ProteusPowerManagment"
 				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/c1246cae-1020-4e2b-a9f1-a2035453bc0c"
-					(reference "C_C2")
+					(reference "C307")
 					(unit 1)
 				)
 			)
@@ -2670,7 +2690,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1534370b-3c70-48ff-8a0f-869ff193eef6")
-		(property "Reference" "C_Out"
+		(property "Reference" "C318"
 			(at 196.85 116.8399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2725,6 +2745,16 @@
 				)
 			)
 		)
+		(property "Field5" "C_Out1"
+			(at 193.04 118.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1b9f0dc0-7352-4657-a39f-1d09b9c456dd")
 		)
@@ -2734,7 +2764,7 @@
 		(instances
 			(project "ProteusPowerManagment"
 				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/c1246cae-1020-4e2b-a9f1-a2035453bc0c"
-					(reference "C_Out")
+					(reference "C318")
 					(unit 1)
 				)
 			)
@@ -2752,7 +2782,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "15c70248-d53c-41f8-a704-c75a6a1128ee")
-		(property "Reference" "C_VCC"
+		(property "Reference" "C303"
 			(at 142.24 59.69 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2805,6 +2835,16 @@
 				)
 			)
 		)
+		(property "Field5" "C_VCC"
+			(at 142.24 67.31 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e6669fc4-8de9-4bed-aeac-4178077e5ee0")
 		)
@@ -2814,7 +2854,7 @@
 		(instances
 			(project "ProteusPowerManagment"
 				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/c1246cae-1020-4e2b-a9f1-a2035453bc0c"
-					(reference "C_VCC")
+					(reference "C303")
 					(unit 1)
 				)
 			)
@@ -2832,7 +2872,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f8ee6f7-17c2-4676-986f-69413dbfce4f")
-		(property "Reference" "C_Out1"
+		(property "Reference" "C317"
 			(at 196.85 109.2199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2887,6 +2927,16 @@
 				)
 			)
 		)
+		(property "Field5" "C_Out2"
+			(at 193.04 110.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6c5fa527-21e2-4bf0-9120-66f359340eba")
 		)
@@ -2896,7 +2946,7 @@
 		(instances
 			(project "ProteusPowerManagment"
 				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/c1246cae-1020-4e2b-a9f1-a2035453bc0c"
-					(reference "C_Out1")
+					(reference "C317")
 					(unit 1)
 				)
 			)
@@ -2992,7 +3042,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "365d91a7-005f-4b5c-89d5-3119a02595a1")
-		(property "Reference" "C_Out3"
+		(property "Reference" "C315"
 			(at 196.85 93.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3047,6 +3097,16 @@
 				)
 			)
 		)
+		(property "Field5" "C_Out4"
+			(at 193.04 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ee3d7d70-2c95-40c8-aa31-0059755c6956")
 		)
@@ -3056,7 +3116,7 @@
 		(instances
 			(project "ProteusPowerManagment"
 				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/c1246cae-1020-4e2b-a9f1-a2035453bc0c"
-					(reference "C_Out3")
+					(reference "C315")
 					(unit 1)
 				)
 			)
@@ -3151,7 +3211,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4edb08e5-a686-4181-af1a-97d4d150d26d")
-		(property "Reference" "R_BST"
+		(property "Reference" "R304"
 			(at 142.494 85.09 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3204,6 +3264,16 @@
 				)
 			)
 		)
+		(property "Field5" "R_BST"
+			(at 142.24 88.9 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "92a9fe3c-2d5a-4543-9dd4-a343e1a69b8d")
 		)
@@ -3213,7 +3283,7 @@
 		(instances
 			(project "ProteusPowerManagment"
 				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/c1246cae-1020-4e2b-a9f1-a2035453bc0c"
-					(reference "R_BST")
+					(reference "R304")
 					(unit 1)
 				)
 			)
@@ -3231,7 +3301,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f1ffd2c-00b3-49e1-b5f3-02d83254505a")
-		(property "Reference" "C_In3"
+		(property "Reference" "C310"
 			(at 182.88 90.1699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3286,6 +3356,16 @@
 				)
 			)
 		)
+		(property "Field5" "C_In4"
+			(at 179.07 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a587833f-232e-4065-8c8e-2e3ac3893cd7")
 		)
@@ -3295,7 +3375,7 @@
 		(instances
 			(project "ProteusPowerManagment"
 				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/c1246cae-1020-4e2b-a9f1-a2035453bc0c"
-					(reference "C_In3")
+					(reference "C310")
 					(unit 1)
 				)
 			)
@@ -3312,7 +3392,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "50bab685-786e-42b5-805d-d79f68e25153")
-		(property "Reference" "C_ss"
+		(property "Reference" "C302"
 			(at 91.44 109.22 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3365,6 +3445,16 @@
 				)
 			)
 		)
+		(property "Field5" "C_ss"
+			(at 91.44 104.14 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "eca110d1-cec7-4ab6-a774-e1e3cc976cc3")
 		)
@@ -3374,7 +3464,7 @@
 		(instances
 			(project "ProteusPowerManagment"
 				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/c1246cae-1020-4e2b-a9f1-a2035453bc0c"
-					(reference "C_ss")
+					(reference "C302")
 					(unit 1)
 				)
 			)
@@ -3392,7 +3482,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "51b4a135-ab07-4f42-b9ed-afa6db9c9627")
-		(property "Reference" "C_Out4"
+		(property "Reference" "C314"
 			(at 196.85 86.3599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3447,6 +3537,16 @@
 				)
 			)
 		)
+		(property "Field5" "C_Out5"
+			(at 193.04 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d08fe4b7-3017-477f-be6a-036092c0da4a")
 		)
@@ -3456,7 +3556,7 @@
 		(instances
 			(project "ProteusPowerManagment"
 				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/c1246cae-1020-4e2b-a9f1-a2035453bc0c"
-					(reference "C_Out4")
+					(reference "C314")
 					(unit 1)
 				)
 			)
@@ -3474,8 +3574,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "72a3183d-de17-4c77-8d60-7f701cd00758")
-		(property "Reference" "C_Out2"
-			(at 196.85 101.5999 0)
+		(property "Reference" "C316"
+			(at 196.85 100.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3486,7 +3586,7 @@
 			)
 		)
 		(property "Value" "22u"
-			(at 196.85 104.1399 0)
+			(at 196.85 102.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3529,6 +3629,17 @@
 				)
 			)
 		)
+		(property "Field5" "C_Out3"
+			(at 196.85 105.4099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(pin "1"
 			(uuid "21ee8917-ef28-4aa6-adb3-b5951db4f2ec")
 		)
@@ -3538,7 +3649,7 @@
 		(instances
 			(project "ProteusPowerManagment"
 				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/c1246cae-1020-4e2b-a9f1-a2035453bc0c"
-					(reference "C_Out2")
+					(reference "C316")
 					(unit 1)
 				)
 			)
@@ -3556,7 +3667,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ce0f232-ccb3-4174-ab66-19035dfd4e21")
-		(property "Reference" "C_In"
+		(property "Reference" "C313"
 			(at 182.88 116.8399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3611,6 +3722,16 @@
 				)
 			)
 		)
+		(property "Field5" "C_In1"
+			(at 179.07 118.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "367b591a-65fe-4b60-9b80-bac2f57cc82a")
 		)
@@ -3620,7 +3741,7 @@
 		(instances
 			(project "ProteusPowerManagment"
 				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/c1246cae-1020-4e2b-a9f1-a2035453bc0c"
-					(reference "C_In")
+					(reference "C313")
 					(unit 1)
 				)
 			)
@@ -3716,7 +3837,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8748c4e5-0166-4379-a5f6-4ebc2de4cd35")
-		(property "Reference" "C_In4"
+		(property "Reference" "C311"
 			(at 182.88 99.0599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3771,6 +3892,16 @@
 				)
 			)
 		)
+		(property "Field5" "C_In3"
+			(at 179.07 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "736cf4be-185e-4ab5-9c2d-fa1f5ba57bb2")
 		)
@@ -3780,7 +3911,7 @@
 		(instances
 			(project "ProteusPowerManagment"
 				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/c1246cae-1020-4e2b-a9f1-a2035453bc0c"
-					(reference "C_In4")
+					(reference "C311")
 					(unit 1)
 				)
 			)
@@ -3875,7 +4006,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "87de031a-3e17-448f-a871-5a242ef5106c")
-		(property "Reference" "C_Vin"
+		(property "Reference" "C301"
 			(at 99.06 73.914 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3928,6 +4059,16 @@
 				)
 			)
 		)
+		(property "Field5" "C_Vin"
+			(at 95.25 72.39 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3e4a8a12-a362-486c-9f76-ad9e38661ad5")
 		)
@@ -3937,7 +4078,7 @@
 		(instances
 			(project "ProteusPowerManagment"
 				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/c1246cae-1020-4e2b-a9f1-a2035453bc0c"
-					(reference "C_Vin")
+					(reference "C301")
 					(unit 1)
 				)
 			)
@@ -3955,7 +4096,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "890cf7ea-1682-467d-9a52-06cb55400e1c")
-		(property "Reference" "R_FB1"
+		(property "Reference" "R310"
 			(at 248.92 92.7099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4010,6 +4151,16 @@
 				)
 			)
 		)
+		(property "Field5" "R_FB1"
+			(at 246.38 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "faedf727-da6c-47db-89a9-91a2fe56c810")
 		)
@@ -4019,7 +4170,7 @@
 		(instances
 			(project "ProteusPowerManagment"
 				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/c1246cae-1020-4e2b-a9f1-a2035453bc0c"
-					(reference "R_FB1")
+					(reference "R310")
 					(unit 1)
 				)
 			)
@@ -4037,7 +4188,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a693c89-805a-4521-9a19-1603b16f95f8")
-		(property "Reference" "L1"
+		(property "Reference" "L301"
 			(at 185.42 86.36 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4099,7 +4250,7 @@
 		(instances
 			(project "ProteusPowerManagment"
 				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/c1246cae-1020-4e2b-a9f1-a2035453bc0c"
-					(reference "L1")
+					(reference "L301")
 					(unit 1)
 				)
 			)
@@ -4313,7 +4464,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "950816d8-f2a6-4c97-94cc-d92b4836f462")
-		(property "Reference" "R_C2"
+		(property "Reference" "R309"
 			(at 240.03 95.2499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4368,6 +4519,16 @@
 				)
 			)
 		)
+		(property "Field5" "R_C2"
+			(at 237.49 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f06a48fc-c393-483c-b01b-1b9ac2a2caea")
 		)
@@ -4377,7 +4538,7 @@
 		(instances
 			(project "ProteusPowerManagment"
 				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/c1246cae-1020-4e2b-a9f1-a2035453bc0c"
-					(reference "R_C2")
+					(reference "R309")
 					(unit 1)
 				)
 			)
@@ -4395,7 +4556,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9582110b-8cdc-4e26-b02b-bfe1fa234c72")
-		(property "Reference" "C_ILIM"
+		(property "Reference" "C305"
 			(at 146.05 132.0799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4450,6 +4611,16 @@
 				)
 			)
 		)
+		(property "Field5" "C_ILIM"
+			(at 142.24 133.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "2307d342-8b60-451b-aad0-8bd43ee101f3")
 		)
@@ -4459,7 +4630,7 @@
 		(instances
 			(project "ProteusPowerManagment"
 				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/c1246cae-1020-4e2b-a9f1-a2035453bc0c"
-					(reference "C_ILIM")
+					(reference "C305")
 					(unit 1)
 				)
 			)
@@ -4477,7 +4648,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "95e3c976-9660-45c0-a0ba-724b7e15d13f")
-		(property "Reference" "R_ILIM"
+		(property "Reference" "R306"
 			(at 149.86 123.19 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4530,6 +4701,16 @@
 				)
 			)
 		)
+		(property "Field5" "R_ILIM"
+			(at 149.86 129.54 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a385f2d0-35a5-44cc-a849-47379e20d991")
 		)
@@ -4539,7 +4720,7 @@
 		(instances
 			(project "ProteusPowerManagment"
 				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/c1246cae-1020-4e2b-a9f1-a2035453bc0c"
-					(reference "R_ILIM")
+					(reference "R306")
 					(unit 1)
 				)
 			)
@@ -4556,7 +4737,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9e747921-9067-4040-be6e-0a41b7319eb8")
-		(property "Reference" "C_BST"
+		(property "Reference" "C304"
 			(at 149.86 82.55 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4609,6 +4790,16 @@
 				)
 			)
 		)
+		(property "Field5" "C_BST"
+			(at 149.86 88.9 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "92af32ff-4b77-4757-b268-0c791f9e41bb")
 		)
@@ -4618,7 +4809,7 @@
 		(instances
 			(project "ProteusPowerManagment"
 				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/c1246cae-1020-4e2b-a9f1-a2035453bc0c"
-					(reference "C_BST")
+					(reference "C304")
 					(unit 1)
 				)
 			)
@@ -4636,7 +4827,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a2a1b047-a31e-4b97-ab16-b5d77fdea7d0")
-		(property "Reference" "C_In1"
+		(property "Reference" "C312"
 			(at 182.88 109.2199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4691,6 +4882,17 @@
 				)
 			)
 		)
+		(property "Field5" "C_In2"
+			(at 179.07 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "55414909-d77c-4851-92f8-13e82e71684f")
 		)
@@ -4700,7 +4902,7 @@
 		(instances
 			(project "ProteusPowerManagment"
 				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/c1246cae-1020-4e2b-a9f1-a2035453bc0c"
-					(reference "C_In1")
+					(reference "C312")
 					(unit 1)
 				)
 			)
@@ -4718,7 +4920,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa4d6fb2-19d5-4266-ad4a-3016996933d4")
-		(property "Reference" "C_In2"
+		(property "Reference" "C309"
 			(at 182.88 82.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4773,6 +4975,16 @@
 				)
 			)
 		)
+		(property "Field5" "C_In5"
+			(at 179.07 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "dc8606ef-716b-4ba1-82d8-175ac637d0ff")
 		)
@@ -4782,7 +4994,7 @@
 		(instances
 			(project "ProteusPowerManagment"
 				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/c1246cae-1020-4e2b-a9f1-a2035453bc0c"
-					(reference "C_In2")
+					(reference "C309")
 					(unit 1)
 				)
 			)
@@ -5303,7 +5515,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b93573e8-09a3-4240-8117-fdc1499217be")
-		(property "Reference" "R_C1"
+		(property "Reference" "R307"
 			(at 231.14 96.52 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5356,6 +5568,16 @@
 				)
 			)
 		)
+		(property "Field5" "R_C1"
+			(at 231.14 102.87 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a1887706-4c5a-4da9-8343-aabe61a83c89")
 		)
@@ -5365,7 +5587,7 @@
 		(instances
 			(project "ProteusPowerManagment"
 				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/c1246cae-1020-4e2b-a9f1-a2035453bc0c"
-					(reference "R_C1")
+					(reference "R307")
 					(unit 1)
 				)
 			)
@@ -5382,7 +5604,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c4c94738-adf6-4df2-a981-7ce7a0fcdea4")
-		(property "Reference" "R_RT"
+		(property "Reference" "R305"
 			(at 93.98 99.06 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5435,6 +5657,16 @@
 				)
 			)
 		)
+		(property "Field5" "R_RT"
+			(at 99.06 101.6 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "3db29f69-4e1b-43c0-bf15-b586568078f0")
 		)
@@ -5444,7 +5676,7 @@
 		(instances
 			(project "ProteusPowerManagment"
 				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/c1246cae-1020-4e2b-a9f1-a2035453bc0c"
-					(reference "R_RT")
+					(reference "R305")
 					(unit 1)
 				)
 			)
@@ -5462,7 +5694,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c859789b-d4e5-4c94-91b9-2fe11a6fac97")
-		(property "Reference" "R_UV2"
+		(property "Reference" "R301"
 			(at 91.44 62.23 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5515,6 +5747,16 @@
 				)
 			)
 		)
+		(property "Field5" "R_UV2"
+			(at 91.44 68.58 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "12b26c34-a7ea-41ea-ac28-0955737b940c")
 		)
@@ -5524,7 +5766,7 @@
 		(instances
 			(project "ProteusPowerManagment"
 				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/c1246cae-1020-4e2b-a9f1-a2035453bc0c"
-					(reference "R_UV2")
+					(reference "R301")
 					(unit 1)
 				)
 			)
@@ -5620,7 +5862,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ddac345c-f95b-4103-9aea-7e153460a256")
-		(property "Reference" "C_C1"
+		(property "Reference" "C306"
 			(at 223.52 95.25 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5673,6 +5915,16 @@
 				)
 			)
 		)
+		(property "Field5" "C_C1"
+			(at 223.52 102.87 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "27347e4c-9b3d-43ac-a1bd-70daf1dfd6f5")
 		)
@@ -5682,7 +5934,7 @@
 		(instances
 			(project "ProteusPowerManagment"
 				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/c1246cae-1020-4e2b-a9f1-a2035453bc0c"
-					(reference "C_C1")
+					(reference "C306")
 					(unit 1)
 				)
 			)
@@ -5700,7 +5952,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e69efcfa-bbca-450c-b85a-887c2b9ec566")
-		(property "Reference" "R_UV1"
+		(property "Reference" "R302"
 			(at 99.06 62.23 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5753,6 +6005,16 @@
 				)
 			)
 		)
+		(property "Field5" "R_UV1"
+			(at 99.06 68.58 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "be0b3900-3e98-46c8-a320-0f1c0b88b1a7")
 		)
@@ -5762,7 +6024,7 @@
 		(instances
 			(project "ProteusPowerManagment"
 				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/c1246cae-1020-4e2b-a9f1-a2035453bc0c"
-					(reference "R_UV1")
+					(reference "R302")
 					(unit 1)
 				)
 			)
@@ -5780,8 +6042,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4a2a50b-481d-4cab-a9b3-d52bcee6a746")
-		(property "Reference" "R_Vin"
-			(at 106.68 66.04 90)
+		(property "Reference" "R303"
+			(at 106.68 63.5 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5791,7 +6053,7 @@
 			)
 		)
 		(property "Value" "2.2"
-			(at 106.68 68.58 90)
+			(at 106.68 66.04 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5833,6 +6095,16 @@
 				)
 			)
 		)
+		(property "Field5" "R_Vin"
+			(at 106.68 68.58 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "9cc53597-70b3-4472-9cb1-640d7effc8a9")
 		)
@@ -5842,7 +6114,7 @@
 		(instances
 			(project "ProteusPowerManagment"
 				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/c1246cae-1020-4e2b-a9f1-a2035453bc0c"
-					(reference "R_Vin")
+					(reference "R303")
 					(unit 1)
 				)
 			)
@@ -5860,7 +6132,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f50b7126-e90b-4be1-9ecb-17bc890c8918")
-		(property "Reference" "C_C3"
+		(property "Reference" "C308"
 			(at 250.19 100.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5915,6 +6187,16 @@
 				)
 			)
 		)
+		(property "Field5" "C_C3"
+			(at 246.38 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "eb6fd74f-f9f5-4730-8dd9-45b125af2697")
 		)
@@ -5924,7 +6206,7 @@
 		(instances
 			(project "ProteusPowerManagment"
 				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/c1246cae-1020-4e2b-a9f1-a2035453bc0c"
-					(reference "C_C3")
+					(reference "C308")
 					(unit 1)
 				)
 			)

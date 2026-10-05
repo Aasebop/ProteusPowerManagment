@@ -1,11 +1,30 @@
-# KiCad backup- og autosave-filer
-*-backups/
-*.bak
-_autosave-*
-*~
-fp-info-cache
-
-# KiCad låsefiler
-*.kicad_prl
-*.lck
+# ---- KiCad: lokale/midlertidige filer ----
+# Lokal historikk (KiCad lager et eget git-repo her – må ALDRI committes)
 .history/
+# Automatiske backuper
+*-backups/
+_autosave-*
+*.bak
+*.bck
+*-bak
+# Låsefiler mens prosjektet er åpent
+*.lck
+~*.lck
+# Lokale visningsinnstillinger (synlige lag, zoom osv.) – personlig
+*.kicad_prl
+# Cache
+fp-info-cache
+*-cache.lib
+*.sch-bak
+
+# ---- Produksjonsfiler (genereres på nytt ved behov) ----
+# Fjern linjene under hvis dere vil versjonere gerbers/BOM
+gerbers/
+production/
+*.zip
+
+# ---- OS / editor ----
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/

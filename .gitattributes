@@ -1,0 +1,22 @@
+# Normaliser linjeskift slik at Windows/Mac/Linux ikke gir diff på hele filer
+* text=auto
+
+# KiCad-filer er tekst – tving LF
+*.kicad_pro   text eol=lf
+*.kicad_sch   text eol=lf
+*.kicad_pcb   text eol=lf
+*.kicad_sym   text eol=lf
+*.kicad_mod   text eol=lf
+*.kicad_dru   text eol=lf
+*.kicad_wks   text eol=lf
+sym-lib-table text eol=lf
+fp-lib-table  text eol=lf
+
+# Binærfiler – aldri forsøk å flette
+*.step   binary
+*.stp    binary
+*.wrl    binary
+*.pdf    binary
+*.png    binary
+*.jpg    binary
+*.zip    binary
