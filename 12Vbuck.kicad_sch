@@ -478,6 +478,243 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Halfdan:APA0809470M050R"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 8.89 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "APA0809470M050R"
+				(at 8.89 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "CAPAE830X1000N"
+				(at 8.89 -96.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://datasheets.kyocera-avx.com/kyocera-avx-apa-series.pdf"
+				(at 8.89 -196.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "Aluminum Organic Polymer Capacitors 47UF       50V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "10"
+				(at 8.89 -396.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" "581-APA0809470M050R"
+				(at 8.89 -496.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/APA0809470M050R?qs=Wj%2FVkw3K%252BMAkqelysx9Hrg%3D%3D"
+				(at 8.89 -596.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "Kyocera AVX"
+				(at 8.89 -696.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "APA0809470M050R"
+				(at 8.89 -796.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "APA0809470M050R_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.064 1.778) (xy 4.064 0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.572 1.27) (xy 3.556 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 2.54)
+					(end 5.842 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 7.62 -2.54) (xy 6.858 -2.54) (xy 6.858 2.54) (xy 7.62 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 10.16 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "LM5146RGYR:LM5146RGYR"
 			(pin_names
 				(offset 1.016)
@@ -1578,12 +1815,6 @@
 		(uuid "1e276eef-adfb-4f08-9983-034328ab10d6")
 	)
 	(junction
-		(at 220.98 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2b588897-5442-4118-9f38-0577d8f8138d")
-	)
-	(junction
 		(at 220.98 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1686,6 +1917,12 @@
 		(uuid "9d0dd875-6814-4e88-9ea0-da061b4508b5")
 	)
 	(junction
+		(at 223.52 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ac1f7bad-0059-41e8-9b8e-522d9f849e91")
+	)
+	(junction
 		(at 198.12 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1710,16 +1947,16 @@
 		(uuid "b9434ada-18a3-42bb-85ba-86558e428e8e")
 	)
 	(junction
+		(at 209.55 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba0cf40f-8dfb-4569-a83e-6dd4fc81157a")
+	)
+	(junction
 		(at 260.35 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c472a978-c4f5-4ff9-ab6a-6568ac2d6883")
-	)
-	(junction
-		(at 220.98 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c9d238d4-1dde-4ca7-accb-6f97248f94b7")
 	)
 	(junction
 		(at 251.46 123.19)
@@ -1738,6 +1975,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e8749bb3-5afd-4072-a513-855d9ac2c20e")
+	)
+	(junction
+		(at 223.52 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eda32e13-2166-4c15-8822-8b70026b6ea7")
 	)
 	(junction
 		(at 102.87 72.39)
@@ -1873,7 +2116,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 99.06) (xy 209.55 102.87)
+			(xy 209.55 99.06) (xy 209.55 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2053,16 +2296,6 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 91.44) (xy 232.41 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6813c76b-d29d-4b14-86e4-7dcba59df962")
-	)
-	(wire
-		(pts
 			(xy 186.69 80.01) (xy 198.12 80.01)
 		)
 		(stroke
@@ -2083,7 +2316,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 99.06) (xy 220.98 99.06)
+			(xy 209.55 104.14) (xy 232.41 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2133,7 +2366,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 91.44) (xy 220.98 91.44)
+			(xy 209.55 91.44) (xy 232.41 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2440,16 +2673,6 @@
 			(type default)
 		)
 		(uuid "f64ae768-61b5-4145-918d-f60d0cdb4bb9")
-	)
-	(wire
-		(pts
-			(xy 220.98 99.06) (xy 232.41 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb778a15-8b7c-4bb9-af57-492d513c3680")
 	)
 	(wire
 		(pts
@@ -2980,8 +3203,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 232.41 95.25 0)
+		(lib_id "Halfdan:APA0809470M050R")
+		(at 232.41 104.14 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2991,7 +3214,7 @@
 		(dnp no)
 		(uuid "1534370b-3c70-48ff-8a0f-869ff193eef6")
 		(property "Reference" "C318"
-			(at 236.22 93.9799 0)
+			(at 231.1399 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3002,7 +3225,7 @@
 			)
 		)
 		(property "Value" "47u"
-			(at 236.22 96.5199 0)
+			(at 233.6799 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3012,8 +3235,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 233.3752 99.06 0)
+		(property "Footprint" "CAPAE830X1000N"
+			(at 328.6 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3021,10 +3244,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Datasheet" ""
-			(at 232.41 95.25 0)
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/kyocera-avx-apa-series.pdf"
+			(at 428.6 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3032,10 +3256,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 232.41 95.25 0)
+		(property "Description" "Aluminum Organic Polymer Capacitors 47UF       50V"
+			(at 232.41 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3046,13 +3271,73 @@
 			)
 		)
 		(property "Field5" "C_Out1"
-			(at 238.252 98.806 0)
+			(at 235.966 98.298 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Height" "10"
+			(at 628.6 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "581-APA0809470M050R"
+			(at 728.6 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/APA0809470M050R?qs=Wj%2FVkw3K%252BMAkqelysx9Hrg%3D%3D"
+			(at 828.6 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Kyocera AVX"
+			(at 928.6 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "APA0809470M050R"
+			(at 1028.6 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
 			)
 		)
 		(pin "1"
@@ -3160,8 +3445,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 220.98 95.25 0)
+		(lib_id "Halfdan:APA0809470M050R")
+		(at 223.52 104.14 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3171,7 +3456,7 @@
 		(dnp no)
 		(uuid "1f8ee6f7-17c2-4676-986f-69413dbfce4f")
 		(property "Reference" "C317"
-			(at 224.79 93.9799 0)
+			(at 222.2499 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3182,7 +3467,7 @@
 			)
 		)
 		(property "Value" "47u"
-			(at 224.79 96.5199 0)
+			(at 224.7899 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3192,8 +3477,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 221.9452 99.06 0)
+		(property "Footprint" "CAPAE830X1000N"
+			(at 319.71 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3201,10 +3486,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Datasheet" ""
-			(at 220.98 95.25 0)
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/kyocera-avx-apa-series.pdf"
+			(at 419.71 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3212,10 +3498,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 220.98 95.25 0)
+		(property "Description" "Aluminum Organic Polymer Capacitors 47UF       50V"
+			(at 223.52 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3226,13 +3513,73 @@
 			)
 		)
 		(property "Field5" "C_Out2"
-			(at 227.33 98.298 0)
+			(at 226.568 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Height" "10"
+			(at 619.71 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "581-APA0809470M050R"
+			(at 719.71 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/APA0809470M050R?qs=Wj%2FVkw3K%252BMAkqelysx9Hrg%3D%3D"
+			(at 819.71 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Kyocera AVX"
+			(at 919.71 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "APA0809470M050R"
+			(at 1019.71 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
 			)
 		)
 		(pin "1"
@@ -5988,7 +6335,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 209.55 102.87 0)
+		(at 209.55 104.14 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5999,7 +6346,7 @@
 		(fields_autoplaced yes)
 		(uuid "cc55869f-9c1c-4dd5-8b38-ca13c075a3cb")
 		(property "Reference" "#PWR019"
-			(at 209.55 109.22 0)
+			(at 209.55 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6010,7 +6357,7 @@
 			)
 		)
 		(property "Value" "PGND"
-			(at 209.55 107.95 0)
+			(at 209.55 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6020,7 +6367,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 209.55 102.87 0)
+			(at 209.55 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6031,7 +6378,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 102.87 0)
+			(at 209.55 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6042,7 +6389,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 209.55 102.87 0)
+			(at 209.55 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
