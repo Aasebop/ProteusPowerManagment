@@ -1,6 +1,12 @@
 {
   "board": {
     "3dviewports": [],
+    "design_settings": {
+      "diff_pair_dimensions": [],
+      "drc_exclusions": [],
+      "track_widths": [],
+      "via_dimensions": []
+    },
     "ipc2581": {
       "bom_rev": "",
       "dist": "",
@@ -251,6 +257,7 @@
       "wire_dangling": "error"
     }
   },
+  "legacy": [],
   "libraries": {
     "pinned_footprint_libs": [],
     "pinned_symbol_libs": []
@@ -403,14 +410,14 @@
       "intersheets_ref_show": false,
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
-      "label_size_ratio": 0.375,
+      "label_size_ratio": 0.25,
       "operating_point_overlay_i_precision": 3,
       "operating_point_overlay_i_range": "~A",
       "operating_point_overlay_v_precision": 3,
       "operating_point_overlay_v_range": "~V",
       "overbar_offset_ratio": 1.23,
-      "pin_symbol_size": 25.0,
-      "text_offset_ratio": 0.15
+      "pin_symbol_size": 0.0,
+      "text_offset_ratio": 0.08
     },
     "legacy_lib_dir": "",
     "legacy_lib_list": [],
@@ -422,38 +429,11 @@
     "reuse_designators": true,
     "subpart_first_id": 65,
     "subpart_id_separator": 0,
-    "top_level_sheets": [
-      {
-        "filename": "ProteusPowerManagment.kicad_sch",
-        "name": "ProteusPowerManagment",
-        "uuid": "c24111dd-5300-4143-a3c3-2d963194a3cb"
-      }
-    ],
-<<<<<<< HEAD
-    "used_designators": "U1-2,R1-3,C1-3,#PWR1-4,R_FB3",
-=======
-    "used_designators": "U1",
->>>>>>> master
+    "top_level_sheets": [],
+    "used_designators": "",
     "variants": []
   },
-  "sheets": [
-    [
-      "c24111dd-5300-4143-a3c3-2d963194a3cb",
-      "ProteusPowerManagment"
-    ],
-    [
-      "02b1550a-377b-4da6-a00f-9f724cf4d25c",
-      "24Vbuck"
-    ],
-    [
-      "c1246cae-1020-4e2b-a9f1-a2035453bc0c",
-      "12Vbuck"
-    ],
-    [
-      "ff489ca0-c022-46f0-934f-be95c81d38e4",
-      "5Vbuck"
-    ]
-  ],
+  "sheets": [],
   "text_variables": {},
   "tuning_profiles": {
     "meta": {
