@@ -292,7 +292,23 @@
       "version": 5
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "Net-(C_C1-Pad2)": [
+        "comp"
+      ],
+      "Net-(C_C2-Pad2)": [
+        "FB"
+      ],
+      "Net-(R_C2-Pad1)": [
+        "V_out"
+      ],
+      "unconnected-(U1-COMP-Pad4)": [
+        "comp"
+      ],
+      "unconnected-(U1-FB-Pad5)": [
+        "FB"
+      ]
+    },
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -436,7 +452,7 @@
         "uuid": "c24111dd-5300-4143-a3c3-2d963194a3cb"
       }
     ],
-    "used_designators": "#PWR5-8,R1-5,C2-3",
+    "used_designators": "#PWR5-9,R1-9,C2-6",
     "variants": []
   },
   "sheets": [
