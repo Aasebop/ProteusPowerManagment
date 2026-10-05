@@ -299,13 +299,28 @@
       "Net-(C_C2-Pad2)": [
         "FB"
       ],
+      "Net-(C_C4-Pad2)": [
+        "comp"
+      ],
+      "Net-(C_C5-Pad2)": [
+        "FB"
+      ],
       "Net-(R_C2-Pad1)": [
+        "V_out"
+      ],
+      "Net-(R_C4-Pad1)": [
         "V_out"
       ],
       "unconnected-(U1-COMP-Pad4)": [
         "comp"
       ],
       "unconnected-(U1-FB-Pad5)": [
+        "FB"
+      ],
+      "unconnected-(U3-COMP-Pad4)": [
+        "comp"
+      ],
+      "unconnected-(U3-FB-Pad5)": [
         "FB"
       ]
     },
@@ -452,7 +467,7 @@
         "uuid": "c24111dd-5300-4143-a3c3-2d963194a3cb"
       }
     ],
-    "used_designators": "#PWR5-9,R1-9,C2-6",
+    "used_designators": "#PWR5-14,R_BST1,C_ss1,R1-9,C2-6,C_Vin1,C_BST1,C_C4-6,R_C3-4,R_FB3-4,U3,R_RT1,R_UV3-4,R_Vin1",
     "variants": []
   },
   "sheets": [
