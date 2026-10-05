@@ -292,38 +292,7 @@
       "version": 5
     },
     "net_colors": null,
-    "netclass_assignments": {
-      "Net-(C_C1-Pad2)": [
-        "comp"
-      ],
-      "Net-(C_C2-Pad2)": [
-        "FB"
-      ],
-      "Net-(C_C4-Pad2)": [
-        "comp"
-      ],
-      "Net-(C_C5-Pad2)": [
-        "FB"
-      ],
-      "Net-(R_C2-Pad1)": [
-        "V_out"
-      ],
-      "Net-(R_C4-Pad1)": [
-        "V_out"
-      ],
-      "unconnected-(U1-COMP-Pad4)": [
-        "comp"
-      ],
-      "unconnected-(U1-FB-Pad5)": [
-        "FB"
-      ],
-      "unconnected-(U3-COMP-Pad4)": [
-        "comp"
-      ],
-      "unconnected-(U3-FB-Pad5)": [
-        "FB"
-      ]
-    },
+    "netclass_assignments": null,
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -467,7 +436,7 @@
         "uuid": "c24111dd-5300-4143-a3c3-2d963194a3cb"
       }
     ],
-    "used_designators": "#PWR5-23,R_BST1-2,R1-9,C_ss1-2,C2-6,C_BST1-2,C_Vin1-2,C_In1-9,C_C4-9,R_C3-6,R_FB3-4,R_RT1-2,U3-4,R_UV3-6,R_Vin1-2,Q1-4,L1-2,C_VCC1,C_Out1-9,C_ILIM1,R_ILIM1",
+    "used_designators": "#PWR5-23,R_BST1-2,R1-9,R311-320,C_ss1-2,C2-6,C319-336,C_BST1-2,C_Vin1-2,C_In1-9,C_C4-9,R_C3-6,R_FB3-4,R_RT1-2,U3-4,R_UV3-6,R_Vin1-2,Q1-4,L1-2,L302,C_VCC1,C_Out1-9,C_ILIM1,R_ILIM1",
     "variants": []
   },
   "sheets": [
