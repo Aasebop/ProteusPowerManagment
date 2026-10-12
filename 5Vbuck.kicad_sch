@@ -1569,7 +1569,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Mosfet halvbro CSD88599Q5DC "
+	(text "Mosfet  samme kapsling NVMFD5C674NL"
 		(exclude_from_sim no)
 		(at 142.24 69.596 0)
 		(effects
@@ -3138,7 +3138,7 @@
 				)
 			)
 		)
-		(property "Value" "137"
+		(property "Value" "178"
 			(at 124.46 123.19 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6231,7 +6231,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "39p"
+		(property "Value" "33p"
 			(at 120.65 133.3499 0)
 			(show_name no)
 			(do_not_autoplace no)
