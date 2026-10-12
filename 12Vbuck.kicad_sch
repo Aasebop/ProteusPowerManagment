@@ -537,6 +537,194 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Halfdan:WE-XHMA_1510"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "L"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Value" "WE-XHMA_1510"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Footprint" "WE-XHMA_1510:WE-XHMA_1510"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "WE-XHMA_1510_0_0"
+				(circle
+					(center -6.908 0.53)
+					(radius 0.1)
+					(stroke
+						(width 0.4064)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 2.54) (xy -1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -5.08 0)
+					(mid -3.81 1.2645)
+					(end -2.54 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 0)
+					(mid -1.27 1.2645)
+					(end 0 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 1.27 1.2645)
+					(end 2.54 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 0)
+					(mid 3.81 1.2645)
+					(end 5.08 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "LM5146RGYR:LM5146RGYR"
 			(pin_names
 				(offset 1.016)
@@ -1618,6 +1806,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "mosfet av typen NVMJD010N10MCL\n\n"
+		(exclude_from_sim no)
+		(at 186.69 74.676 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d5bc106c-b58b-4512-8ccd-2f5fad8c0e13")
+	)
 	(junction
 		(at 167.64 100.33)
 		(diameter 0)
@@ -1635,12 +1833,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1e276eef-adfb-4f08-9983-034328ab10d6")
-	)
-	(junction
-		(at 191.77 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2c6ceec2-8d7e-4138-9603-6b41dfc4fd44")
 	)
 	(junction
 		(at 212.09 50.8)
@@ -1707,6 +1899,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7a1aa859-15b3-49b7-9110-3104af677a46")
+	)
+	(junction
+		(at 191.77 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7c7dd7c8-98eb-4e55-8498-c73dfe9045c2")
 	)
 	(junction
 		(at 200.66 50.8)
@@ -2272,16 +2470,6 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 91.44) (xy 179.07 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b451da78-3d2e-4299-a1c2-2cc75b757633")
-	)
-	(wire
-		(pts
 			(xy 167.64 50.8) (xy 167.64 80.01)
 		)
 		(stroke
@@ -2469,6 +2657,16 @@
 			(type default)
 		)
 		(uuid "ef442d44-4e4d-499b-ba5c-afb55dc0a5ee")
+	)
+	(wire
+		(pts
+			(xy 167.64 91.44) (xy 176.53 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f25bc8d7-65fe-4c14-bfa5-ac75642c32f4")
 	)
 	(wire
 		(pts
@@ -3226,7 +3424,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "15c70248-d53c-41f8-a704-c75a6a1128ee")
-		(property "Reference" "C303"
+		(property "Reference" "C302"
 			(at 154.94 71.12 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3309,7 +3507,7 @@
 		(instances
 			(project "ProteusPowerManagment"
 				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/c1246cae-1020-4e2b-a9f1-a2035453bc0c"
-					(reference "C303")
+					(reference "C302")
 					(unit 1)
 				)
 			)
@@ -3791,7 +3989,7 @@
 			)
 		)
 		(property "Field5" "R_BST"
-			(at 142.24 88.9 90)
+			(at 142.748 90.17 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3902,7 +4100,7 @@
 				)
 			)
 		)
-		(property "Field6" "GRM32ER72A225KA35L"
+		(property "Field6" "HMK325B7225KN-T"
 			(at 189.23 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -3939,7 +4137,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "50bab685-786e-42b5-805d-d79f68e25153")
-		(property "Reference" "C302"
+		(property "Reference" "C303"
 			(at 91.44 109.22 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4011,7 +4209,7 @@
 		(instances
 			(project "ProteusPowerManagment"
 				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/c1246cae-1020-4e2b-a9f1-a2035453bc0c"
-					(reference "C302")
+					(reference "C303")
 					(unit 1)
 				)
 			)
@@ -4298,7 +4496,7 @@
 				)
 			)
 		)
-		(property "Field6" "GRM32ER72A225KA35L"
+		(property "Field6" "HMK325B7225KN-T"
 			(at 224.79 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -4478,7 +4676,7 @@
 				)
 			)
 		)
-		(property "Field6" "GRM32ER72A225KA35L"
+		(property "Field6" "HMK325B7225KN-T"
 			(at 212.09 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -4698,148 +4896,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Halfdan:APA0809470M050R")
-		(at 179.07 91.44 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8a693c89-805a-4521-9a19-1603b16f95f8")
-		(property "Reference" "L301"
-			(at 185.42 83.82 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "6.8u"
-			(at 185.42 86.36 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "CAPAE830X1000N"
-			(at 187.96 187.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://datasheets.kyocera-avx.com/kyocera-avx-apa-series.pdf"
-			(at 187.96 287.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "Aluminum Organic Polymer Capacitors 47UF       50V"
-			(at 179.07 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "10"
-			(at 187.96 487.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "581-APA0809470M050R"
-			(at 187.96 587.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/APA0809470M050R?qs=Wj%2FVkw3K%252BMAkqelysx9Hrg%3D%3D"
-			(at 187.96 687.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Kyocera AVX"
-			(at 187.96 787.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "APA0809470M050R"
-			(at 187.96 887.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "1"
-			(uuid "0243fd65-b43d-49d7-ba92-ba2acc901032")
-		)
-		(pin "2"
-			(uuid "9392ead6-f90e-4469-9387-95520abdc3bf")
-		)
-		(instances
-			(project "ProteusPowerManagment"
-				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/c1246cae-1020-4e2b-a9f1-a2035453bc0c"
-					(reference "L301")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 87.63 72.39 0)
 		(unit 1)
@@ -4929,7 +4985,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c4ea4c9-505f-44a9-ba87-468d63183cf6")
-		(property "Reference" "Q1"
+		(property "Reference" "Q301"
 			(at 171.45 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5029,7 +5085,7 @@
 		(instances
 			(project "ProteusPowerManagment"
 				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/c1246cae-1020-4e2b-a9f1-a2035453bc0c"
-					(reference "Q1")
+					(reference "Q301")
 					(unit 1)
 				)
 			)
@@ -5251,7 +5307,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "95e3c976-9660-45c0-a0ba-724b7e15d13f")
 		(property "Reference" "R306"
 			(at 149.86 123.19 90)
@@ -5307,7 +5362,7 @@
 			)
 		)
 		(property "Field5" "R_ILIM"
-			(at 149.86 129.54 90)
+			(at 149.352 127.762 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5520,7 +5575,7 @@
 				(justify left)
 			)
 		)
-		(property "Field6" "GRM32ER72A225KA35L"
+		(property "Field6" "HMK325B7225KN-T"
 			(at 200.66 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -5622,7 +5677,7 @@
 				)
 			)
 		)
-		(property "del" "GRM32ER72A225KA35L"
+		(property "del" "HMK325B7225KN-T"
 			(at 177.8 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -5738,7 +5793,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aff7351c-35c4-4dc0-a52d-dc028bb1cd61")
-		(property "Reference" "Q2"
+		(property "Reference" "Q302"
 			(at 171.45 105.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5838,7 +5893,7 @@
 		(instances
 			(project "ProteusPowerManagment"
 				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/c1246cae-1020-4e2b-a9f1-a2035453bc0c"
-					(reference "Q2")
+					(reference "Q302")
 					(unit 1)
 				)
 			)
@@ -5856,7 +5911,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b02eb2b5-88dd-4510-aed6-fc04f7e03ef4")
-		(property "Reference" "U1"
+		(property "Reference" "U301"
 			(at 120.65 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6145,7 +6200,7 @@
 		(instances
 			(project "ProteusPowerManagment"
 				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/c1246cae-1020-4e2b-a9f1-a2035453bc0c"
-					(reference "U1")
+					(reference "U301")
 					(unit 1)
 				)
 			)
@@ -6603,6 +6658,87 @@
 			(project "ProteusPowerManagment"
 				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/c1246cae-1020-4e2b-a9f1-a2035453bc0c"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Halfdan:WE-XHMA_1510")
+		(at 184.15 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d21fa41f-d9bd-4227-86d8-66100ebafe57")
+		(property "Reference" "L301"
+			(at 183.1479 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "6.8uH"
+			(at 183.1479 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "WE-XHMA_1510:WE-XHMA_1510"
+			(at 184.15 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 184.15 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b5ffb233-accd-40fa-b215-ab947c61cf5b")
+		)
+		(pin "2"
+			(uuid "1d061c91-c1c7-4395-9d9a-0a74cd8ed595")
+		)
+		(instances
+			(project "ProteusPowerManagment"
+				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/c1246cae-1020-4e2b-a9f1-a2035453bc0c"
+					(reference "L301")
 					(unit 1)
 				)
 			)
