@@ -1,0 +1,23 @@
+* NVMFD010N10MCL - en kanal (halvparten av dual-pakken)
+* ngspice VDMOS-modell tilpasset onsemi-datablad Rev. 0 (aug. 2021), typiske verdier.
+* IKKE onsemi sin offisielle modell. Bruk den offisielle PSpice-modellen når du har den.
+*
+* Bruk: M<navn> D G S NVMFD010N10MCL   (pinnerekkefølge D G S)
+*
+* Tilpasningsgrunnlag (datablad, Tj = 25 C):
+*   RDS(on) 8.7 mOhm @ VGS=10V, 11.7 mOhm @ 4.5V
+*   Platå 2.7 V @ 17 A, VGS(th) 1-3 V
+*   Ciss 1800 pF, Coss 700 pF, Crss 9.5 pF @ VDS=50V
+*   QG(tot) 26 nC @ 10V, QGD 2.7 nC
+*   VSD 0.85 V @ 17 A, QRR 31 nC @ 9 A
+*   V(BR)DSS 100 V
+*
+.model NVMFD010N10MCL VDMOS(
++ Vto=2.1 Kp=94 lambda=0.01
++ Rd=5.5m Rs=1.8m Rg=1.0
++ Cgdmax=600p Cgdmin=9p a=0.5
++ Cgs=1.79n
++ Cjo=5n m=0.5 vj=0.7
++ Is=1e-11 N=1.05 Rb=8m tt=3.5n
++ BV=105 Ibv=250u
++ mtriode=1 )

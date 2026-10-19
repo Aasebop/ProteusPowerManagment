@@ -1,0 +1,77 @@
+(ExpressProject "LM5146_TRANS"
+  (ProjectVersion "19981106")
+  (SoftwareVersion "17.4-2019 S014 (3914599)  [1/24/2021]-[05/28/21]")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File ".\lm5146rgy_trans.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\LM5146_TRANS.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (RootChangedForceReNetlist "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420"))
+  (Folder "Layout")
+  (Folder "Outputs")
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\LM5146_TRANS-pspicefiles\startup\trans.sim"
+        (DisplayName "Startup-trans")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\LM5146_TRANS-pspicefiles\steady_state\trans.sim"
+        (DisplayName "Steady_State-trans")
+        (Type "PSpice Profile"))
+      (ActiveProfile ".\LM5146_TRANS-pspicefiles\startup\trans.sim"))
+    (Folder "Model Libraries"
+      (Sort User)
+      (File ".\LM5146_TRANS.lib"
+        (Type "PSpiceLibrary")))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Select "Layout"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -23 0 218 0 482"))
+      (Tab 0)))
+  (PartMRUSelector
+    (LM5146RGY_TRANS
+      (FullPartName "LM5146RGY_TRANS.Normal")
+      (LibraryName
+         "C:\USERS\X0252215\DESKTOP\TO_REVIEW\28MAY\LM5146\LM5146_PSPICE_TRANS\LM5146RGY_TRANS.OLB")
+      (DeviceIndex "0"))
+    (LM5146-Q1RGY_TRANS
+      (FullPartName "LM5146QRGYRQ1.Normal")
+      (LibraryName
+         "C:\ELABTRANS_WS\ELABTRANS_DS\PART_NUMBERS\LM5146-Q1\ACTIVE_WORK_SANKALP\EXPERIMENTS\RELEASE_PROJECT_11JUL2018\LM5146-Q1RGY_TRANS.OLB")
+      (DeviceIndex "0"))
+    (LM5146-Q1RGY_TRANS
+      (FullPartName "LM5146-Q1RGY_TRANS.Normal")
+      (LibraryName
+         "C:\ELABTRANS_WS\ELABTRANS_DS\PART_NUMBERS\LM5146-Q1\ACTIVE_WORK_SANKALP\EXPERIMENTS\PSPICE\LM5146-Q1_PSPICE_TRANS\LM5146-Q1RGY_TRANS.OLB")
+      (DeviceIndex "0"))
+    (VDC
+      (FullPartName "VDC.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.2\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (l
+      (FullPartName "l.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG_P.OLB")
+      (DeviceIndex "0")))
+  (ISPCBBASICLICENSE "false")
+  (Folder "Logs"))

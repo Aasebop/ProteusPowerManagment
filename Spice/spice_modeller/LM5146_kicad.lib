@@ -1,0 +1,16 @@
+* Wrapper for TI LM5146_TRANS (ukryptert PSpice-modell) for bruk i KiCad/ngspice.
+* Pinnene her har samme navn som pinnene på KiCad-symbolet LM5146RGYR,
+* slik at pin-mappingen i KiCad blir 1:1.
+* NC- og EP-pinnene brukes ikke inne i TI-modellen; de knyttes svakt til AGND
+* så ngspice ikke klager på flytende noder.
+* Krever: Compatibility mode = "PSpice and LTspice" i KiCad sine simulatorinnstillinger.
+
+.include LM5146_TRANS.lib
+
+.subckt LM5146_KICAD EN_UVLO RT SS_TRK COMP FB AGND SYNCOUT SYNCIN NC PGOOD
++ ILIM PGND LO VCC EP BST HO SW VIN
+X1 AGND BST COMP EN_UVLO EP EP FB HO ILIM LO NC NC PGND PGOOD
++ RT SS_TRK SW SYNCIN SYNCOUT VCC VIN LM5146_TRANS
+R_NC NC AGND 1G
+R_EP EP AGND 1G
+.ends LM5146_KICAD
