@@ -5,6 +5,1490 @@
 	(uuid "6f3314d5-ca5c-4a8f-90cc-f545d7a63698")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Aase:CGA3E1C0G2A392J080AC"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0 3.8109 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "CGA3E1C0G2A392J080AC"
+				(at 0 -5.0885 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "CGA3E1C0G2A392J080AC:CAPC1608X90N"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "3900 pF ±5% 100V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MF" "TDK"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Package" "1608 TDK"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/CGA3E1C0G2A392J080AC/TDK/view-part/?ref=snap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MP" "CGA3E1C0G2A392J080AC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/CGA3E1C0G2A392J080AC/TDK/view-part/?ref=eda"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "CGA3E1C0G2A392J080AC_0_0"
+				(rectangle
+					(start 0 -1.9069)
+					(end 0.635 1.905)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 1.9069 -1.9069)
+					(end 2.54 1.905)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Aase:CGA3E2C0G1H102J080AA"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0 3.8109 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "CGA3E2C0G1H102J080AA"
+				(at 0 -5.0885 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "CGA3E2C0G1H102J080AA:CAPC1608X90N"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0603 1000pF 50volts C0G 5% T=0.8mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MF" "TDK"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Package" "1608 TDK"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/CGA3E2C0G1H102J080AA/TDK/view-part/?ref=snap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MP" "CGA3E2C0G1H102J080AA"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/CGA3E2C0G1H102J080AA/TDK/view-part/?ref=eda"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "CGA3E2C0G1H102J080AA_0_0"
+				(rectangle
+					(start 0 -1.9069)
+					(end 0.635 1.905)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 1.9069 -1.9069)
+					(end 2.54 1.905)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Aase:CGA3E2C0G1H121J080AA"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0 3.8109 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "CGA3E2C0G1H121J080AA"
+				(at 0 -5.0885 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "CGA3E2C0G1H121J080AA:CAPC1608X90N"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "120 pF ±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MF" "TDK"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Package" "1608 TDK"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/CGA3E2C0G1H121J080AA/TDK/view-part/?ref=snap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MP" "CGA3E2C0G1H121J080AA"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/CGA3E2C0G1H121J080AA/TDK/view-part/?ref=eda"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "CGA3E2C0G1H121J080AA_0_0"
+				(rectangle
+					(start 0 -1.9069)
+					(end 0.635 1.905)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 1.9069 -1.9069)
+					(end 2.54 1.905)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Aase:CGA3E2C0G2A120J080AA"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0 3.8109 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "CGA3E2C0G2A120J080AA"
+				(at 0 -5.0885 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "CGA3E2C0G2A120J080AA:CAPC1608X90N"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "12 pF ±5% 100V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MF" "TDK"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Package" "1608 TDK"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/CGA3E2C0G2A120J080AA/TDK/view-part/?ref=snap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MP" "CGA3E2C0G2A120J080AA"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/CGA3E2C0G2A120J080AA/TDK/view-part/?ref=eda"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "CGA3E2C0G2A120J080AA_0_0"
+				(rectangle
+					(start 0 -1.9069)
+					(end 0.635 1.905)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 1.9069 -1.9069)
+					(end 2.54 1.905)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Aase:CGA3E2X7R1H683K080AA"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0 3.8109 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "CGA3E2X7R1H683K080AA"
+				(at 0 -5.0885 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "CGA3E2X7R1H683K080AA:CAPC1608X90N"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "0.068 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MF" "TDK"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Package" "1608 TDK"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/CGA3E2X7R1H683K080AA/TDK/view-part/?ref=snap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MP" "CGA3E2X7R1H683K080AA"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/CGA3E2X7R1H683K080AA/TDK/view-part/?ref=eda"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "CGA3E2X7R1H683K080AA_0_0"
+				(rectangle
+					(start 0 -1.9069)
+					(end 0.635 1.905)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 1.9069 -1.9069)
+					(end 2.54 1.905)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Aase:CGA4J2X7R2A104K125AA"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0 3.8109 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "CGA4J2X7R2A104K125AA"
+				(at 0 -5.0885 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "CGA4J2X7R2A104K125AA:CAPC2012X145N"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "0.1 µF ±10% 100V Ceramic Capacitor X7R 0805 (2012 Metric)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MF" "TDK"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Package" "2012 TDK"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/CGA4J2X7R2A104K125AA/TDK/view-part/?ref=snap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MP" "CGA4J2X7R2A104K125AA"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/CGA4J2X7R2A104K125AA/TDK/view-part/?ref=eda"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "CGA4J2X7R2A104K125AA_0_0"
+				(rectangle
+					(start 0 -1.9069)
+					(end 0.635 1.905)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 1.9069 -1.9069)
+					(end 2.54 1.905)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Aase:CGA4J3X7R1E225K125AB"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0 3.8109 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "CGA4J3X7R1E225K125AB"
+				(at 0 -5.0885 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "CGA4J3X7R1E225K125AB:CAPC2012X145N"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "2.2 µF ±10% 25V Ceramic Capacitor X7R 0805 (2012 Metric)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MF" "TDK"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Package" "2012 TDK"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/CGA4J3X7R1E225K125AB/TDK/view-part/?ref=snap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MP" "CGA4J3X7R1E225K125AB"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/CGA4J3X7R1E225K125AB/TDK/view-part/?ref=eda"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "CGA4J3X7R1E225K125AB_0_0"
+				(rectangle
+					(start 0 -1.9069)
+					(end 0.635 1.905)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 1.9069 -1.9069)
+					(end 2.54 1.905)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Aase:NVMFD010N10MCLT1G"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -429,6 +1913,279 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Aase:WE-XHMI_1510"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "L"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Value" "WE-XHMI_1510"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Footprint" "WE-XHMI_1510:WE-XHMI_1510"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "15 µH Shielded Drum Core, Wirewound Inductor 10 A 11.3mOhm Nonstandard"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MF" "Würth Elektronik"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Package" "Nonstandard Würth Elektronik"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/74439370150/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=snap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MP" "74439370150"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/74439370150/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=eda"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "WE-XHMI_1510_0_0"
+				(circle
+					(center -6.908 0.53)
+					(radius 0.1)
+					(stroke
+						(width 0.4064)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 2.54) (xy -1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -5.08 0)
+					(mid -3.81 1.2645)
+					(end -2.54 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 0)
+					(mid -1.27 1.2645)
+					(end 0 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 1.27 1.2645)
+					(end 2.54 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 0)
+					(mid 3.81 1.2645)
+					(end 5.08 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -567,184 +2324,6 @@
 					(at 0 -3.81 90)
 					(length 2.794)
 					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:L"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "L"
-				(at -1.27 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "L"
-				(at 1.905 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Inductor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "inductor choke coil reactor magnetic"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "L_0_1"
-				(arc
-					(start 0 2.54)
-					(mid 0.6323 1.905)
-					(end 0 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 1.27)
-					(mid 0.6323 0.635)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid 0.6323 -0.635)
-					(end 0 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -1.27)
-					(mid 0.6323 -1.905)
-					(end 0 -2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "L_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1531,33 +3110,27 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Simulation_SPICE:0"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "R_1"
 			(pin_names
 				(offset 0)
-				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#GND"
-				(at 0 -5.08 0)
+			(property "Reference" "R"
+				(at 2.032 0 90)
 				(show_name no)
 				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "0"
-				(at 0 -2.54 0)
+			(property "Value" "R"
+				(at 0 0 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1567,6 +3140,17 @@
 				)
 			)
 			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1577,29 +3161,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Circuit_elements__device"
-				(at 0 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "0V reference potential for simulation"
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "simulation"
+			(property "Description" "Resistor"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1610,77 +3172,7 @@
 					)
 				)
 			)
-			(symbol "0_0_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 0 -1.27) (xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "0_1_1"
-				(pin power_in line
-					(at 0 0 0)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Simulation_SPICE:VDC"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.0254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "V"
-				(at 2.54 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "1"
-				(at 2.54 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
+			(property "ki_keywords" "R res resistor"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1691,7 +3183,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for"
+			(property "ki_fp_filters" "R_*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1702,137 +3194,23 @@
 					)
 				)
 			)
-			(property "Description" "Voltage source, DC"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Pins" "1=+ 2=-"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Type" "DC"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Device" "V"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "ki_keywords" "simulation"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "VDC_0_0"
-				(polyline
-					(pts
-						(xy -1.27 0.254) (xy 1.27 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.762 -0.254) (xy -1.27 -0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 -0.254) (xy -0.254 -0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -0.254) (xy 0.762 -0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "+"
-					(at 0 1.905 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(symbol "VDC_0_1"
-				(circle
-					(center 0 0)
-					(radius 2.54)
+			(symbol "R_1_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
 					)
 				)
 			)
-			(symbol "VDC_1_1"
+			(symbol "R_1_1_1"
 				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
+					(at 0 3.81 270)
+					(length 1.27)
 					(name ""
 						(effects
 							(font
@@ -1849,8 +3227,8 @@
 					)
 				)
 				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
+					(at 0 -3.81 90)
+					(length 1.27)
 					(name ""
 						(effects
 							(font
@@ -1999,7 +3377,7 @@
 	)
 	(text "C_in = 10uF"
 		(exclude_from_sim no)
-		(at 200.914 77.216 0)
+		(at 200.914 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2009,7 +3387,7 @@
 	)
 	(text "c_out = 25uF"
 		(exclude_from_sim no)
-		(at 240.03 77.47 0)
+		(at 260.604 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2045,22 +3423,28 @@
 		(uuid "0108f2e9-2892-4d46-bc3e-84af7b3cd16c")
 	)
 	(junction
-		(at 120.65 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0af87dc0-ff25-4292-89fa-587a83721262")
-	)
-	(junction
 		(at 54.61 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "120150dd-bbde-4868-b7ad-1595fd69ca42")
 	)
 	(junction
-		(at 153.67 119.38)
+		(at 246.38 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "23934642-caf8-4487-8a7b-3dbaa6ef0239")
+		(uuid "1d5563ee-efb6-457e-90f2-f257a1d86a22")
+	)
+	(junction
+		(at 246.38 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "254b1682-ce24-4cc6-a843-bf9b596e05ce")
+	)
+	(junction
+		(at 133.35 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2afc547f-8961-415b-a76c-cef5c68a21fa")
 	)
 	(junction
 		(at 165.1 59.69)
@@ -2081,16 +3465,10 @@
 		(uuid "37182511-ed74-490c-825a-2af69fe340e5")
 	)
 	(junction
-		(at 236.22 68.58)
+		(at 199.39 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "39f13978-a260-4cb9-ac78-f550e6aedfb1")
-	)
-	(junction
-		(at 240.03 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "42284352-208d-4b00-82f3-4b4220820613")
+		(uuid "3dda3da0-182e-4b23-9123-623e91086bbd")
 	)
 	(junction
 		(at 120.65 100.33)
@@ -2099,16 +3477,16 @@
 		(uuid "458451ab-607c-4e99-8e09-d062ee620510")
 	)
 	(junction
-		(at 199.39 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4ace5514-78e5-4bc0-af6d-22eae914b2fa")
-	)
-	(junction
 		(at 152.4 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4da8255d-7a41-4043-b7fe-9f7ac737ed6d")
+	)
+	(junction
+		(at 223.52 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4eebf037-5a9d-4c7a-aa36-06f2b050ef92")
 	)
 	(junction
 		(at 31.75 92.71)
@@ -2141,22 +3519,16 @@
 		(uuid "65f56c66-83a8-4e09-891c-310a8cd7d8ca")
 	)
 	(junction
-		(at 199.39 88.9)
+		(at 199.39 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "69bf90cc-1cb4-4493-931d-43477631dca9")
+		(uuid "695f4021-8bef-470f-af94-1c820e369c57")
 	)
 	(junction
 		(at 20.32 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "71455ee4-6000-42c0-886a-deb7fd62aaa4")
-	)
-	(junction
-		(at 187.96 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "749deb3e-888c-4342-8f60-11be970d782a")
 	)
 	(junction
 		(at 173.99 100.33)
@@ -2171,22 +3543,28 @@
 		(uuid "76d560f3-3de2-4cda-b86b-cbe935598f77")
 	)
 	(junction
-		(at 240.03 81.28)
+		(at 187.96 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "785d2996-6f2a-468e-889a-2cf51f54dd4d")
+		(uuid "795646d5-5d23-444e-96f8-5246cbf1879f")
+	)
+	(junction
+		(at 209.55 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7d8291ae-d1a0-4f37-8b7e-6398d2e0467b")
+	)
+	(junction
+		(at 246.38 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "824cc7e2-3b24-40c4-b233-33695af34fe0")
 	)
 	(junction
 		(at 173.99 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "83133794-11dc-4d0f-8dae-f2c9480ee8d8")
-	)
-	(junction
-		(at 226.06 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8cb7c7a9-707d-4d95-ac72-879198d2a69b")
 	)
 	(junction
 		(at 172.72 80.01)
@@ -2213,28 +3591,22 @@
 		(uuid "9c6d3312-11a4-4c6c-bfd6-c05acbacc629")
 	)
 	(junction
-		(at 34.29 27.94)
+		(at 234.95 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a9c97ba3-9482-4b31-9a8e-71cbf1a32b93")
+		(uuid "9fa0b74b-ef39-4341-ad0b-435919ce449a")
 	)
 	(junction
-		(at 187.96 88.9)
+		(at 187.96 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "adc0b732-f1a9-47ad-9aa6-72acbc5f0423")
+		(uuid "ac700216-de10-4b98-88db-26dedfcd0555")
 	)
 	(junction
 		(at 31.75 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b478eb0f-affa-4b44-976e-cea6ffea9cff")
-	)
-	(junction
-		(at 124.46 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bb42eaa6-572d-4b79-8249-7bef96641a75")
 	)
 	(junction
 		(at 68.58 81.28)
@@ -2249,10 +3621,10 @@
 		(uuid "bf4382a7-4f83-48bd-b37e-0366a26072b5")
 	)
 	(junction
-		(at 226.06 68.58)
+		(at 223.52 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c3610ad7-be5e-490b-9481-8f1ba3bd5840")
+		(uuid "c1832217-7cf1-4795-9586-5e6b5d63ff28")
 	)
 	(junction
 		(at 144.78 76.2)
@@ -2267,22 +3639,16 @@
 		(uuid "c891ee07-377b-4343-adb7-1401c4013ef3")
 	)
 	(junction
-		(at 59.69 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c9734c98-5cc2-4d1f-96cf-c518f74ee3cb")
-	)
-	(junction
-		(at 226.06 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ccdf4174-2a3e-410d-b106-7e3f0ae50b5d")
-	)
-	(junction
 		(at 31.75 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cf1a6198-d5c5-44f8-8c0e-72ad60d38c24")
+	)
+	(junction
+		(at 217.17 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d0dc8444-90c8-43e1-a49f-a1fe806570fe")
 	)
 	(junction
 		(at 123.19 85.09)
@@ -2309,10 +3675,28 @@
 		(uuid "d3ccf614-2280-476d-837e-004f2766bf1b")
 	)
 	(junction
+		(at 209.55 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d3f450cf-9512-4e50-88ae-9be30297ba20")
+	)
+	(junction
 		(at 144.78 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d7d97f2a-4a36-4bb0-b507-bcb80ce62e76")
+	)
+	(junction
+		(at 217.17 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ec84c188-c81b-4cc0-bb99-4f632ddb061c")
+	)
+	(junction
+		(at 234.95 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa2bcce0-ded5-45cc-82c9-01dc89b305e5")
 	)
 	(no_connect
 		(at 80.01 92.71)
@@ -2330,23 +3714,13 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 119.38) (xy 153.67 120.65)
+			(xy 166.37 102.87) (xy 166.37 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "03fcea18-22bc-49a9-8a85-d0dca6931385")
-	)
-	(wire
-		(pts
-			(xy 187.96 102.87) (xy 226.06 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05044ce9-c68b-4bd5-851c-0d58ebf2d6a2")
 	)
 	(wire
 		(pts
@@ -2357,16 +3731,6 @@
 			(type default)
 		)
 		(uuid "0bf8be3c-51e2-4e27-bfbd-030e8937f588")
-	)
-	(wire
-		(pts
-			(xy 196.85 68.58) (xy 236.22 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c576417-67a0-4171-af70-d03a56a1ba43")
 	)
 	(wire
 		(pts
@@ -2407,16 +3771,6 @@
 			(type default)
 		)
 		(uuid "1160f7c6-9904-475d-b752-71bdbed43dc0")
-	)
-	(wire
-		(pts
-			(xy 187.96 81.28) (xy 199.39 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1401c707-5816-4154-aa6f-be0c5edc7f3f")
 	)
 	(wire
 		(pts
@@ -2470,16 +3824,6 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 88.9) (xy 240.03 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1aa4df70-2bf4-44c9-9d4c-31f2d36683f3")
-	)
-	(wire
-		(pts
 			(xy 152.4 59.69) (xy 156.21 59.69)
 		)
 		(stroke
@@ -2487,16 +3831,6 @@
 			(type default)
 		)
 		(uuid "1c185341-fd63-4fde-b031-95dcf0aa7a40")
-	)
-	(wire
-		(pts
-			(xy 39.37 16.51) (xy 34.29 16.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1dd6383c-569d-4c52-aaea-9549038a2ef6")
 	)
 	(wire
 		(pts
@@ -2510,6 +3844,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 85.09) (xy 199.39 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e390c68-6063-49c4-98d8-4cc31bdc0f31")
+	)
+	(wire
+		(pts
 			(xy 173.99 100.33) (xy 173.99 68.58)
 		)
 		(stroke
@@ -2520,33 +3864,13 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 74.93) (xy 80.01 74.93)
+			(xy 57.15 74.93) (xy 80.01 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "21579ef3-c1fc-43b0-9495-8bb0640cd910")
-	)
-	(wire
-		(pts
-			(xy 236.22 68.58) (xy 236.22 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22d773e6-72c9-4bfa-88c6-26b136c8ddb3")
-	)
-	(wire
-		(pts
-			(xy 236.22 68.58) (xy 242.57 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2466a891-1436-4837-a4ad-864e4dd33247")
 	)
 	(wire
 		(pts
@@ -2580,16 +3904,6 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 81.28) (xy 240.03 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e4990a2-09c4-4e5d-87e4-ae0e65b17a7c")
-	)
-	(wire
-		(pts
 			(xy 115.57 100.33) (xy 118.11 100.33)
 		)
 		(stroke
@@ -2620,13 +3934,43 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 67.31) (xy 115.57 67.31)
+			(xy 133.35 67.31) (xy 129.54 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3647fcde-0556-4cb4-9b99-ded5c56f84a8")
+	)
+	(wire
+		(pts
+			(xy 121.92 67.31) (xy 115.57 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36a42c04-eb2a-4d06-a7ab-90cfb7e7e9e8")
+	)
+	(wire
+		(pts
+			(xy 209.55 77.47) (xy 217.17 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3771cf0e-0d45-4133-9539-fe555373c372")
+	)
+	(wire
+		(pts
+			(xy 234.95 91.44) (xy 246.38 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37e0ef2e-8677-4406-ade5-4db797d20bfa")
 	)
 	(wire
 		(pts
@@ -2670,13 +4014,13 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 81.28) (xy 254 81.28)
+			(xy 223.52 77.47) (xy 231.14 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4085c387-93d5-4f5c-aa2a-8a7ac5344486")
+		(uuid "4353c05d-95f5-40d4-9202-0c87d8b59f07")
 	)
 	(wire
 		(pts
@@ -2720,16 +4064,6 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 88.9) (xy 187.96 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48b6dcac-4e7d-4b9e-852b-5b65a53b8dd9")
-	)
-	(wire
-		(pts
 			(xy 140.97 99.06) (xy 165.1 99.06)
 		)
 		(stroke
@@ -2737,16 +4071,6 @@
 			(type default)
 		)
 		(uuid "4b10a39d-abab-4dcb-833b-b5db0ebf755a")
-	)
-	(wire
-		(pts
-			(xy 199.39 81.28) (xy 212.09 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5167ba1c-4488-4a4f-bffd-8397085ea881")
 	)
 	(wire
 		(pts
@@ -2760,16 +4084,6 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 88.9) (xy 254 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52391daa-f5a6-44fc-b776-4aadc071995d")
-	)
-	(wire
-		(pts
 			(xy 20.32 81.28) (xy 20.32 82.55)
 		)
 		(stroke
@@ -2777,6 +4091,26 @@
 			(type default)
 		)
 		(uuid "52a6a619-cc24-4d82-b4a8-d34df47d7daf")
+	)
+	(wire
+		(pts
+			(xy 209.55 85.09) (xy 217.17 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55b2565f-0233-4a08-a1ae-eed16d2dc249")
+	)
+	(wire
+		(pts
+			(xy 187.96 102.87) (xy 246.38 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5617a9c3-219b-4d8c-b374-ba0bc4c37208")
 	)
 	(wire
 		(pts
@@ -2790,7 +4124,17 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 88.9) (xy 226.06 102.87)
+			(xy 187.96 77.47) (xy 199.39 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59df4fcf-c82d-4867-adf7-237559f5a9e6")
+	)
+	(wire
+		(pts
+			(xy 246.38 99.06) (xy 246.38 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2837,16 +4181,6 @@
 			(type default)
 		)
 		(uuid "5e714dad-a71f-414c-927b-9e600ea7de78")
-	)
-	(wire
-		(pts
-			(xy 34.29 16.51) (xy 34.29 17.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5fb4f647-d9b9-4ad9-a117-f4ca1f42bf3b")
 	)
 	(wire
 		(pts
@@ -2950,16 +4284,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 74.93) (xy 59.69 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72599a9c-33e8-4594-8c36-d97e7f457554")
-	)
-	(wire
-		(pts
 			(xy 172.72 72.39) (xy 172.72 76.2)
 		)
 		(stroke
@@ -2990,13 +4314,13 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 27.94) (xy 38.1 27.94)
+			(xy 234.95 99.06) (xy 246.38 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7bd2e872-bc7f-4575-94bc-0f9458262642")
+		(uuid "7cb735ac-5386-445c-9c59-3cee0750d05f")
 	)
 	(wire
 		(pts
@@ -3010,16 +4334,6 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 88.9) (xy 212.09 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80cad6fb-436e-44b4-af32-0c0b12c05322")
-	)
-	(wire
-		(pts
 			(xy 115.57 64.77) (xy 121.92 64.77)
 		)
 		(stroke
@@ -3030,6 +4344,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 85.09) (xy 231.14 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83b064e2-1c5f-4bc1-8ce5-1fea9ae70ac0")
+	)
+	(wire
+		(pts
 			(xy 31.75 87.63) (xy 31.75 90.17)
 		)
 		(stroke
@@ -3037,16 +4361,6 @@
 			(type default)
 		)
 		(uuid "83e871cd-9f87-4743-bcdc-584b3189f260")
-	)
-	(wire
-		(pts
-			(xy 187.96 88.9) (xy 199.39 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ab4c740-8b73-4ac3-b425-cf538d443968")
 	)
 	(wire
 		(pts
@@ -3110,6 +4424,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 85.09) (xy 187.96 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b6fbb70-f57b-4dd1-bebe-410a59076f20")
+	)
+	(wire
+		(pts
 			(xy 69.85 81.28) (xy 68.58 81.28)
 		)
 		(stroke
@@ -3117,6 +4441,26 @@
 			(type default)
 		)
 		(uuid "9c690eeb-db86-4bce-bcc7-ffc0ed07829c")
+	)
+	(wire
+		(pts
+			(xy 217.17 85.09) (xy 223.52 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d04cfbf-384a-4942-a970-68c98b910f75")
+	)
+	(wire
+		(pts
+			(xy 223.52 99.06) (xy 234.95 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f9c7db3-6d8a-4a2d-82df-59673bf73267")
 	)
 	(wire
 		(pts
@@ -3170,16 +4514,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 29.21) (xy 38.1 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7917ebb-819e-486f-80db-105f407489b9")
-	)
-	(wire
-		(pts
 			(xy 143.51 96.52) (xy 152.4 96.52)
 		)
 		(stroke
@@ -3187,6 +4521,26 @@
 			(type default)
 		)
 		(uuid "a84dcd3e-408c-4bb1-8fdf-836f6449302b")
+	)
+	(wire
+		(pts
+			(xy 246.38 68.58) (xy 262.89 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab8ce617-8f91-48ee-a180-b1a522c782b6")
+	)
+	(wire
+		(pts
+			(xy 223.52 91.44) (xy 234.95 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad9a1ddd-8e33-49bb-b5de-a8895a9a4249")
 	)
 	(wire
 		(pts
@@ -3320,6 +4674,16 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 85.09) (xy 209.55 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2a5ef14-eb05-4bbd-8f7f-e81ffa754ee4")
+	)
+	(wire
+		(pts
 			(xy 140.97 80.01) (xy 140.97 99.06)
 		)
 		(stroke
@@ -3330,13 +4694,13 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 45.72) (xy 187.96 81.28)
+			(xy 217.17 77.47) (xy 223.52 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d4713262-761b-44bd-85fa-80327350fafe")
+		(uuid "d46b8ffd-14bd-4081-8092-7452cefbebd0")
 	)
 	(wire
 		(pts
@@ -3390,13 +4754,13 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 119.38) (xy 120.65 119.38)
+			(xy 187.96 45.72) (xy 187.96 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dcb985a6-cbe2-41e3-a7ee-082c484817dc")
+		(uuid "de9ff873-e931-4aab-a3da-b699a2b5c08c")
 	)
 	(wire
 		(pts
@@ -3430,6 +4794,16 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 77.47) (xy 209.55 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1f35524-826b-4b1d-bdab-5a7d2c03e487")
+	)
+	(wire
+		(pts
 			(xy 172.72 59.69) (xy 172.72 72.39)
 		)
 		(stroke
@@ -3447,16 +4821,6 @@
 			(type default)
 		)
 		(uuid "e2f42fcd-a766-447b-afde-665d87c364f3")
-	)
-	(wire
-		(pts
-			(xy 166.37 102.87) (xy 166.37 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e362bd73-1f2f-426e-bf0f-c6123a8db2c1")
 	)
 	(wire
 		(pts
@@ -3480,33 +4844,13 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 119.38) (xy 153.67 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9b987b6-80d4-457e-98b3-949afe41866f")
-	)
-	(wire
-		(pts
-			(xy 173.99 68.58) (xy 189.23 68.58)
+			(xy 173.99 68.58) (xy 196.85 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ea09cb28-2c72-4965-b061-8f4a3d8c270c")
-	)
-	(wire
-		(pts
-			(xy 55.88 66.04) (xy 59.69 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eac041d9-10a4-468f-8e00-dcef4cea4fe2")
 	)
 	(wire
 		(pts
@@ -3530,13 +4874,13 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 119.38) (xy 153.67 119.38)
+			(xy 212.09 68.58) (xy 246.38 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "edca51b9-0c63-427e-a37f-ad169a43dc95")
+		(uuid "ee02a2af-e67b-43f3-a145-d2cd7829ae2e")
 	)
 	(wire
 		(pts
@@ -3570,16 +4914,6 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 66.04) (xy 59.69 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f30b956c-c265-44e1-829f-6d60a4792371")
-	)
-	(wire
-		(pts
 			(xy 120.65 100.33) (xy 120.65 110.49)
 		)
 		(stroke
@@ -3590,7 +4924,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 68.58) (xy 226.06 81.28)
+			(xy 246.38 68.58) (xy 246.38 91.44)
 		)
 		(stroke
 			(width 0)
@@ -3698,255 +5032,71 @@
 		)
 		(uuid "e481641d-5de5-492e-b70f-8f41ae9487e4")
 	)
-	(global_label "24V_VOUT"
-		(shape output)
-		(at 21.59 68.58 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "19ac6684-e0cf-41fc-bd43-927275ef2556")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 33.1134 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "24VPGOOD"
-		(shape output)
-		(at 125.73 85.09 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3901c612-f0e6-4d9a-ab5a-593328ca01e3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 138.6938 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "24Vsync_out"
-		(shape output)
-		(at 57.15 78.74 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3cc4cb1d-e579-47b8-845b-baf5a1854531")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 42.4326 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "24V_VINN"
+	(hierarchical_label "24V_VINN"
 		(shape input)
 		(at 219.71 45.72 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "4905c91a-51a0-411e-9b1c-9769645bc653")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 230.8706 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
+		(uuid "04757f88-5344-4487-bbd7-4f77c269e1eb")
 	)
-	(global_label "24Vsync_inn"
-		(shape input)
-		(at 57.15 74.93 180)
-		(fields_autoplaced yes)
+	(hierarchical_label "24Vsync_out"
+		(shape output)
+		(at 57.15 78.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "96b4a3bd-0974-4f27-ba10-fb12f93a8b45")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 42.5535 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
+		(uuid "26a47364-4a19-4ac4-b422-5cc655110f53")
 	)
-	(global_label "24V_VINN"
-		(shape input)
-		(at 39.37 16.51 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a045b3bb-f75d-4c83-9062-2ee37a3d7936")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 50.5306 16.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "24V_VOUT"
+	(hierarchical_label "24V_VOUT"
 		(shape output)
-		(at 242.57 68.58 0)
-		(fields_autoplaced yes)
+		(at 21.59 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "fb99079e-17b4-4e54-9125-3fef59cd57ac")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 254.0934 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
+		(uuid "48661a1f-e54d-4dcd-ab49-b579488d9979")
 	)
-	(symbol
-		(lib_id "Device:C")
-		(at 205.74 58.42 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00516963-f394-4e4a-a854-3f567442b4bd")
-		(property "Reference" "C_RC1"
-			(at 201.93 57.1499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
+	(hierarchical_label "24V_VOUT"
+		(shape output)
+		(at 262.89 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left)
 		)
-		(property "Value" "0.1u"
-			(at 201.93 59.6899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
+		(uuid "5f6d6f02-c729-4001-8a73-1fee2b8b394f")
+	)
+	(hierarchical_label "24VPGOOD"
+		(shape output)
+		(at 125.73 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left)
 		)
-		(property "Footprint" ""
-			(at 204.7748 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+		(uuid "8eb30bb2-a96d-403e-8fcd-15db9027102d")
+	)
+	(hierarchical_label "24Vsync_inn"
+		(shape input)
+		(at 57.15 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right)
 		)
-		(property "Datasheet" ""
-			(at 205.74 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 205.74 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "eb1127a8-a578-4089-8f80-a0f09b3a0dc8")
-		)
-		(pin "1"
-			(uuid "fbaa1b23-1510-4274-b7ad-e505be829097")
-		)
-		(instances
-			(project "ProteusPowerManagment"
-				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/02b1550a-377b-4da6-a00f-9f724cf4d25c"
-					(reference "C_RC1")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "c5fcc935-3174-4915-9578-0d8cb26005d0")
 	)
 	(symbol
 		(lib_id "LM5146RGYR:LM5146RGYR")
@@ -3960,7 +5110,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02d430f5-8114-4af0-b28a-edbade287c44")
-		(property "Reference" "U2"
+		(property "Reference" "U?"
 			(at 97.79 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4293,7 +5443,7 @@
 		(instances
 			(project "ProteusPowerManagment"
 				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/02b1550a-377b-4da6-a00f-9f724cf4d25c"
-					(reference "U2")
+					(reference "U?")
 					(unit 1)
 				)
 			)
@@ -4301,7 +5451,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 153.67 120.65 0)
+		(at 166.37 120.65 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4312,7 +5462,7 @@
 		(fields_autoplaced yes)
 		(uuid "0516010f-c7f6-4a14-829a-4f902abfb505")
 		(property "Reference" "#PWR017"
-			(at 153.67 127 0)
+			(at 166.37 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4323,7 +5473,7 @@
 			)
 		)
 		(property "Value" "PGND"
-			(at 153.67 125.73 0)
+			(at 166.37 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4333,7 +5483,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 153.67 120.65 0)
+			(at 166.37 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4344,7 +5494,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.67 120.65 0)
+			(at 166.37 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4355,7 +5505,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 153.67 120.65 0)
+			(at 166.37 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4378,8 +5528,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 240.03 85.09 0)
+		(lib_id "Device:R")
+		(at 123.19 91.44 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4387,32 +5537,29 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0b89157d-78f3-40e0-a27f-2f21aadd6738")
-		(property "Reference" "C_OUT1"
-			(at 243.84 83.8199 0)
+		(uuid "07159cb1-873c-4df1-bc17-07cc2d62898e")
+		(property "Reference" "R20?"
+			(at 127.635 89.535 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "10uF"
-			(at 243.84 86.3599 0)
+		(property "Value" "20k"
+			(at 127.635 92.075 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 240.9952 88.9 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 124.968 91.44 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4423,7 +5570,120 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 240.03 85.09 0)
+			(at 123.19 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 123.19 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DatasheetValue" "R_PGOOD"
+			(at 129.286 94.742 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" "ERJ-3EKF2002V "
+			(at 123.19 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "Panasonic "
+			(at 123.19 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "56e454c5-61a8-4d88-85e4-c39557467bcf")
+		)
+		(pin "1"
+			(uuid "d66cc3fb-d46a-4aba-b1a2-3528c38f4012")
+		)
+		(instances
+			(project "ProteusPowerManagment"
+				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/02b1550a-377b-4da6-a00f-9f724cf4d25c"
+					(reference "R20?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 246.38 95.25 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0860dcda-3fed-4492-bdec-2320c663fcf1")
+		(property "Reference" "C201"
+			(at 250.19 93.9799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2uF"
+			(at 250.19 96.012 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 247.3452 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4434,7 +5694,39 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 240.03 85.09 0)
+			(at 246.38 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DatasheetValue" "C_IN"
+			(at 252.476 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" "HMK325B7225KMHP "
+			(at 246.38 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "Taiyo Yuden "
+			(at 246.38 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4445,172 +5737,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "d3741d2b-23f5-4988-b542-91875a85ebe9")
+			(uuid "98fd7ba9-15cc-4f8c-8e72-a2e5ff8d211a")
 		)
 		(pin "2"
-			(uuid "e81541b6-db94-41ea-93ae-49d2864e7e55")
+			(uuid "e59bce96-6d76-4430-af5a-3c5f3e6a14cc")
 		)
 		(instances
 			(project "ProteusPowerManagment"
 				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/02b1550a-377b-4da6-a00f-9f724cf4d25c"
-					(reference "C_OUT1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 55.88 66.04 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0ce5cfcd-d40e-4a21-88d3-ea54411883de")
-		(property "Reference" "#PWR022"
-			(at 55.88 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 55.88 71.12 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 55.88 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 55.88 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fbb204ba-b724-4fde-a310-e2413829f38b")
-		)
-		(instances
-			(project "ProteusPowerManagment"
-				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/02b1550a-377b-4da6-a00f-9f724cf4d25c"
-					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 236.22 54.61 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "12442e9f-8408-4531-bb9c-93c1143d63ba")
-		(property "Reference" "#PWR021"
-			(at 236.22 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 236.22 49.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 236.22 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 236.22 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 236.22 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "45eb24d7-8d2e-4c93-83ea-6ce763a53b2d")
-		)
-		(instances
-			(project "ProteusPowerManagment"
-				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/02b1550a-377b-4da6-a00f-9f724cf4d25c"
-					(reference "#PWR021")
+					(reference "C201")
 					(unit 1)
 				)
 			)
@@ -4618,7 +5753,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 73.66 81.28 90)
+		(at 20.32 77.47 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4626,9 +5761,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "170e3138-2ce5-4dfb-ba7a-3793253afdc3")
-		(property "Reference" "R_RT2"
-			(at 73.914 76.708 90)
+		(uuid "0a23ed00-52ad-44ab-9ab0-a3b86abf6eb3")
+		(property "Reference" "R20?"
+			(at 24.765 75.565 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4637,8 +5772,8 @@
 				)
 			)
 		)
-		(property "Value" "24.9k"
-			(at 73.914 79.248 90)
+		(property "Value" "23.7"
+			(at 24.765 78.105 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4647,8 +5782,8 @@
 				)
 			)
 		)
-		(property "Footprint" "LM5146RGYR:IC_LM5146RGYR"
-			(at 73.66 83.058 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 22.098 77.47 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4659,7 +5794,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 81.28 0)
+			(at 20.32 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4670,7 +5805,39 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 73.66 81.28 0)
+			(at 20.32 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DatasheetValue" "R_C2"
+			(at 24.765 79.883 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" "ERJ-3EKF23R7V"
+			(at 20.32 77.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "Panasonic "
+			(at 20.32 77.47 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4681,24 +5848,23 @@
 			)
 		)
 		(pin "2"
-			(uuid "6eca809c-8650-45c7-8502-bd0be86a880e")
+			(uuid "2a1f7af7-07a9-4a84-a6d9-e5087c708cc8")
 		)
 		(pin "1"
-			(uuid "8a0648f3-cc12-44e4-aaed-00a1f80afba5")
+			(uuid "14fdc81f-0d11-460e-8962-fce0c1ae4af8")
 		)
 		(instances
 			(project "ProteusPowerManagment"
 				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/02b1550a-377b-4da6-a00f-9f724cf4d25c"
-					(reference "R_RT2")
+					(reference "R20?")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 38.1 92.71 270)
-		(mirror x)
+		(lib_id "Aase:CGA4J3X7R1E225K125AB")
+		(at 120.65 115.57 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4706,10 +5872,44 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1b69e99a-5954-4450-a9f5-906d50264585")
-		(property "Reference" "R_C1"
-			(at 38.1 86.36 90)
+		(uuid "0c2e1051-0aa8-4332-bdd1-9ed305416627")
+		(property "Reference" "C200?"
+			(at 124.46 113.0299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "2.2uF"
+			(at 124.46 115.5699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "CGA4J3X7R1E225K125AB:CAPC2012X145N"
+			(at 120.65 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 115.57 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4718,8 +5918,104 @@
 				)
 			)
 		)
-		(property "Value" "6.65k"
-			(at 38.1 88.9 90)
+		(property "Description" "2.2 µF ±10% 25V Ceramic Capacitor X7R 0805 (2012 Metric)"
+			(at 120.65 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "TDK"
+			(at 120.65 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "2012 TDK"
+			(at 120.65 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 120.65 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CGA4J3X7R1E225K125AB/TDK/view-part/?ref=snap"
+			(at 120.65 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "CGA4J3X7R1E225K125AB"
+			(at 120.65 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 120.65 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/CGA4J3X7R1E225K125AB/TDK/view-part/?ref=eda"
+			(at 120.65 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "DatasheetValue" "C_VCC"
+			(at 127.508 117.602 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4728,8 +6024,56 @@
 				)
 			)
 		)
-		(property "Footprint" "LM5146RGYR:IC_LM5146RGYR"
-			(at 38.1 94.488 90)
+		(pin "2"
+			(uuid "d3aa8d4a-e276-4988-aca4-e8811c600d5a")
+		)
+		(pin "1"
+			(uuid "8d47b106-0f77-4674-87ff-da4cdb3d3fc3")
+		)
+		(instances
+			(project "ProteusPowerManagment"
+				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/02b1550a-377b-4da6-a00f-9f724cf4d25c"
+					(reference "C200?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 217.17 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "115de6b4-cd5a-4bda-815b-869be6840548")
+		(property "Reference" "C20?"
+			(at 220.98 80.0099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2uF"
+			(at 220.98 82.042 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 218.1352 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4740,7 +6084,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 92.71 0)
+			(at 217.17 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4750,8 +6094,40 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 38.1 92.71 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 217.17 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DatasheetValue" "C_IN"
+			(at 223.266 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" "HMK325B7225KMHP "
+			(at 217.17 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "Taiyo Yuden "
+			(at 217.17 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4762,15 +6138,480 @@
 			)
 		)
 		(pin "1"
-			(uuid "2e3c9a3a-7a9e-45a8-92b9-d5192d940635")
+			(uuid "9217662d-9e01-43a3-b7a7-5ce6f0cfd895")
 		)
 		(pin "2"
-			(uuid "a67bf493-ff9c-40ff-83bc-91648e1e8db9")
+			(uuid "6b457e42-f607-459e-bb0d-facc70367da8")
 		)
 		(instances
 			(project "ProteusPowerManagment"
 				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/02b1550a-377b-4da6-a00f-9f724cf4d25c"
-					(reference "R_C1")
+					(reference "C20?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 187.96 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "12b4d150-67b9-459d-8dc2-a7fd6faa7d5f")
+		(property "Reference" "C20?"
+			(at 191.77 80.0099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2uF"
+			(at 191.77 82.042 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 188.9252 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 187.96 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DatasheetValue" "C_IN"
+			(at 194.056 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" "HMK325B7225KMHP "
+			(at 187.96 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "Taiyo Yuden "
+			(at 187.96 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1adfb6d1-fb0d-4e25-9493-839d9c38f503")
+		)
+		(pin "2"
+			(uuid "82b11b3e-cf47-40ce-9149-ae5ed810170f")
+		)
+		(instances
+			(project "ProteusPowerManagment"
+				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/02b1550a-377b-4da6-a00f-9f724cf4d25c"
+					(reference "C20?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Aase:CGA4J2X7R2A104K125AA")
+		(at 205.74 59.69 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1455f355-2f7b-411d-8250-97c0b38c327c")
+		(property "Reference" "C200?"
+			(at 209.55 57.1499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 209.55 59.6899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "CGA4J2X7R2A104K125AA:CAPC2012X145N"
+			(at 205.74 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0.1 µF ±10% 100V Ceramic Capacitor X7R 0805 (2012 Metric)"
+			(at 205.74 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "TDK"
+			(at 205.74 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "2012 TDK"
+			(at 205.74 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 205.74 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CGA4J2X7R2A104K125AA/TDK/view-part/?ref=snap"
+			(at 205.74 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "CGA4J2X7R2A104K125AA"
+			(at 205.74 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 205.74 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/CGA4J2X7R2A104K125AA/TDK/view-part/?ref=eda"
+			(at 205.74 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "DatasheetValue" "C_RC"
+			(at 212.09 61.976 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "26c91acb-6f7e-4bc8-add1-d85e989ef8e4")
+		)
+		(pin "2"
+			(uuid "1d816d0d-6d34-416f-9211-beabb1169db5")
+		)
+		(instances
+			(project "ProteusPowerManagment"
+				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/02b1550a-377b-4da6-a00f-9f724cf4d25c"
+					(reference "C200?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Aase:CGA3E1C0G2A392J080AC")
+		(at 46.99 92.71 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "17435d57-b7e4-428d-9ebf-0c20ba8d227d")
+		(property "Reference" "C200?"
+			(at 48.26 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.9nF"
+			(at 48.26 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CGA3E1C0G2A392J080AC:CAPC1608X90N"
+			(at 46.99 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "3900 pF ±5% 100V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
+			(at 46.99 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "TDK"
+			(at 46.99 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "1608 TDK"
+			(at 46.99 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 46.99 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CGA3E1C0G2A392J080AC/TDK/view-part/?ref=snap"
+			(at 46.99 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "CGA3E1C0G2A392J080AC"
+			(at 46.99 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 46.99 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/CGA3E1C0G2A392J080AC/TDK/view-part/?ref=eda"
+			(at 46.99 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "DatasheetValue" "C_C1"
+			(at 48.514 84.328 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "725e35ae-ad63-48ed-aaf0-4174ed979c21")
+		)
+		(pin "2"
+			(uuid "f71945e7-3b61-488a-b873-768456347123")
+		)
+		(instances
+			(project "ProteusPowerManagment"
+				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/02b1550a-377b-4da6-a00f-9f724cf4d25c"
+					(reference "C200?")
 					(unit 1)
 				)
 			)
@@ -4855,87 +6696,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 187.96 85.09 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "21d8d69a-a9e4-43ac-a3e9-006f951ea475")
-		(property "Reference" "C_IN1"
-			(at 191.262 83.82 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7uF"
-			(at 191.262 86.36 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 188.9252 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 187.96 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 187.96 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a0b4d3c8-8c3f-47fa-bb86-936aa7857994")
-		)
-		(pin "2"
-			(uuid "5412859c-bd70-4330-85f6-6f6276665e10")
-		)
-		(instances
-			(project "ProteusPowerManagment"
-				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/02b1550a-377b-4da6-a00f-9f724cf4d25c"
-					(reference "C_IN1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 78.74 119.38 0)
 		(unit 1)
@@ -5008,168 +6768,6 @@
 			(project "ProteusPowerManagment"
 				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/02b1550a-377b-4da6-a00f-9f724cf4d25c"
 					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 20.32 86.36 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2dab3a30-e1bc-4cf9-ba7f-18dbd013e83c")
-		(property "Reference" "C_C3"
-			(at 16.51 85.0899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1000pF"
-			(at 16.51 87.6299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 21.2852 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 20.32 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 20.32 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "24804b11-f2d2-42cd-a619-bafc13c634f6")
-		)
-		(pin "2"
-			(uuid "a2f6d086-6715-49da-a85a-134003bf3a1b")
-		)
-		(instances
-			(project "ProteusPowerManagment"
-				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/02b1550a-377b-4da6-a00f-9f724cf4d25c"
-					(reference "C_C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 212.09 85.09 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "30278a35-ccaf-44e2-924f-4e1da4288742")
-		(property "Reference" "C_IN2"
-			(at 215.392 83.82 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7uF"
-			(at 215.392 86.36 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 213.0552 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 212.09 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 212.09 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "185a5698-4c89-49cd-ac0a-7584a4a859a7")
-		)
-		(pin "1"
-			(uuid "f9bd6cd2-6e9f-4170-bdc0-170ee965c822")
-		)
-		(instances
-			(project "ProteusPowerManagment"
-				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/02b1550a-377b-4da6-a00f-9f724cf4d25c"
-					(reference "C_IN2")
 					(unit 1)
 				)
 			)
@@ -5411,7 +7009,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 199.39 85.09 0)
+		(at 199.39 81.28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5419,9 +7017,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "581c0f7b-f623-4720-870c-e806206b32be")
-		(property "Reference" "C_IN3"
-			(at 202.692 83.82 0)
+		(uuid "44b502fb-0d9d-4918-89ba-da61c6f7e035")
+		(property "Reference" "C20?"
+			(at 203.2 80.0099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5431,8 +7029,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7uF"
-			(at 202.692 86.36 0)
+		(property "Value" "2.2uF"
+			(at 203.2 82.042 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5442,8 +7040,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 200.3552 88.9 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 200.3552 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5454,7 +7052,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 199.39 85.09 0)
+			(at 199.39 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5465,7 +7063,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 199.39 85.09 0)
+			(at 199.39 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5474,259 +7072,49 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "DatasheetValue" "C_IN"
+			(at 205.486 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" "HMK325B7225KMHP "
+			(at 199.39 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "Taiyo Yuden "
+			(at 199.39 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0601e352-2de4-4235-a8b1-c0f20ef0b815")
 		)
 		(pin "2"
-			(uuid "09f1aadb-1eae-4b37-a81a-e5bd47ab9e6b")
-		)
-		(pin "1"
-			(uuid "9075a5ba-9000-465c-bd2a-8d8f8c22a9d3")
+			(uuid "7bb1048d-e40e-4254-9e4f-d3883667cdc8")
 		)
 		(instances
 			(project "ProteusPowerManagment"
 				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/02b1550a-377b-4da6-a00f-9f724cf4d25c"
-					(reference "C_IN3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 78.74 114.3 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5987b6ac-c39f-4ae0-acdf-7a8ed719682c")
-		(property "Reference" "C_ILIM1"
-			(at 74.93 113.0299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "12pF"
-			(at 74.93 115.5699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 77.7748 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 78.74 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 78.74 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "47d9d89e-e25a-4d5b-b34c-bb4a35549f19")
-		)
-		(pin "1"
-			(uuid "c7bb632a-8c84-4998-88d3-88fe03788a4e")
-		)
-		(instances
-			(project "ProteusPowerManagment"
-				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/02b1550a-377b-4da6-a00f-9f724cf4d25c"
-					(reference "C_ILIM1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 48.26 97.79 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "63d40082-348a-49d4-b6cc-2576f6afb673")
-		(property "Reference" "C_C2"
-			(at 48.26 105.41 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "120pF"
-			(at 48.26 102.87 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 44.45 96.8248 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 48.26 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 48.26 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d819c5b6-2f2a-44c6-8afd-127c8d64af1d")
-		)
-		(pin "2"
-			(uuid "118e57af-992b-4c37-9bd0-fcf30e43cf37")
-		)
-		(instances
-			(project "ProteusPowerManagment"
-				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/02b1550a-377b-4da6-a00f-9f724cf4d25c"
-					(reference "C_C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 34.29 27.94 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "64a2ec6f-9479-4710-b381-23b2ac1440bd")
-		(property "Reference" "#PWR020"
-			(at 34.29 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 34.29 33.02 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 34.29 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 34.29 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 34.29 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7e2d93eb-fd1f-418c-8f47-4596ef410991")
-		)
-		(instances
-			(project "ProteusPowerManagment"
-				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/02b1550a-377b-4da6-a00f-9f724cf4d25c"
-					(reference "#PWR020")
+					(reference "C20?")
 					(unit 1)
 				)
 			)
@@ -5734,7 +7122,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 236.22 58.42 0)
+		(at 125.73 67.31 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -5743,32 +7131,29 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6eb4c3c2-a3a1-40ea-a33d-f16edf8b8f9b")
-		(property "Reference" "R_Load1"
-			(at 238.76 59.6901 0)
+		(uuid "59ceb057-c92d-4107-85cc-62f02dee7afb")
+		(property "Reference" "R20?"
+			(at 125.73 73.66 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "4.8"
-			(at 238.76 57.1501 0)
+		(property "Value" "0"
+			(at 125.73 71.12 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 234.442 58.42 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 125.73 69.088 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5779,7 +7164,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.22 58.42 0)
+			(at 125.73 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5790,7 +7175,39 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 236.22 58.42 0)
+			(at 125.73 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DatasheetValue" "R_BST"
+			(at 125.73 69.342 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" "ERJ-3GEY0R00V "
+			(at 125.73 67.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "Panasonic "
+			(at 125.73 67.31 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5801,24 +7218,23 @@
 			)
 		)
 		(pin "2"
-			(uuid "49a069da-0078-4d0d-8c55-0b7e13316740")
+			(uuid "a4b5dd14-751c-429b-9c49-8589849dfb55")
 		)
 		(pin "1"
-			(uuid "8e691bb9-c067-49d4-8d16-24fea18fc410")
+			(uuid "62217af7-dea6-4b62-8657-16b43c76bf96")
 		)
 		(instances
 			(project "ProteusPowerManagment"
 				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/02b1550a-377b-4da6-a00f-9f724cf4d25c"
-					(reference "R_Load1")
+					(reference "R20?")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 48.26 92.71 270)
-		(mirror x)
+		(lib_id "Aase:CGA4J2X7R2A104K125AA")
+		(at 133.35 72.39 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5826,10 +7242,44 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "70d6546a-257e-44a4-8324-ce86a9b414ea")
-		(property "Reference" "C_C1"
-			(at 48.26 85.09 90)
+		(uuid "6473195a-f99b-4cfd-84f1-7839971bf859")
+		(property "Reference" "C200?"
+			(at 137.16 69.8499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 137.16 72.3899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "CGA4J2X7R2A104K125AA:CAPC2012X145N"
+			(at 133.35 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 72.39 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5838,8 +7288,104 @@
 				)
 			)
 		)
-		(property "Value" "3.9nF"
-			(at 48.26 87.63 90)
+		(property "Description" "0.1 µF ±10% 100V Ceramic Capacitor X7R 0805 (2012 Metric)"
+			(at 133.35 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "TDK"
+			(at 133.35 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "2012 TDK"
+			(at 133.35 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 133.35 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CGA4J2X7R2A104K125AA/TDK/view-part/?ref=snap"
+			(at 133.35 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "CGA4J2X7R2A104K125AA"
+			(at 133.35 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 133.35 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/CGA4J2X7R2A104K125AA/TDK/view-part/?ref=eda"
+			(at 133.35 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "DatasheetValue" "C_Boot"
+			(at 139.7 74.676 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5848,8 +7394,56 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 44.45 91.7448 0)
+		(pin "1"
+			(uuid "08459c2e-0e99-4ae4-a994-10d056e35440")
+		)
+		(pin "2"
+			(uuid "2cfa7de8-b7da-4a68-b429-5f1fd93aab41")
+		)
+		(instances
+			(project "ProteusPowerManagment"
+				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/02b1550a-377b-4da6-a00f-9f724cf4d25c"
+					(reference "C200?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 234.95 95.25 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "76058088-3c1d-4fa9-8e92-9cb19bbc4eff")
+		(property "Reference" "C202"
+			(at 238.76 93.9799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2uF"
+			(at 238.76 96.012 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 235.9152 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5860,7 +7454,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 92.71 0)
+			(at 234.95 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5871,7 +7465,39 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 48.26 92.71 0)
+			(at 234.95 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DatasheetValue" "C_IN"
+			(at 241.046 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" "HMK325B7225KMHP "
+			(at 234.95 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "Taiyo Yuden "
+			(at 234.95 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5882,23 +7508,24 @@
 			)
 		)
 		(pin "1"
-			(uuid "455dc319-50fe-4bb9-8587-dac9695ce3c7")
+			(uuid "36e6dc3d-f79a-4c54-ab4d-548f9dd3ab52")
 		)
 		(pin "2"
-			(uuid "965dabfc-f0c0-4118-9ef8-ee0781ab3b84")
+			(uuid "ae95f0c0-d8df-481e-b581-99353a26355c")
 		)
 		(instances
 			(project "ProteusPowerManagment"
 				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/02b1550a-377b-4da6-a00f-9f724cf4d25c"
-					(reference "C_C1")
+					(reference "C202")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 66.04 45.72 90)
+		(lib_id "Aase:CGA3E2C0G1H121J080AA")
+		(at 46.99 97.79 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5906,8 +7533,359 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "7584bc96-63ce-4b21-a1c8-b3b4a487cf4f")
-		(property "Reference" "R_UV2"
+		(uuid "8ef4fd0a-90b9-4ec7-92f0-3c3d683a531f")
+		(property "Reference" "C1"
+			(at 48.26 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "120pF"
+			(at 48.26 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CGA3E2C0G1H121J080AA:CAPC1608X90N"
+			(at 46.99 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "120 pF ±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
+			(at 46.99 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "TDK"
+			(at 46.99 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "1608 TDK"
+			(at 46.99 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 46.99 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CGA3E2C0G1H121J080AA/TDK/view-part/?ref=snap"
+			(at 46.99 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "CGA3E2C0G1H121J080AA"
+			(at 46.99 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 46.99 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/CGA3E2C0G1H121J080AA/TDK/view-part/?ref=eda"
+			(at 46.99 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "DatasheetValue" "C_C2"
+			(at 48.26 106.172 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "abae974d-883e-495a-9317-54b79663481e")
+		)
+		(pin "1"
+			(uuid "b12311e5-f1da-44d2-b91b-bca28ef0ee06")
+		)
+		(instances
+			(project "ProteusPowerManagment"
+				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/02b1550a-377b-4da6-a00f-9f724cf4d25c"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Aase:CGA3E2X7R1H683K080AA")
+		(at 72.39 85.09 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9e946223-9af3-46ce-bc58-c4397ae238c1")
+		(property "Reference" "C200?"
+			(at 73.66 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "68nF"
+			(at 73.66 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CGA3E2X7R1H683K080AA:CAPC1608X90N"
+			(at 72.39 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0.068 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
+			(at 72.39 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "TDK"
+			(at 72.39 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "1608 TDK"
+			(at 72.39 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 72.39 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CGA3E2X7R1H683K080AA/TDK/view-part/?ref=snap"
+			(at 72.39 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "CGA3E2X7R1H683K080AA"
+			(at 72.39 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 72.39 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/CGA3E2X7R1H683K080AA/TDK/view-part/?ref=eda"
+			(at 72.39 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "DatasheetValue" "C_SS"
+			(at 73.66 93.726 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f06b5729-7f80-49dd-8a4a-665918d7a9fa")
+		)
+		(pin "2"
+			(uuid "dfaefaed-bd9e-4be3-9d50-7ca66e0c54d1")
+		)
+		(instances
+			(project "ProteusPowerManagment"
+				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/02b1550a-377b-4da6-a00f-9f724cf4d25c"
+					(reference "C200?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 66.04 45.72 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9f91f070-c266-4a14-b351-cdc264ddb8a3")
+		(property "Reference" "R20?"
 			(at 66.04 39.37 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5927,8 +7905,8 @@
 				)
 			)
 		)
-		(property "Footprint" "LM5146RGYR:IC_LM5146RGYR"
-			(at 66.04 47.498 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 66.04 43.942 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5960,35 +7938,8 @@
 				)
 			)
 		)
-		(pin "2"
-			(uuid "a8f1007f-96dd-488f-9ce5-0a9961764aa0")
-		)
-		(pin "1"
-			(uuid "02577a72-f28d-4368-93e0-effa55e0d387")
-		)
-		(instances
-			(project "ProteusPowerManagment"
-				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/02b1550a-377b-4da6-a00f-9f724cf4d25c"
-					(reference "R_UV2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 210.82 53.34 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "88fbd647-937f-4dfa-b2fe-285129dad8ad")
-		(property "Reference" "R_RC1"
-			(at 210.82 46.99 90)
+		(property "DatasheetValue" "R_UV2"
+			(at 66.294 48.006 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5997,18 +7948,8 @@
 				)
 			)
 		)
-		(property "Value" "4.7"
-			(at 210.82 49.53 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 210.82 55.118 90)
+		(property "MP" "ERJ-3EKF1132V "
+			(at 66.04 45.72 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6018,19 +7959,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 210.82 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 210.82 53.34 0)
+		(property "MF" "Panasonic "
+			(at 66.04 45.72 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6041,262 +7971,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "662eaf12-8e00-478d-a6ed-e031e8e182c7")
+			(uuid "a28d5556-4739-493f-8882-431629bceedf")
 		)
 		(pin "1"
-			(uuid "464fffb7-e7b4-4137-b2e6-9f8bb9a82315")
+			(uuid "d8ade4b4-e4db-43d2-82e3-891fdaebe9ec")
 		)
 		(instances
 			(project "ProteusPowerManagment"
 				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/02b1550a-377b-4da6-a00f-9f724cf4d25c"
-					(reference "R_RC1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 20.32 77.47 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "895d3eb3-b14a-43fc-a4c6-892bbe243af6")
-		(property "Reference" "R_C2"
-			(at 22.86 76.1999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "23.7"
-			(at 22.86 78.7399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 22.098 77.47 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 20.32 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 20.32 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fdc9e619-c3e5-4a26-8099-70998cba74d0")
-		)
-		(pin "2"
-			(uuid "58eb2c28-a2a2-4f9b-a184-8fd7acbd686c")
-		)
-		(instances
-			(project "ProteusPowerManagment"
-				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/02b1550a-377b-4da6-a00f-9f724cf4d25c"
-					(reference "R_C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 124.46 71.12 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9b640fe8-1226-4c4e-b4d5-79ede6223ee0")
-		(property "Reference" "C_BST2"
-			(at 128.27 69.8499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 128.27 72.3899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 125.4252 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 124.46 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6e4b14f3-ff07-45b8-8a3d-2e8b11293633")
-		)
-		(pin "2"
-			(uuid "4bab544f-75d6-4f90-8740-05126591f64a")
-		)
-		(instances
-			(project "ProteusPowerManagment"
-				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/02b1550a-377b-4da6-a00f-9f724cf4d25c"
-					(reference "C_BST2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 254 85.09 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9ea4e081-eeb1-491d-99f0-369644f80197")
-		(property "Reference" "C_OUT3"
-			(at 257.81 83.8199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 257.81 86.3599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 254.9652 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 254 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 254 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c1f1701d-50f5-4fac-bb96-4bf7da949aed")
-		)
-		(pin "2"
-			(uuid "08e4455b-a294-4ef0-89c2-2c9cd8c43924")
-		)
-		(instances
-			(project "ProteusPowerManagment"
-				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/02b1550a-377b-4da6-a00f-9f724cf4d25c"
-					(reference "C_OUT3")
+					(reference "R20?")
 					(unit 1)
 				)
 			)
@@ -6307,13 +7990,13 @@
 		(at 116.84 74.93 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a0567847-058a-47c4-866a-39d5dd5968c2")
-		(property "Reference" "Q5"
+		(property "Reference" "Q?"
 			(at 158.75 55.118 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6479,15 +8162,16 @@
 		(instances
 			(project "ProteusPowerManagment"
 				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/02b1550a-377b-4da6-a00f-9f724cf4d25c"
-					(reference "Q5")
+					(reference "Q?")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:0")
-		(at 38.1 29.21 0)
+		(lib_id "Aase:WE-XHMI_1510")
+		(at 204.47 68.58 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6495,10 +8179,41 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a93c78e5-0f25-4da6-9c18-44775facc116")
-		(property "Reference" "#GND01"
-			(at 38.1 34.29 0)
+		(uuid "a6fd038f-8c92-42e5-826c-44018a84b772")
+		(property "Reference" "L2001"
+			(at 204.47 74.422 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "15uH"
+			(at 204.47 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "WE-XHMI_1510:WE-XHMI_1510"
+			(at 204.47 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6508,8 +8223,104 @@
 				)
 			)
 		)
-		(property "Value" "0"
-			(at 38.1 26.67 0)
+		(property "Description" "15 µH Shielded Drum Core, Wirewound Inductor 10 A 11.3mOhm Nonstandard"
+			(at 204.47 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Würth Elektronik"
+			(at 204.47 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "Nonstandard Würth Elektronik"
+			(at 204.47 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 204.47 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/74439370150/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=snap"
+			(at 204.47 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "74439370150"
+			(at 204.47 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 204.47 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/74439370150/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=eda"
+			(at 204.47 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "DatasheetValue" "L_o"
+			(at 204.47 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6518,8 +8329,55 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 38.1 29.21 0)
+		(pin "1"
+			(uuid "cceda96f-d761-4f7f-9130-58e6d75f1928")
+		)
+		(pin "2"
+			(uuid "057ed584-94a8-4d58-be75-a02d7f8cd93f")
+		)
+		(instances
+			(project "ProteusPowerManagment"
+				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/02b1550a-377b-4da6-a00f-9f724cf4d25c"
+					(reference "L2001")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 38.1 92.71 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ae205e2c-e32e-4fef-a699-2caf4bb4f74d")
+		(property "Reference" "R20?"
+			(at 38.1 99.06 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "6.65k"
+			(at 38.1 96.52 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 38.1 94.488 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6529,8 +8387,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Circuit_elements__device"
-			(at 38.1 39.37 0)
+		(property "Datasheet" ""
+			(at 38.1 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6540,8 +8398,330 @@
 				)
 			)
 		)
-		(property "Description" "0V reference potential for simulation"
-			(at 38.1 36.83 0)
+		(property "Description" "Resistor"
+			(at 38.1 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DatasheetValue" "R_C1"
+			(at 38.1 94.742 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" "ERJ-3EKF6651V "
+			(at 38.1 92.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "Panasonic "
+			(at 38.1 92.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "5b3a4676-d6df-4fb5-85c4-b74c3fac24a1")
+		)
+		(pin "1"
+			(uuid "be8c7425-b440-4feb-a8a9-7cdd3a9463fc")
+		)
+		(instances
+			(project "ProteusPowerManagment"
+				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/02b1550a-377b-4da6-a00f-9f724cf4d25c"
+					(reference "R20?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Aase:CGA3E2C0G2A120J080AA")
+		(at 78.74 115.57 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b070a870-978c-445c-b767-8fe8ce23419a")
+		(property "Reference" "C200?"
+			(at 82.55 113.0299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "12pF"
+			(at 82.55 115.5699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "CGA3E2C0G2A120J080AA:CAPC1608X90N"
+			(at 78.74 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "12 pF ±5% 100V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
+			(at 78.74 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "TDK"
+			(at 78.74 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "1608 TDK"
+			(at 78.74 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 78.74 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CGA3E2C0G2A120J080AA/TDK/view-part/?ref=snap"
+			(at 78.74 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "CGA3E2C0G2A120J080AA"
+			(at 78.74 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 78.74 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/CGA3E2C0G2A120J080AA/TDK/view-part/?ref=eda"
+			(at 78.74 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "DatasheetValue" "C_ILIM"
+			(at 85.344 117.602 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "47b0582f-bb6d-4929-ad98-95c6182fa225")
+		)
+		(pin "2"
+			(uuid "c172e95c-e5db-4e9b-81b2-d774b2db2e77")
+		)
+		(instances
+			(project "ProteusPowerManagment"
+				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/02b1550a-377b-4da6-a00f-9f724cf4d25c"
+					(reference "C200?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 223.52 95.25 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b72c894c-76e9-4bc8-acb0-52899cdeac67")
+		(property "Reference" "C203"
+			(at 227.33 93.9799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2uF"
+			(at 227.33 96.012 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 224.4852 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 223.52 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DatasheetValue" "C_IN"
+			(at 229.616 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" "HMK325B7225KMHP "
+			(at 223.52 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "Taiyo Yuden "
+			(at 223.52 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6552,21 +8732,24 @@
 			)
 		)
 		(pin "1"
-			(uuid "a5036cee-eecd-413b-ba36-311dd36779e4")
+			(uuid "8e14abe8-7dd4-4dad-b6cc-d6590adcc856")
+		)
+		(pin "2"
+			(uuid "4c333c7a-99de-4e1a-85c9-6285b1bad115")
 		)
 		(instances
 			(project "ProteusPowerManagment"
 				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/02b1550a-377b-4da6-a00f-9f724cf4d25c"
-					(reference "#GND01")
+					(reference "C203")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
+		(lib_name "R_1")
 		(lib_id "Device:R")
-		(at 31.75 83.82 0)
-		(mirror y)
+		(at 31.75 83.82 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6574,30 +8757,28 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "acbf4f08-336b-4c8d-90af-ecc0d66ba6f5")
-		(property "Reference" "R_FB3"
-			(at 29.21 82.5499 0)
+		(uuid "bbae4f58-89e2-44c7-8371-a1a6313b08bf")
+		(property "Reference" "R20?"
+			(at 36.195 81.915 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "20.4k"
-			(at 29.21 85.0899 0)
+			(at 36.195 84.455 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 33.528 83.82 90)
 			(hide yes)
 			(show_name no)
@@ -6630,16 +8811,48 @@
 				)
 			)
 		)
-		(pin "1"
-			(uuid "ff0289c0-c68d-4836-9009-e2909792533f")
+		(property "DatasheetValue" "R_FB1"
+			(at 36.195 86.233 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" "ERA-3AEB2042V "
+			(at 31.75 83.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "Panasonic "
+			(at 31.75 83.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "2"
-			(uuid "4695aaa7-efc4-42ea-b358-c6b254634011")
+			(uuid "a07ac227-34e1-4ff6-80ae-b53658c21521")
+		)
+		(pin "1"
+			(uuid "6abc1af9-5937-464e-be05-5280838d1b2c")
 		)
 		(instances
 			(project "ProteusPowerManagment"
 				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/02b1550a-377b-4da6-a00f-9f724cf4d25c"
-					(reference "R_FB3")
+					(reference "R20?")
 					(unit 1)
 				)
 			)
@@ -6647,7 +8860,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 137.16 119.38 90)
+		(at 210.82 53.34 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6655,10 +8868,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aec537f9-d296-41f2-9a51-ad0c01971cab")
-		(property "Reference" "R2"
-			(at 137.16 113.03 90)
+		(uuid "bea58b99-9abc-4551-b4e0-c7b92923fe58")
+		(property "Reference" "R20?"
+			(at 210.82 46.99 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6667,8 +8879,8 @@
 				)
 			)
 		)
-		(property "Value" "1m"
-			(at 137.16 115.57 90)
+		(property "Value" "4.7"
+			(at 210.82 49.53 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6677,8 +8889,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 137.16 121.158 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 210.82 51.562 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6689,7 +8901,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 119.38 0)
+			(at 210.82 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6700,7 +8912,39 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 137.16 119.38 0)
+			(at 210.82 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DatasheetValue" "R_VIN"
+			(at 210.82 51.308 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" "ERJ-3RQF4R7V "
+			(at 210.82 53.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "Panasonic "
+			(at 210.82 53.34 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6711,94 +8955,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "5c42a5e3-dfb5-453a-81e5-ac686f234089")
+			(uuid "626ba1d1-c36b-4d63-a4e5-0f22b2f8ece2")
 		)
 		(pin "1"
-			(uuid "f94d55ee-4a39-482e-b829-2eb185cec98b")
+			(uuid "51b17186-d8cc-4d5f-96de-4499e011f647")
 		)
 		(instances
 			(project "ProteusPowerManagment"
 				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/02b1550a-377b-4da6-a00f-9f724cf4d25c"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:L")
-		(at 193.04 68.58 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "aec710cf-827b-4811-8933-3eddea32f1f8")
-		(property "Reference" "L_o1"
-			(at 193.548 63.5 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "15uH"
-			(at 193.548 66.04 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 193.04 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 193.04 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 193.04 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "122ba8ac-cade-4a3f-84e4-dc9a3f7912d7")
-		)
-		(pin "1"
-			(uuid "4c30b9d6-1d2c-48fd-9cc8-3f1784f4de5e")
-		)
-		(instances
-			(project "ProteusPowerManagment"
-				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/02b1550a-377b-4da6-a00f-9f724cf4d25c"
-					(reference "L_o1")
+					(reference "R20?")
 					(unit 1)
 				)
 			)
@@ -6806,7 +8971,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 226.06 85.09 0)
+		(at 223.52 81.28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6814,10 +8979,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d580bd62-c09a-48a4-87ce-18c131dd5fb7")
-		(property "Reference" "C_OUT2"
-			(at 229.87 83.8199 0)
+		(uuid "cf17d0fb-a618-4fc1-8601-8c2c509698c6")
+		(property "Reference" "C20?"
+			(at 227.33 80.0099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6828,7 +8992,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 229.87 86.3599 0)
+			(at 227.33 82.042 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6838,8 +9002,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 227.0252 88.9 0)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+			(at 224.4852 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6850,7 +9014,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 226.06 85.09 0)
+			(at 223.52 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6861,7 +9025,39 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 226.06 85.09 0)
+			(at 223.52 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DatasheetValue" "C_OUT"
+			(at 229.616 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" "UMK325AB7106KMHT "
+			(at 223.52 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "Taiyo Yuden "
+			(at 223.52 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6872,15 +9068,126 @@
 			)
 		)
 		(pin "1"
-			(uuid "81d8d221-8291-4af4-925f-de3a3be9e6bd")
+			(uuid "226f4161-bfc9-41c5-a4a1-8fc33bb10119")
 		)
 		(pin "2"
-			(uuid "86fc7b4c-0dba-4e6d-b7ad-e680caebf665")
+			(uuid "50134013-4c2d-4a11-9e5f-07c4832e7ada")
 		)
 		(instances
 			(project "ProteusPowerManagment"
 				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/02b1550a-377b-4da6-a00f-9f724cf4d25c"
-					(reference "C_OUT2")
+					(reference "C20?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 31.75 113.03 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d23811d9-adc8-4dcd-a90e-a4ed3f4a76eb")
+		(property "Reference" "R20?"
+			(at 36.195 111.125 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.698k"
+			(at 36.195 113.665 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 33.528 113.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 31.75 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DatasheetValue" "R_FB2"
+			(at 36.195 115.443 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" "ERA-3AEB6980V "
+			(at 31.75 113.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "Panasonic "
+			(at 31.75 113.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ceded2c6-987f-4284-96c2-1b0a1b268337")
+		)
+		(pin "1"
+			(uuid "49b3fdab-4977-4e9c-b1fb-26c921faf348")
+		)
+		(instances
+			(project "ProteusPowerManagment"
+				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/02b1550a-377b-4da6-a00f-9f724cf4d25c"
+					(reference "R20?")
 					(unit 1)
 				)
 			)
@@ -6965,90 +9272,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 59.69 71.12 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dfff2a1c-cd81-468a-a785-5ddf1ebafca2")
-		(property "Reference" "R1"
-			(at 62.23 69.8499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1"
-			(at 62.23 72.3899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 57.912 71.12 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 59.69 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 59.69 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d71d3a2b-2c51-46a0-8f52-f4fce35a6cb8")
-		)
-		(pin "2"
-			(uuid "c2585e57-8435-4536-8979-c9f24e41a9f6")
-		)
-		(instances
-			(project "ProteusPowerManagment"
-				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/02b1550a-377b-4da6-a00f-9f724cf4d25c"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
-		(at 120.65 114.3 0)
+		(at 209.55 81.28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7056,10 +9281,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e3456ff6-0626-4817-883e-b89c8a4f7e30")
-		(property "Reference" "C_VCC1"
-			(at 124.46 113.0299 0)
+		(uuid "e97e616c-9b4b-4f4d-aed4-35b8c42e19ed")
+		(property "Reference" "C20?"
+			(at 213.36 80.0099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7070,7 +9294,7 @@
 			)
 		)
 		(property "Value" "2.2uF"
-			(at 124.46 115.5699 0)
+			(at 213.36 82.042 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7080,8 +9304,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 121.6152 118.11 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 210.5152 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7092,7 +9316,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 114.3 0)
+			(at 209.55 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7103,7 +9327,39 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 120.65 114.3 0)
+			(at 209.55 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DatasheetValue" "C_IN"
+			(at 215.646 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" "HMK325B7225KMHP "
+			(at 209.55 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "Taiyo Yuden "
+			(at 209.55 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7114,98 +9370,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "48a7b864-104a-4857-8b5f-3a0b2d3d3f78")
+			(uuid "0f93550e-510a-47f2-9eb9-00858871d505")
 		)
 		(pin "2"
-			(uuid "c6a7f6f3-20d8-4d4e-8618-6b16f0958b24")
+			(uuid "4bcafc71-496d-4b08-973f-c1a0e15a5224")
 		)
 		(instances
 			(project "ProteusPowerManagment"
 				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/02b1550a-377b-4da6-a00f-9f724cf4d25c"
-					(reference "C_VCC1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 31.75 113.03 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e80eadb2-b868-40ba-80ba-c84407a7b5a3")
-		(property "Reference" "R_FB4"
-			(at 34.29 111.7599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0.698k"
-			(at 34.29 114.2999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 33.528 113.03 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 31.75 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 31.75 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "68049da0-7814-4b07-be82-0bd1672da590")
-		)
-		(pin "2"
-			(uuid "310dc9a8-b9aa-431b-bacc-347e47947a87")
-		)
-		(instances
-			(project "ProteusPowerManagment"
-				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/02b1550a-377b-4da6-a00f-9f724cf4d25c"
-					(reference "R_FB4")
+					(reference "C20?")
 					(unit 1)
 				)
 			)
@@ -7221,9 +9394,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ecc796b4-5685-4dd7-8422-637c8bceae70")
-		(property "Reference" "R_UV1"
+		(property "Reference" "R20?"
 			(at 76.2 39.37 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7243,7 +9415,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LM5146RGYR:IC_LM5146RGYR"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 76.2 43.942 90)
 			(hide yes)
 			(show_name no)
@@ -7276,6 +9448,38 @@
 				)
 			)
 		)
+		(property "DatasheetValue" "R_UV1"
+			(at 76.454 48.006 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" "ERJ-6ENF3013V "
+			(at 76.2 45.72 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "Panasonic "
+			(at 76.2 45.72 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e0f4c8cb-956f-48d3-8036-13fd2e018df0")
 		)
@@ -7285,212 +9489,7 @@
 		(instances
 			(project "ProteusPowerManagment"
 				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/02b1550a-377b-4da6-a00f-9f724cf4d25c"
-					(reference "R_UV1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 73.66 85.09 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f6f1fbc0-e722-4aa1-8e44-2a805625d3ce")
-		(property "Reference" "C_SS2"
-			(at 73.66 90.678 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "68nF"
-			(at 73.66 88.646 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 69.85 86.0552 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 73.66 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "7029ead7-e70b-4dc8-891a-e23ef37b3696")
-		)
-		(pin "1"
-			(uuid "6ef3fe81-3543-4891-93e2-2968ae1a42bc")
-		)
-		(instances
-			(project "ProteusPowerManagment"
-				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/02b1550a-377b-4da6-a00f-9f724cf4d25c"
-					(reference "C_SS2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:VDC")
-		(at 34.29 22.86 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f7a43abf-224e-4f5d-9173-59655fc6b280")
-		(property "Reference" "V1"
-			(at 38.1 21.4601 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "48"
-			(at 38.1 24.0001 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SON:WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4mm"
-			(at 34.29 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for"
-			(at 34.29 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Voltage source, DC"
-			(at 34.29 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=+ 2=-"
-			(at 34.29 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "PULSE"
-			(at 34.29 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "V"
-			(at 34.29 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Sim.Params" "y1=0 y2=48 td=0 tr=50u tf=50u tw=1 per=2"
-			(at 34.29 22.86 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "2391cd15-7a21-46bd-a89e-017ba44974a0")
-		)
-		(pin "1"
-			(uuid "63776806-28a0-465b-8c7b-321648aedc09")
-		)
-		(instances
-			(project "ProteusPowerManagment"
-				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/02b1550a-377b-4da6-a00f-9f724cf4d25c"
-					(reference "V1")
+					(reference "R20?")
 					(unit 1)
 				)
 			)
@@ -7498,7 +9497,8 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 123.19 91.44 0)
+		(at 96.52 109.22 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7506,32 +9506,29 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fa3f7f09-79e7-4559-beda-b91992066d88")
-		(property "Reference" "R_PG1"
-			(at 125.73 90.1699 0)
+		(uuid "f34bb953-f269-4f47-b137-dfe60cadb647")
+		(property "Reference" "R20?"
+			(at 96.52 115.57 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "20k"
-			(at 125.73 92.7099 0)
+		(property "Value" "442"
+			(at 96.52 113.03 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 121.412 91.44 90)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 96.52 110.998 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7542,7 +9539,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 91.44 0)
+			(at 96.52 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7553,7 +9550,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 123.19 91.44 0)
+			(at 96.52 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7563,16 +9560,159 @@
 				)
 			)
 		)
-		(pin "1"
-			(uuid "b2796111-0340-4b22-aa04-f2a3b2a803d7")
+		(property "DatasheetValue" "R_ILIM"
+			(at 96.52 111.252 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" "ERJ-6ENF4420V "
+			(at 96.52 109.22 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "Panasonic "
+			(at 96.52 109.22 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "2"
-			(uuid "f4bbc2e0-304f-4902-8767-49f3dce044e0")
+			(uuid "979d8739-f2fb-49c6-8e3e-181786f989f9")
+		)
+		(pin "1"
+			(uuid "52a48976-a9a0-4cce-8ee8-cd6717708b0a")
 		)
 		(instances
 			(project "ProteusPowerManagment"
 				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/02b1550a-377b-4da6-a00f-9f724cf4d25c"
-					(reference "R_PG1")
+					(reference "R20?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 73.66 81.28 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f6b7bfda-16f1-4402-ad20-32da68fe9563")
+		(property "Reference" "R20?"
+			(at 73.66 74.93 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "24.9k"
+			(at 73.66 77.47 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 73.66 79.502 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 73.66 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DatasheetValue" "R_RT"
+			(at 73.66 79.248 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" "ERJ-3EKF2492V "
+			(at 73.66 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "Panasonic "
+			(at 73.66 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "66c6b566-26ab-4983-a1ce-1ea974fc9bec")
+		)
+		(pin "1"
+			(uuid "924da6bf-a9a3-4281-bdaf-51a384284e0e")
+		)
+		(instances
+			(project "ProteusPowerManagment"
+				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/02b1550a-377b-4da6-a00f-9f724cf4d25c"
+					(reference "R20?")
 					(unit 1)
 				)
 			)
@@ -7657,8 +9797,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 96.52 109.22 90)
+		(lib_id "Aase:CGA3E2C0G1H102J080AA")
+		(at 20.32 87.63 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -7667,9 +9807,44 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "fd7f6b25-22b6-401e-aac7-e069dc2f94fe")
-		(property "Reference" "R_LIM1"
-			(at 96.52 115.57 90)
+		(uuid "fca8654b-2a1a-4948-81a4-1ad5e6e6ed77")
+		(property "Reference" "C200?"
+			(at 18.034 85.09 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1000pF"
+			(at 18.034 87.63 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "CGA3E2C0G1H102J080AA:CAPC1608X90N"
+			(at 20.32 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 20.32 87.63 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7678,8 +9853,104 @@
 				)
 			)
 		)
-		(property "Value" "442"
-			(at 96.52 113.03 90)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0603 1000pF 50volts C0G 5% T=0.8mm"
+			(at 20.32 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "TDK"
+			(at 20.32 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "1608 TDK"
+			(at 20.32 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 20.32 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CGA3E2C0G1H102J080AA/TDK/view-part/?ref=snap"
+			(at 20.32 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "CGA3E2C0G1H102J080AA"
+			(at 20.32 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 20.32 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/CGA3E2C0G1H102J080AA/TDK/view-part/?ref=eda"
+			(at 20.32 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "DatasheetValue" "C_C3"
+			(at 14.732 89.9161 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7688,8 +9959,56 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 96.52 107.442 90)
+		(pin "2"
+			(uuid "57160369-b94e-401f-8eda-8f494dec910a")
+		)
+		(pin "1"
+			(uuid "cfb2d679-8799-4f37-946e-866953137e2c")
+		)
+		(instances
+			(project "ProteusPowerManagment"
+				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/02b1550a-377b-4da6-a00f-9f724cf4d25c"
+					(reference "C200?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 231.14 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fd1c9b04-331d-4643-8d2c-9122a39cf4fe")
+		(property "Reference" "C20?"
+			(at 234.95 80.0099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2uF"
+			(at 234.95 82.042 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 232.1052 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7700,7 +10019,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 109.22 0)
+			(at 231.14 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7710,8 +10029,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 96.52 109.22 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 231.14 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7721,16 +10040,48 @@
 				)
 			)
 		)
-		(pin "2"
-			(uuid "14e88f7d-2b28-437f-90d6-de0b3202ef67")
+		(property "DatasheetValue" "C_IN"
+			(at 237.236 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" "HMK325B7225KMHP "
+			(at 231.14 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "Taiyo Yuden "
+			(at 231.14 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "f093c481-513c-4e52-a7d6-d52d7a113b76")
+			(uuid "285cfad6-7605-489b-840c-0c4836bae5bd")
+		)
+		(pin "2"
+			(uuid "ee412c7b-d0c3-47de-a77a-263f2f0234f0")
 		)
 		(instances
 			(project "ProteusPowerManagment"
 				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/02b1550a-377b-4da6-a00f-9f724cf4d25c"
-					(reference "R_LIM1")
+					(reference "C20?")
 					(unit 1)
 				)
 			)
