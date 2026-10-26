@@ -536,7 +536,7 @@
     "annotate_start_num": 0,
     "annotation": {
       "method": 0,
-      "sort_order": 0
+      "sort_order": 1
     },
     "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
@@ -832,7 +832,7 @@
         "uuid": "c24111dd-5300-4143-a3c3-2d963194a3cb"
       }
     ],
-    "used_designators": "#PWR5-26,#PWR28-29,R_BST1-2,R1-9,R311-320,C_ss1-2,C1-6,C101-102,C319-336,C_BST1-2,CR101-102,C_Vin1-2,C_In1-9,C_C4-9,R_C3-6,R_FB3-4,R_RT1-2,U3-4,R_UV3-6,R_Vin1-2,Q1-4,L1-2,L302,C_VCC1,C_Out1-9,C_ILIM1,R_ILIM1,IC1-3",
+    "used_designators": "#PWR5-23,R_BST1-2,R1-9,R311-320,C_ss1-2,C1-6,C201-203,C319-336,C2001,C_BST1-2,C2001,C_Vin1-2,C_In1-9,C_C4-9,R_C3-6,R?1-2,R_FB3-4,R_RT1-2,U1,U3-4,R_UV3-6,R_Vin1-2,R_201,Q1-4,L1-2,L302,C_VCC1,C_Out1-9,C_ILIM1,R_ILIM1,C201-18,R201-11",
     "variants": []
   },
   "sheets": [
