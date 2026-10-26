@@ -2794,149 +2794,71 @@
 		)
 		(uuid "c78f888b-a08a-4aad-ae7a-b548f2f85475")
 	)
-	(global_label "5V_Vin"
-		(shape input)
-		(at 85.09 72.39 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "15a0dec5-a010-4f1c-9c7c-6ef8da5dd9d9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.5291 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "5V_Vin"
+	(hierarchical_label "5V_Vin"
 		(shape input)
 		(at 217.17 73.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "42333308-a976-463a-b0de-bd96844f0137")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 225.6091 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
+		(uuid "516fe951-9188-4e2d-8287-b57245cd1042")
 	)
-	(global_label "5VSYNC_In"
+	(hierarchical_label "5V_Vin"
 		(shape input)
-		(at 77.47 93.98 180)
-		(fields_autoplaced yes)
+		(at 85.09 72.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "4db919c5-d3ba-4cc6-b432-1f1637b899d8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 65.2209 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
+		(uuid "63584145-ff29-4f0d-ab65-d24477e225e5")
 	)
-	(global_label "5VSYNC_Out"
-		(shape input)
-		(at 77.47 96.52 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8a350885-b724-401a-ad9b-2a701e81883f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 63.7695 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "5V_Vout"
+	(hierarchical_label "5V_Vout"
 		(shape input)
 		(at 215.9 87.63 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "cb677e5e-ba43-4b27-b2d2-159470d2d376")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 225.609 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
+		(uuid "66ee314e-348e-4567-9d3d-d530bdaaf33a")
 	)
-	(global_label "5V_PGOOD"
+	(hierarchical_label "5VSYNC_In"
+		(shape input)
+		(at 77.47 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7d725390-4181-4090-9508-3862cd9b55e9")
+	)
+	(hierarchical_label "5VSYNC_Out"
+		(shape input)
+		(at 77.47 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cd21b109-6da9-4da1-9f65-e0c8a494b7aa")
+	)
+	(hierarchical_label "5V_PGOOD"
 		(shape input)
 		(at 113.03 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "d3ec93d9-50ba-414e-813b-a47c8242a01c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 125.0977 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
+		(uuid "d25fc85b-8242-4b06-8232-b958507e639f")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -3061,7 +2983,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 120.65 66.3448 0)
 			(hide yes)
 			(show_name no)
@@ -3425,7 +3347,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 124.46 131.318 90)
 			(hide yes)
 			(show_name no)
@@ -3515,7 +3437,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 73.66 70.358 90)
 			(hide yes)
 			(show_name no)
@@ -3605,7 +3527,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 66.04 70.358 90)
 			(hide yes)
 			(show_name no)
@@ -4236,7 +4158,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 172.212 139.7 90)
 			(hide yes)
 			(show_name no)
@@ -4444,7 +4366,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 167.64 127.3048 0)
 			(hide yes)
 			(show_name no)
@@ -4533,7 +4455,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 116.84 90.678 90)
 			(hide yes)
 			(show_name no)
@@ -4743,7 +4665,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 181.9148 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -4833,7 +4755,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 73.66 71.4248 0)
 			(hide yes)
 			(show_name no)
@@ -4923,7 +4845,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 156.21 124.1552 0)
 			(hide yes)
 			(show_name no)
@@ -5324,7 +5246,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 73.66 103.378 90)
 			(hide yes)
 			(show_name no)
@@ -5413,7 +5335,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 69.85 103.1748 0)
 			(hide yes)
 			(show_name no)
@@ -5502,7 +5424,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 128.27 87.9348 0)
 			(hide yes)
 			(show_name no)
@@ -5684,7 +5606,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 172.212 116.84 90)
 			(hide yes)
 			(show_name no)
@@ -6436,7 +6358,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 167.64 124.968 90)
 			(hide yes)
 			(show_name no)
@@ -6630,7 +6552,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 107.188 133.35 90)
 			(hide yes)
 			(show_name no)
@@ -6816,7 +6738,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 117.8052 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -7068,7 +6990,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 184.658 114.3 90)
 			(hide yes)
 			(show_name no)

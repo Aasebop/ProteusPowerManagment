@@ -102,6 +102,52 @@
 		)
 	)
 	(sheet
+		(at 143.51 39.37)
+		(size 38.1 31.75)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "3d83fd0d-6178-4f05-aff2-e418d638b132")
+		(property "Sheetname" "Sikring"
+			(at 143.51 38.6584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sikring.kicad_sch"
+			(at 143.51 71.7046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ProteusPowerManagment"
+				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 39.37 88.9)
 		(size 39.37 31.75)
 		(exclude_from_sim no)
@@ -137,6 +183,56 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "12VSYNC_In" input
+			(at 52.07 88.9 90)
+			(uuid "a4287b27-82e4-413a-b0c6-171389c2758f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "12VSYNC_Out" input
+			(at 52.07 120.65 270)
+			(uuid "049992c3-2b06-4107-a4ab-f444f86936b9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "12V_PGOOD" input
+			(at 78.74 113.03 0)
+			(uuid "7fd34758-c5ee-4a10-802e-6586137e814f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "12V_Vin" input
+			(at 78.74 92.71 0)
+			(uuid "e04015ba-ef0e-4ed8-aa7b-c64f01a90650")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "12V_Vout" input
+			(at 78.74 101.6 0)
+			(uuid "8f915639-fea7-43ca-8183-b6aa6747f607")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -183,6 +279,56 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "5VSYNC_In" input
+			(at 52.07 142.24 90)
+			(uuid "fdf5df52-5132-4f3b-9508-6fe0e0625d17")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "5VSYNC_Out" input
+			(at 52.07 171.45 270)
+			(uuid "216f0ffc-1e38-4bb0-b28b-64dab7329ed7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "5V_PGOOD" input
+			(at 78.74 165.1 0)
+			(uuid "0fa0ebbf-f7a1-4240-adf6-7fdeb0524901")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "5V_Vin" input
+			(at 78.74 148.59 0)
+			(uuid "6127525a-2a61-4e17-895a-0438417474f9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "5V_Vout" input
+			(at 78.74 152.4 0)
+			(uuid "cbab018a-7a98-4abe-b1a5-6594af44fee6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
