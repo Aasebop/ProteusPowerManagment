@@ -2820,7 +2820,7 @@
 		(uuid "84fb4288-1871-48bb-af0d-a31b9cf75821")
 	)
 	(hierarchical_label "12V_PGOOD"
-		(shape input)
+		(shape output)
 		(at 138.43 104.14 0)
 		(effects
 			(font
@@ -2842,7 +2842,7 @@
 		(uuid "8e2fb844-4d04-4fea-9cd8-b5747e9ee2fc")
 	)
 	(hierarchical_label "12VSYNC_Out"
-		(shape input)
+		(shape output)
 		(at 102.87 96.52 180)
 		(effects
 			(font
@@ -2853,7 +2853,7 @@
 		(uuid "8f43a029-8839-44ac-b811-1848d6028a44")
 	)
 	(hierarchical_label "12V_Vout"
-		(shape input)
+		(shape output)
 		(at 237.49 86.36 0)
 		(effects
 			(font
