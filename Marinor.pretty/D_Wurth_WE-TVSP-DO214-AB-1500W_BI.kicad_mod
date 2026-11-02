@@ -1,0 +1,175 @@
+(footprint "D_Wurth_WE-TVSP-DO214-AB-1500W_BI"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Power TVS Diode, body 6.86x5.9x2.5mm, https://www.we-online.com/en/components/products/WE-TVSP#/articles/WE-TVSP-DO214-AB-1500W_BI")
+	(tags "SMT")
+	(property "Reference" "REF**"
+		(at 0 -4.2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ca4353c2-73fa-4c52-b323-2ebd3fd22786")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "D_Wurth_WE-TVSP-DO214-AB-1500W_BI"
+		(at 0 4.2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "34a65ba8-ec75-4a70-a9e6-dd43d1c65d77")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "54c51d4b-e17c-4a1e-8c3b-9381e360c8ad")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fcba4492-5c53-4157-8e1d-5b4a629e7943")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -3.54 -3.06)
+		(end -3.54 -1.91)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c4414bcd-d014-4aff-91bb-50af94b64024")
+	)
+	(fp_line
+		(start -3.54 -3.06)
+		(end 3.54 -3.06)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a87fd345-bc2f-42b4-b8c6-8e25b39ac23f")
+	)
+	(fp_line
+		(start -3.54 3.06)
+		(end -3.54 1.91)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "52b3e4a8-a684-4db5-ae0c-e996252b95af")
+	)
+	(fp_line
+		(start -3.54 3.06)
+		(end 3.54 3.06)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a8c6ed0b-e0da-4909-a371-479f5f47ad40")
+	)
+	(fp_line
+		(start 3.54 -3.06)
+		(end 3.54 -1.91)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e133f0f7-e0af-40cc-a67a-c9d90b348d6a")
+	)
+	(fp_line
+		(start 3.54 3.06)
+		(end 3.54 1.91)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "53d80a7b-9d38-4bb8-8207-0a75ad0045ae")
+	)
+	(fp_rect
+		(start -4.9 -3.2)
+		(end 4.9 3.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "6ae88a0d-ebc2-440b-ad3e-677f7192e20b")
+	)
+	(fp_rect
+		(start -3.43 -2.95)
+		(end 3.43 2.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "635895e7-8e45-45bf-a5b6-4ced8422718b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b916887d-aac3-4f6d-bf68-4cd2172bbdea")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -3.5 0)
+		(size 2.3 3.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ed9185f5-2016-4fc2-8f81-0b6d218aede5")
+	)
+	(pad "2" smd rect
+		(at 3.5 0)
+		(size 2.3 3.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3e01d4cc-0850-41ad-8df6-a5418a9cece6")
+	)
+	(embedded_fonts no)
+	(model "${WE_3DMODEL_DIR}/Diode_SMD_Wurth.3dshapes/D_Wurth_WE-TVSP-DO214-AB_BI.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
