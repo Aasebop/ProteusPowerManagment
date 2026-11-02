@@ -7093,7 +7093,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec21e064-deca-4939-ae4b-10c06bf0e4b1")
-		(property "Reference" "U2"
+		(property "Reference" "U402"
 			(at 171.45 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7232,7 +7232,7 @@
 		(instances
 			(project "ProteusPowerManagment"
 				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/ff489ca0-c022-46f0-934f-be95c81d38e4"
-					(reference "U2")
+					(reference "U402")
 					(unit 1)
 				)
 			)
