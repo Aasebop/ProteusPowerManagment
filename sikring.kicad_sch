@@ -1422,351 +1422,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Halfdan:DO214-AA-600W_BI_824521500"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "DO214-AA-600W_BI_824521500"
-				(at 12.7 22.86 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Diode_SMD_Wurth:D_Wurth_WE-TVSP-DO214-AA-600W_BI"
-				(at 12.7 20.32 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Datasheet" "https://www.we-online.com/catalog/datasheet/824521500.pdf?ki"
-				(at 12.7 17.78 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Description" "Power TVS Diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "Wurth Elektronik"
-				(at 12.7 15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Manufacturer URL" "https://www.we-online.com"
-				(at 12.7 12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Created Date" "20250721"
-				(at 12.7 10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Series" "WE-TVSP"
-				(at 12.7 7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Part Number" "824521500"
-				(at 12.7 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Size" "DO214-AA-600W_BI"
-				(at 12.7 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Mounting Technology" "SMT"
-				(at 12.7 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Technical Reference" "SMBJ5.0CA"
-				(at 12.7 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "VDC (V)" "5.0"
-				(at 12.7 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "VBR (V)" "6.7"
-				(at 12.7 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "IPeak (A)" "65.3"
-				(at 12.7 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "PDiss (W)" "600"
-				(at 12.7 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "VClamp max. (V)" "9.2"
-				(at 12.7 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Critical Parameter" "5.0 V"
-				(at 0 -6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "ki_keywords" "SMT"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "*WE-TVSP*DO214-AA-600W_BI*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "DO214-AA-600W_BI_824521500_0_1"
-				(polyline
-					(pts
-						(xy -2.54 1.27) (xy -2.54 -1.27) (xy 2.54 1.27) (xy 2.54 -1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "DO214-AA-600W_BI_824521500_1_1"
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 1.27 2.032)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy -1.27 -2.032)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Halfdan:DO214-AA-600W_UNI_824520151"
 			(pin_names
 				(hide yes)
@@ -2110,7 +1765,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Halfdan:DO214-AA-600W_UNI_824520281"
+		(symbol "Halfdan:DO214-AA-600W_UNI_824520241"
 			(pin_names
 				(hide yes)
 			)
@@ -2129,7 +1784,7 @@
 					)
 				)
 			)
-			(property "Value" "DO214-AA-600W_UNI_824520281"
+			(property "Value" "DO214-AA-600W_UNI_824520241"
 				(at 12.7 22.86 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2153,7 +1808,7 @@
 					(justify left)
 				)
 			)
-			(property "Datasheet" "https://www.we-online.com/catalog/datasheet/824520281.pdf?ki"
+			(property "Datasheet" "https://www.we-online.com/catalog/datasheet/824520241.pdf?ki"
 				(at 12.7 17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2224,7 +1879,7 @@
 					(justify left)
 				)
 			)
-			(property "Part Number" "824520281"
+			(property "Part Number" "824520241"
 				(at 12.7 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2260,7 +1915,7 @@
 					(justify left)
 				)
 			)
-			(property "Technical Reference" "SMBJ28A"
+			(property "Technical Reference" "SMBJ24A"
 				(at 12.7 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2272,7 +1927,7 @@
 					(justify left)
 				)
 			)
-			(property "VDC (V)" "28.0"
+			(property "VDC (V)" "24.0"
 				(at 12.7 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2284,7 +1939,7 @@
 					(justify left)
 				)
 			)
-			(property "VBR (V)" "32.75"
+			(property "VBR (V)" "28.1"
 				(at 12.7 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2296,7 +1951,7 @@
 					(justify left)
 				)
 			)
-			(property "IPeak (A)" "13.3"
+			(property "IPeak (A)" "15.5"
 				(at 12.7 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2320,7 +1975,7 @@
 					(justify left)
 				)
 			)
-			(property "VClamp max. (V)" "45.4"
+			(property "VClamp max. (V)" "38.9"
 				(at 12.7 -15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2332,7 +1987,7 @@
 					(justify left)
 				)
 			)
-			(property "Critical Parameter" "28.0 V"
+			(property "Critical Parameter" "24.0 V"
 				(at 0 -6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2365,7 +2020,7 @@
 					)
 				)
 			)
-			(symbol "DO214-AA-600W_UNI_824520281_1_1"
+			(symbol "DO214-AA-600W_UNI_824520241_1_1"
 				(polyline
 					(pts
 						(xy -1.27 1.27) (xy -1.27 -1.27) (xy 1.27 0) (xy -1.27 1.27)
@@ -2781,6 +2436,349 @@
 					(at 5.08 0 180)
 					(length 2.54)
 					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Halfdan:DO214-AC-400W_UNI_824500500"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "DO214-AC-400W_UNI_824500500"
+				(at 12.7 22.86 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Diode_SMD_Wurth:D_Wurth_WE-TVSP-DO214-AC-400W_UNI"
+				(at 12.7 20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "https://www.we-online.com/catalog/datasheet/824500500.pdf?ki"
+				(at 12.7 17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Description" "Power TVS Diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Wurth Elektronik"
+				(at 12.7 15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Manufacturer URL" "https://www.we-online.com"
+				(at 12.7 12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Created Date" "20250721"
+				(at 12.7 10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Series" "WE-TVSP"
+				(at 12.7 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Part Number" "824500500"
+				(at 12.7 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Size" "DO214-AC-400W_UNI"
+				(at 12.7 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Mounting Technology" "SMT"
+				(at 12.7 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Technical Reference" "SMAJ5.0A"
+				(at 12.7 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "VDC (V)" "5.0"
+				(at 12.7 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "VBR (V)" "6.7"
+				(at 12.7 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "IPeak (A)" "43.5"
+				(at 12.7 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "PDiss (W)" "400"
+				(at 12.7 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "VClamp max. (V)" "9.2"
+				(at 12.7 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Critical Parameter" "5.0 V"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "ki_keywords" "SMT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*WE-TVSP*DO214-AC-400W_UNI*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "DO214-AC-400W_UNI_824500500_1_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27) (xy 1.27 0) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 2.54 2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 0 -2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "Cathode"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "Anode"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6117,6 +6115,16 @@
 	)
 	(wire
 		(pts
+			(xy 13.97 153.67) (xy 13.97 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93166b2b-b0e7-4fee-bca5-11672f27c9ba")
+	)
+	(wire
+		(pts
 			(xy 69.85 31.75) (xy 76.2 31.75)
 		)
 		(stroke
@@ -6307,16 +6315,6 @@
 	)
 	(wire
 		(pts
-			(xy 13.97 153.67) (xy 13.97 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "abf6ed2b-7302-4969-b182-88f1ca4c92eb")
-	)
-	(wire
-		(pts
 			(xy 256.54 44.45) (xy 256.54 46.99)
 		)
 		(stroke
@@ -6364,6 +6362,16 @@
 			(type default)
 		)
 		(uuid "b3218130-a865-4c86-a97f-9bdc92bde3d6")
+	)
+	(wire
+		(pts
+			(xy 13.97 180.34) (xy 13.97 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b387949c-6686-417e-ac44-662b5ea93cb7")
 	)
 	(wire
 		(pts
@@ -6767,16 +6775,6 @@
 	)
 	(wire
 		(pts
-			(xy 13.97 181.61) (xy 13.97 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9fc031b-b96d-4fca-a4f5-dd25421edc69")
-	)
-	(wire
-		(pts
 			(xy 133.35 109.22) (xy 133.35 116.84)
 		)
 		(stroke
@@ -6996,7 +6994,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "649"
+		(property "Value" "590"
 			(at 41.91 185.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8276,7 +8274,7 @@
 				)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "PGND"
 			(at 227.33 88.8999 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8355,7 +8353,7 @@
 				)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "PGND"
 			(at 275.59 52.0699 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8648,14 +8646,15 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 69.85 57.15 0)
+		(property "Value" "PGND"
+			(at 72.39 53.3399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -8726,15 +8725,14 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 209.55 30.4799 90)
+		(property "Value" "PGND"
+			(at 212.09 26.67 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -9225,7 +9223,7 @@
 				)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "PGND"
 			(at 278.13 21.5899 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9304,7 +9302,7 @@
 				)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "PGND"
 			(at 233.68 119.3799 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9383,14 +9381,15 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 60.96 194.31 0)
+		(property "Value" "PGND"
+			(at 63.5 190.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -9461,15 +9460,14 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 69.85 160.0199 90)
+		(property "Value" "PGND"
+			(at 72.39 156.21 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -9883,7 +9881,7 @@
 				)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "PGND"
 			(at 284.48 57.1499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10625,14 +10623,15 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 44.45 45.72 0)
+		(property "Value" "PGND"
+			(at 46.99 41.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -10785,14 +10784,15 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 146.05 130.81 0)
+		(property "Value" "PGND"
+			(at 148.59 126.9999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -10863,14 +10863,15 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 193.04 60.96 0)
+		(property "Value" "PGND"
+			(at 195.58 57.1499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -10941,7 +10942,7 @@
 				)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "PGND"
 			(at 284.48 67.3099 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11020,14 +11021,15 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 55.88 45.72 0)
+		(property "Value" "PGND"
+			(at 58.42 41.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -11523,15 +11525,14 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 156.21 97.7899 90)
+		(property "Value" "PGND"
+			(at 158.75 93.98 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -14444,7 +14445,7 @@
 				)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "PGND"
 			(at 138.43 151.1299 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14524,7 +14525,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "PGND"
 			(at 144.78 181.6099 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14667,7 +14668,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Halfdan:DO214-AA-600W_UNI_824520281")
+		(lib_id "Halfdan:DO214-AA-600W_UNI_824520241")
 		(at 135.89 39.37 90)
 		(unit 1)
 		(body_style 1)
@@ -14712,7 +14713,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/824520281.pdf?ki"
+		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/824520241.pdf?ki"
 			(at 118.11 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -14783,8 +14784,8 @@
 				(justify left)
 			)
 		)
-		(property "Part Number" "824520281"
-			(at 145.796 43.942 90)
+		(property "Part Number" "824520241"
+			(at 148.336 42.672 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14818,7 +14819,7 @@
 				(justify left)
 			)
 		)
-		(property "Technical Reference" "SMBJ28A"
+		(property "Technical Reference" "SMBJ24A"
 			(at 138.43 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -14830,7 +14831,7 @@
 				(justify left)
 			)
 		)
-		(property "VDC (V)" "28.0"
+		(property "VDC (V)" "24.0"
 			(at 140.97 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -14842,7 +14843,7 @@
 				(justify left)
 			)
 		)
-		(property "VBR (V)" "32.75"
+		(property "VBR (V)" "28.1"
 			(at 143.51 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -14854,7 +14855,7 @@
 				(justify left)
 			)
 		)
-		(property "IPeak (A)" "13.3"
+		(property "IPeak (A)" "15.5"
 			(at 146.05 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -14878,7 +14879,7 @@
 				(justify left)
 			)
 		)
-		(property "VClamp max. (V)" "45.4"
+		(property "VClamp max. (V)" "38.9"
 			(at 151.13 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -14890,15 +14891,15 @@
 				(justify left)
 			)
 		)
-		(property "Critical Parameter" "28.0 V"
-			(at 139.7 41.2749 90)
+		(property "Critical Parameter" "24.0 V"
+			(at 145.034 39.37 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "2"
@@ -14917,7 +14918,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Halfdan:DO214-AA-600W_BI_824521500")
+		(lib_id "Halfdan:DO214-AC-400W_UNI_824500500")
 		(at 13.97 176.53 90)
 		(unit 1)
 		(body_style 1)
@@ -14950,7 +14951,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD_Wurth:D_Wurth_WE-TVSP-DO214-AA-600W_BI"
+		(property "Footprint" "Diode_SMD_Wurth:D_Wurth_WE-TVSP-DO214-AC-400W_UNI"
 			(at -6.35 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -14962,7 +14963,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/824521500.pdf?ki"
+		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/824500500.pdf?ki"
 			(at -3.81 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -15033,8 +15034,8 @@
 				(justify left)
 			)
 		)
-		(property "Part Number" "824521500"
-			(at 17.018 177.8 0)
+		(property "Part Number" "824500500"
+			(at 11.938 172.974 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15044,7 +15045,7 @@
 				(justify left)
 			)
 		)
-		(property "Size" "DO214-AA-600W_BI"
+		(property "Size" "DO214-AC-400W_UNI"
 			(at 11.43 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -15068,7 +15069,7 @@
 				(justify left)
 			)
 		)
-		(property "Technical Reference" "SMBJ5.0CA"
+		(property "Technical Reference" "SMAJ5.0A"
 			(at 16.51 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -15104,7 +15105,7 @@
 				(justify left)
 			)
 		)
-		(property "IPeak (A)" "65.3"
+		(property "IPeak (A)" "43.5"
 			(at 24.13 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -15116,7 +15117,7 @@
 				(justify left)
 			)
 		)
-		(property "PDiss (W)" "600"
+		(property "PDiss (W)" "400"
 			(at 26.67 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -15141,7 +15142,7 @@
 			)
 		)
 		(property "Critical Parameter" "5.0 V"
-			(at 20.32 176.53 0)
+			(at 8.89 175.514 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
