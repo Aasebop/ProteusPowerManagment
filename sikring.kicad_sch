@@ -6983,7 +6983,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02bf8f0d-320f-4a6f-9504-8146d8552f64")
-		(property "Reference" "R517"
+		(property "Reference" "R514"
 			(at 41.91 182.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7047,7 +7047,7 @@
 		(instances
 			(project "ProteusPowerManagment"
 				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/3d83fd0d-6178-4f05-aff2-e418d638b132"
-					(reference "R517")
+					(reference "R514")
 					(unit 1)
 				)
 			)
@@ -7065,7 +7065,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04a67f28-989c-4707-978f-a9f32b675548")
-		(property "Reference" "C505"
+		(property "Reference" "C506"
 			(at 119.38 115.5699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7403,7 +7403,7 @@
 		(instances
 			(project "ProteusPowerManagment"
 				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/3d83fd0d-6178-4f05-aff2-e418d638b132"
-					(reference "C505")
+					(reference "C506")
 					(unit 1)
 				)
 			)
@@ -7421,7 +7421,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0601ac05-5d0e-4be0-be37-43e08a64c400")
-		(property "Reference" "R514"
+		(property "Reference" "R511"
 			(at 24.13 166.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7485,7 +7485,7 @@
 		(instances
 			(project "ProteusPowerManagment"
 				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/3d83fd0d-6178-4f05-aff2-e418d638b132"
-					(reference "R514")
+					(reference "R511")
 					(unit 1)
 				)
 			)
@@ -7503,7 +7503,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b36f969-68e6-4f10-a5e9-326f7e93c50e")
-		(property "Reference" "R511"
+		(property "Reference" "R510"
 			(at 135.89 119.3799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7567,7 +7567,7 @@
 		(instances
 			(project "ProteusPowerManagment"
 				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/3d83fd0d-6178-4f05-aff2-e418d638b132"
-					(reference "R511")
+					(reference "R510")
 					(unit 1)
 				)
 			)
@@ -8792,7 +8792,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "35e6e08e-2ca0-4078-947c-85284a4cfdfc")
-		(property "Reference" "R515"
+		(property "Reference" "R512"
 			(at 24.13 173.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8856,7 +8856,7 @@
 		(instances
 			(project "ProteusPowerManagment"
 				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/3d83fd0d-6178-4f05-aff2-e418d638b132"
-					(reference "R515")
+					(reference "R512")
 					(unit 1)
 				)
 			)
@@ -8874,7 +8874,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a9b80b5-2e3e-4a4a-a74d-22ebf78461e4")
-		(property "Reference" "R508"
+		(property "Reference" "R507"
 			(at 109.22 110.4899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8938,7 +8938,7 @@
 		(instances
 			(project "ProteusPowerManagment"
 				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/3d83fd0d-6178-4f05-aff2-e418d638b132"
-					(reference "R508")
+					(reference "R507")
 					(unit 1)
 				)
 			)
@@ -9538,7 +9538,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2n"
+		(property "Value" "2.2n"
 			(at 193.04 48.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10269,7 +10269,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5746e48d-0748-4262-9df1-4d043c3e4fd1")
-		(property "Reference" "C506"
+		(property "Reference" "C505"
 			(at 146.05 115.5699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10594,7 +10594,7 @@
 		(instances
 			(project "ProteusPowerManagment"
 				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/3d83fd0d-6178-4f05-aff2-e418d638b132"
-					(reference "C506")
+					(reference "C505")
 					(unit 1)
 				)
 			)
@@ -11089,7 +11089,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "881cffe0-e05d-4b19-8cdc-ddf4785c067f")
-		(property "Reference" "C510"
+		(property "Reference" "C508"
 			(at 60.96 179.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11414,7 +11414,7 @@
 		(instances
 			(project "ProteusPowerManagment"
 				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/3d83fd0d-6178-4f05-aff2-e418d638b132"
-					(reference "C510")
+					(reference "C508")
 					(unit 1)
 				)
 			)
@@ -11432,7 +11432,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "89431ef9-b4ca-449f-a0cf-4bd466d07528")
-		(property "Reference" "R516"
+		(property "Reference" "R513"
 			(at 24.13 181.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11496,7 +11496,7 @@
 		(instances
 			(project "ProteusPowerManagment"
 				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/3d83fd0d-6178-4f05-aff2-e418d638b132"
-					(reference "R516")
+					(reference "R513")
 					(unit 1)
 				)
 			)
@@ -11948,7 +11948,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "95108dad-4e89-4cc9-8098-edc9eb663d81")
-		(property "Reference" "R509"
+		(property "Reference" "R508"
 			(at 109.22 118.1099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12012,7 +12012,7 @@
 		(instances
 			(project "ProteusPowerManagment"
 				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/3d83fd0d-6178-4f05-aff2-e418d638b132"
-					(reference "R509")
+					(reference "R508")
 					(unit 1)
 				)
 			)
@@ -12280,7 +12280,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a7b41f8f-d77d-4e0a-a026-37557e611e24")
-		(property "Reference" "C512"
+		(property "Reference" "C507"
 			(at 138.43 149.8599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12630,7 +12630,7 @@
 		(instances
 			(project "ProteusPowerManagment"
 				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/3d83fd0d-6178-4f05-aff2-e418d638b132"
-					(reference "C512")
+					(reference "C507")
 					(unit 1)
 				)
 			)
@@ -12969,7 +12969,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5cbf40c-8107-4f03-bc61-812f319ca12f")
-		(property "Reference" "R507"
+		(property "Reference" "R506"
 			(at 109.22 102.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13033,7 +13033,7 @@
 		(instances
 			(project "ProteusPowerManagment"
 				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/3d83fd0d-6178-4f05-aff2-e418d638b132"
-					(reference "R507")
+					(reference "R506")
 					(unit 1)
 				)
 			)
@@ -13051,7 +13051,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6a1d307-83fa-46a8-b1fd-3b5c2a21c6ad")
-		(property "Reference" "C501"
+		(property "Reference" "C503"
 			(at 166.37 45.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13389,7 +13389,7 @@
 		(instances
 			(project "ProteusPowerManagment"
 				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/3d83fd0d-6178-4f05-aff2-e418d638b132"
-					(reference "C501")
+					(reference "C503")
 					(unit 1)
 				)
 			)
@@ -13407,7 +13407,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cad52751-6579-4e8f-b47b-c808c32bd9e3")
-		(property "Reference" "C508"
+		(property "Reference" "C504"
 			(at 227.33 87.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13745,7 +13745,7 @@
 		(instances
 			(project "ProteusPowerManagment"
 				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/3d83fd0d-6178-4f05-aff2-e418d638b132"
-					(reference "C508")
+					(reference "C504")
 					(unit 1)
 				)
 			)
@@ -13763,7 +13763,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d24ae6dd-ffa3-4771-b6ab-712fac312a26")
-		(property "Reference" "C504"
+		(property "Reference" "C501"
 			(at 278.13 20.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14088,7 +14088,7 @@
 		(instances
 			(project "ProteusPowerManagment"
 				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/3d83fd0d-6178-4f05-aff2-e418d638b132"
-					(reference "C504")
+					(reference "C501")
 					(unit 1)
 				)
 			)
@@ -14188,7 +14188,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ddb02f6b-bc45-4f7f-934c-03afb614cc88")
-		(property "Reference" "R518"
+		(property "Reference" "R515"
 			(at 50.8 182.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14252,7 +14252,7 @@
 		(instances
 			(project "ProteusPowerManagment"
 				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/3d83fd0d-6178-4f05-aff2-e418d638b132"
-					(reference "R518")
+					(reference "R515")
 					(unit 1)
 				)
 			)
@@ -14352,7 +14352,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e13cfcd1-e522-4b76-b313-f9a9a4701c0d")
-		(property "Reference" "R510"
+		(property "Reference" "R509"
 			(at 127 119.3799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14416,7 +14416,7 @@
 		(instances
 			(project "ProteusPowerManagment"
 				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/3d83fd0d-6178-4f05-aff2-e418d638b132"
-					(reference "R510")
+					(reference "R509")
 					(unit 1)
 				)
 			)
