@@ -4990,6 +4990,148 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:NetTie_2"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "NT"
+				(at 0 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "NetTie_2"
+				(at 0 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Net tie, 2 pins"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "net tie short"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Net*Tie*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "NetTie_2_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "NetTie_2_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -6084,12 +6226,6 @@
 		(uuid "120150dd-bbde-4868-b7ad-1595fd69ca42")
 	)
 	(junction
-		(at 125.73 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2c17c359-8381-455c-850d-00eebbfeecfb")
-	)
-	(junction
 		(at 165.1 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6196,12 +6332,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7be1f12e-ef15-4176-95ec-cc3e832ef0a1")
-	)
-	(junction
-		(at 120.65 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7d866c94-9339-4e99-a11d-14487132f2d6")
 	)
 	(junction
 		(at 173.99 68.58)
@@ -6413,7 +6543,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 100.33) (xy 120.65 110.49)
+			(xy 120.65 62.23) (xy 120.65 110.49)
 		)
 		(stroke
 			(width 0)
@@ -6440,16 +6570,6 @@
 			(type default)
 		)
 		(uuid "0cfc11fc-ff04-428d-9bd6-69c2bd07f9a4")
-	)
-	(wire
-		(pts
-			(xy 120.65 62.23) (xy 120.65 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d00c461-5933-4976-9f15-f876a9596aa6")
 	)
 	(wire
 		(pts
@@ -7250,16 +7370,6 @@
 			(type default)
 		)
 		(uuid "ba79ba6a-7b20-4fc8-8534-f7a7c5516469")
-	)
-	(wire
-		(pts
-			(xy 120.65 100.33) (xy 125.73 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0ffc25f-c341-49df-b3cb-65199116d12d")
 	)
 	(wire
 		(pts
@@ -9911,6 +10021,84 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 96.52 93.98 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2188dbd0-0b18-489c-8d06-a0467c6ef52a")
+		(property "Reference" "#PWR057"
+			(at 96.52 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 96.52 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 96.52 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3f938591-aae3-4f31-a1c0-e8d0609d983b")
+		)
+		(instances
+			(project "ProteusPowerManagment"
+				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/02b1550a-377b-4da6-a00f-9f724cf4d25c"
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 78.74 119.38 0)
 		(unit 1)
 		(body_style 1)
@@ -11274,6 +11462,85 @@
 			(project "ProteusPowerManagment"
 				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/02b1550a-377b-4da6-a00f-9f724cf4d25c"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 115.57 97.79 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "55b79b7e-5c2f-4893-886e-426393508d62")
+		(property "Reference" "#PWR016"
+			(at 121.92 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 119.38 97.7899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 115.57 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0323cf83-410c-44dd-831a-ee2a581c2585")
+		)
+		(instances
+			(project "ProteusPowerManagment"
+				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/02b1550a-377b-4da6-a00f-9f724cf4d25c"
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -12840,6 +13107,85 @@
 			(project "ProteusPowerManagment"
 				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/02b1550a-377b-4da6-a00f-9f724cf4d25c"
 					(reference "C214")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 96.52 99.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8cb8ad1b-d419-48a1-b8a1-3d6d48468c3a")
+		(property "Reference" "#PWR058"
+			(at 96.52 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PGND"
+			(at 99.06 100.3299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 96.52 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5776a489-674f-4342-b513-94b8178051e7")
+		)
+		(instances
+			(project "ProteusPowerManagment"
+				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/02b1550a-377b-4da6-a00f-9f724cf4d25c"
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -14513,6 +14859,88 @@
 			(project "ProteusPowerManagment"
 				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/02b1550a-377b-4da6-a00f-9f724cf4d25c"
 					(reference "C211")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 96.52 96.52 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b1eb2192-8505-4bd4-9270-a97129affb94")
+		(property "Reference" "NT3"
+			(at 97.79 95.2499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 97.79 97.7899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 96.52 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e6b8647d-6381-4a81-b025-747b9eef7793")
+		)
+		(pin "1"
+			(uuid "aa8f03fe-bbb6-4edf-a787-8987140f9305")
+		)
+		(instances
+			(project "ProteusPowerManagment"
+				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/02b1550a-377b-4da6-a00f-9f724cf4d25c"
+					(reference "NT3")
 					(unit 1)
 				)
 			)

@@ -1422,351 +1422,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Halfdan:DO214-AA-600W_BI_824521500"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "DO214-AA-600W_BI_824521500"
-				(at 12.7 22.86 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Diode_SMD_Wurth:D_Wurth_WE-TVSP-DO214-AA-600W_BI"
-				(at 12.7 20.32 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Datasheet" "https://www.we-online.com/catalog/datasheet/824521500.pdf?ki"
-				(at 12.7 17.78 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Description" "Power TVS Diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "Wurth Elektronik"
-				(at 12.7 15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Manufacturer URL" "https://www.we-online.com"
-				(at 12.7 12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Created Date" "20250721"
-				(at 12.7 10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Series" "WE-TVSP"
-				(at 12.7 7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Part Number" "824521500"
-				(at 12.7 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Size" "DO214-AA-600W_BI"
-				(at 12.7 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Mounting Technology" "SMT"
-				(at 12.7 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Technical Reference" "SMBJ5.0CA"
-				(at 12.7 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "VDC (V)" "5.0"
-				(at 12.7 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "VBR (V)" "6.7"
-				(at 12.7 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "IPeak (A)" "65.3"
-				(at 12.7 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "PDiss (W)" "600"
-				(at 12.7 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "VClamp max. (V)" "9.2"
-				(at 12.7 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Critical Parameter" "5.0 V"
-				(at 0 -6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "ki_keywords" "SMT"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "*WE-TVSP*DO214-AA-600W_BI*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "DO214-AA-600W_BI_824521500_0_1"
-				(polyline
-					(pts
-						(xy -2.54 1.27) (xy -2.54 -1.27) (xy 2.54 1.27) (xy 2.54 -1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "DO214-AA-600W_BI_824521500_1_1"
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 1.27 2.032)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy -1.27 -2.032)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Halfdan:DO214-AA-600W_UNI_824520151"
 			(pin_names
 				(hide yes)
@@ -2110,7 +1765,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Halfdan:DO214-AA-600W_UNI_824520281"
+		(symbol "Halfdan:DO214-AA-600W_UNI_824520241"
 			(pin_names
 				(hide yes)
 			)
@@ -2129,7 +1784,7 @@
 					)
 				)
 			)
-			(property "Value" "DO214-AA-600W_UNI_824520281"
+			(property "Value" "DO214-AA-600W_UNI_824520241"
 				(at 12.7 22.86 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2153,7 +1808,7 @@
 					(justify left)
 				)
 			)
-			(property "Datasheet" "https://www.we-online.com/catalog/datasheet/824520281.pdf?ki"
+			(property "Datasheet" "https://www.we-online.com/catalog/datasheet/824520241.pdf?ki"
 				(at 12.7 17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2224,7 +1879,7 @@
 					(justify left)
 				)
 			)
-			(property "Part Number" "824520281"
+			(property "Part Number" "824520241"
 				(at 12.7 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2260,7 +1915,7 @@
 					(justify left)
 				)
 			)
-			(property "Technical Reference" "SMBJ28A"
+			(property "Technical Reference" "SMBJ24A"
 				(at 12.7 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2272,7 +1927,7 @@
 					(justify left)
 				)
 			)
-			(property "VDC (V)" "28.0"
+			(property "VDC (V)" "24.0"
 				(at 12.7 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2284,7 +1939,7 @@
 					(justify left)
 				)
 			)
-			(property "VBR (V)" "32.75"
+			(property "VBR (V)" "28.1"
 				(at 12.7 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2296,7 +1951,7 @@
 					(justify left)
 				)
 			)
-			(property "IPeak (A)" "13.3"
+			(property "IPeak (A)" "15.5"
 				(at 12.7 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2320,7 +1975,7 @@
 					(justify left)
 				)
 			)
-			(property "VClamp max. (V)" "45.4"
+			(property "VClamp max. (V)" "38.9"
 				(at 12.7 -15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2332,7 +1987,7 @@
 					(justify left)
 				)
 			)
-			(property "Critical Parameter" "28.0 V"
+			(property "Critical Parameter" "24.0 V"
 				(at 0 -6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2365,7 +2020,7 @@
 					)
 				)
 			)
-			(symbol "DO214-AA-600W_UNI_824520281_1_1"
+			(symbol "DO214-AA-600W_UNI_824520241_1_1"
 				(polyline
 					(pts
 						(xy -1.27 1.27) (xy -1.27 -1.27) (xy 1.27 0) (xy -1.27 1.27)
@@ -2781,6 +2436,349 @@
 					(at 5.08 0 180)
 					(length 2.54)
 					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Halfdan:DO214-AC-400W_UNI_824500500"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "DO214-AC-400W_UNI_824500500"
+				(at 12.7 22.86 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Diode_SMD_Wurth:D_Wurth_WE-TVSP-DO214-AC-400W_UNI"
+				(at 12.7 20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "https://www.we-online.com/catalog/datasheet/824500500.pdf?ki"
+				(at 12.7 17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Description" "Power TVS Diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Wurth Elektronik"
+				(at 12.7 15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Manufacturer URL" "https://www.we-online.com"
+				(at 12.7 12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Created Date" "20250721"
+				(at 12.7 10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Series" "WE-TVSP"
+				(at 12.7 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Part Number" "824500500"
+				(at 12.7 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Size" "DO214-AC-400W_UNI"
+				(at 12.7 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Mounting Technology" "SMT"
+				(at 12.7 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Technical Reference" "SMAJ5.0A"
+				(at 12.7 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "VDC (V)" "5.0"
+				(at 12.7 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "VBR (V)" "6.7"
+				(at 12.7 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "IPeak (A)" "43.5"
+				(at 12.7 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "PDiss (W)" "400"
+				(at 12.7 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "VClamp max. (V)" "9.2"
+				(at 12.7 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Critical Parameter" "5.0 V"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "ki_keywords" "SMT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*WE-TVSP*DO214-AC-400W_UNI*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "DO214-AC-400W_UNI_824500500_1_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27) (xy 1.27 0) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 2.54 2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 0 -2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "Cathode"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "Anode"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4439,7 +4437,7 @@
 		)
 		(uuid "411a74d0-6a57-492f-baca-2cc5fb31b1eb")
 	)
-	(text "24V siking\n"
+	(text "24V sikring\n"
 		(exclude_from_sim no)
 		(at 143.764 18.034 0)
 		(effects
@@ -4476,12 +4474,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "07ae58c1-2b72-478f-a38e-2eb08df4921e")
-	)
-	(junction
-		(at 274.32 29.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "095f19d4-9e78-4228-8ba9-0606b2b00b6c")
 	)
 	(junction
 		(at 24.13 153.67)
@@ -4566,12 +4558,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "42529b64-0103-43a7-8255-8a2b0c791335")
-	)
-	(junction
-		(at 223.52 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4504eef0-1f79-40f9-8752-5b13bb9942b5")
 	)
 	(junction
 		(at 274.32 21.59)
@@ -4778,12 +4764,6 @@
 		(uuid "af8523a8-1f91-4102-86d2-2cdeb3d0710b")
 	)
 	(junction
-		(at 134.62 158.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b7781b6b-9e0c-4940-a6f5-651dde1984f5")
-	)
-	(junction
 		(at 106.68 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4884,12 +4864,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f537f0ef-0aa6-40b3-bee6-721bf5604687")
-	)
-	(junction
-		(at 267.97 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f642e7cd-9283-415e-b14e-95bc81d3afc1")
 	)
 	(junction
 		(at 203.2 99.06)
@@ -5551,6 +5525,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 114.3) (xy 151.13 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "540871ca-0b99-4cd4-b25f-bf8b2840ff3b")
+	)
+	(wire
+		(pts
 			(xy 116.84 156.21) (xy 125.73 156.21)
 		)
 		(stroke
@@ -6041,16 +6025,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 180.34) (xy 66.04 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b0bf973-3eb7-43a8-a040-ef63d38fcc41")
-	)
-	(wire
-		(pts
 			(xy 57.15 173.99) (xy 57.15 180.34)
 		)
 		(stroke
@@ -6138,6 +6112,16 @@
 			(type default)
 		)
 		(uuid "90ed1747-ed66-472a-92e1-7c10f99a29f1")
+	)
+	(wire
+		(pts
+			(xy 13.97 153.67) (xy 13.97 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93166b2b-b0e7-4fee-bca5-11672f27c9ba")
 	)
 	(wire
 		(pts
@@ -6331,16 +6315,6 @@
 	)
 	(wire
 		(pts
-			(xy 13.97 153.67) (xy 13.97 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "abf6ed2b-7302-4969-b182-88f1ca4c92eb")
-	)
-	(wire
-		(pts
 			(xy 256.54 44.45) (xy 256.54 46.99)
 		)
 		(stroke
@@ -6388,6 +6362,16 @@
 			(type default)
 		)
 		(uuid "b3218130-a865-4c86-a97f-9bdc92bde3d6")
+	)
+	(wire
+		(pts
+			(xy 13.97 180.34) (xy 13.97 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b387949c-6686-417e-ac44-662b5ea93cb7")
 	)
 	(wire
 		(pts
@@ -6491,16 +6475,6 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 36.83) (xy 274.32 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c16ed161-77e4-42b5-a690-031a809761e5")
-	)
-	(wire
-		(pts
 			(xy 115.57 104.14) (xy 115.57 116.84)
 		)
 		(stroke
@@ -6548,16 +6522,6 @@
 			(type default)
 		)
 		(uuid "c714901c-7208-4b6c-86a9-389120ea53de")
-	)
-	(wire
-		(pts
-			(xy 151.13 116.84) (xy 151.13 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9348dd0-b937-4103-8d5c-470d1b1bb428")
 	)
 	(wire
 		(pts
@@ -6791,6 +6755,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 46.99) (xy 198.12 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6cd0fac-e7e2-4df3-a5b5-f71922b1f762")
+	)
+	(wire
+		(pts
 			(xy 269.24 24.13) (xy 269.24 29.21)
 		)
 		(stroke
@@ -6798,16 +6772,6 @@
 			(type default)
 		)
 		(uuid "e78ba98a-4ee0-49cb-998c-99621fae78aa")
-	)
-	(wire
-		(pts
-			(xy 13.97 181.61) (xy 13.97 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9fc031b-b96d-4fca-a4f5-dd25421edc69")
 	)
 	(wire
 		(pts
@@ -6881,6 +6845,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 176.53) (xy 66.04 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7957339-e7b6-4751-8282-61693c75cb39")
+	)
+	(wire
+		(pts
 			(xy 238.76 152.4) (xy 273.05 152.4)
 		)
 		(stroke
@@ -6908,17 +6882,6 @@
 			(type default)
 		)
 		(uuid "f94f9081-9768-42db-b454-a6f4be3d2a2a")
-	)
-	(hierarchical_label "Batt-"
-		(shape input)
-		(at 86.36 29.21 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a0287ad4-ba7a-4d8d-9ff4-3ac638caf4b9")
 	)
 	(hierarchical_label "5V_ut"
 		(shape input)
@@ -7009,349 +6972,6 @@
 		(uuid "fe6c1514-a13a-41ff-b127-e75ef98125d6")
 	)
 	(symbol
-		(lib_id "Halfdan:0805_H1.25_R_885342007005")
-		(at 151.13 120.65 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "00aa06d5-acfb-404a-91cd-1ced61ba4a7e")
-		(property "Reference" "C507"
-			(at 154.94 115.5699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2n"
-			(at 154.94 118.1099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD_Wurth:C_Wurth_WCAP-CSMH-0805_H1.25_R"
-			(at 156.21 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/885342007005.pdf?ki"
-			(at 156.21 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "MLCCS Mid and High Voltage"
-			(at 151.13 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Wurth Elektronik"
-			(at 156.21 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer URL" "https://www.we-online.com"
-			(at 156.21 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Created Date" "20250416"
-			(at 156.21 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Series" "WCAP-CSMH"
-			(at 156.21 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Size" "0805_H1.25_R"
-			(at 156.21 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Mounting Technology" "SMT"
-			(at 156.21 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Part Number" "885342007005"
-			(at 154.94 120.6499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Capacitance" "2.2 nF"
-			(at 154.94 123.1899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Voltage" "250"
-			(at 154.94 125.7299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "C" "2.2 nF"
-			(at 156.21 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Tol. C" "±5%"
-			(at 156.21 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "VR (V (DC))" "250"
-			(at 156.21 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Operating Temperature" "-55 °C up to +125 °C"
-			(at 156.21 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Qmin." "1000"
-			(at 156.21 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "DF (%)" "–"
-			(at 156.21 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "RISO" "10 Gohm"
-			(at 156.21 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Ceramic Type" "NP0 Class I"
-			(at 156.21 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "L (mm)" "2.0"
-			(at 156.21 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "W (mm)" "1.25"
-			(at 156.21 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "H (mm)" "1.25"
-			(at 156.21 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Fl (mm)" "0.5"
-			(at 156.21 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Critical Parameter" ""
-			(at 151.13 128.27 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "836cbfc5-f995-4aab-ae72-bc01eefcaa29")
-		)
-		(pin "2"
-			(uuid "8df24159-bf21-4287-8ce7-0d389d632b93")
-		)
-		(instances
-			(project "ProteusPowerManagment"
-				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/3d83fd0d-6178-4f05-aff2-e418d638b132"
-					(reference "C507")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 39.37 184.15 0)
 		(unit 1)
@@ -7363,7 +6983,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02bf8f0d-320f-4a6f-9504-8146d8552f64")
-		(property "Reference" "R517"
+		(property "Reference" "R514"
 			(at 41.91 182.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7374,7 +6994,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "649"
+		(property "Value" "590"
 			(at 41.91 185.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7427,7 +7047,7 @@
 		(instances
 			(project "ProteusPowerManagment"
 				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/3d83fd0d-6178-4f05-aff2-e418d638b132"
-					(reference "R517")
+					(reference "R514")
 					(unit 1)
 				)
 			)
@@ -7445,7 +7065,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04a67f28-989c-4707-978f-a9f32b675548")
-		(property "Reference" "C505"
+		(property "Reference" "C506"
 			(at 119.38 115.5699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7783,7 +7403,7 @@
 		(instances
 			(project "ProteusPowerManagment"
 				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/3d83fd0d-6178-4f05-aff2-e418d638b132"
-					(reference "C505")
+					(reference "C506")
 					(unit 1)
 				)
 			)
@@ -7801,7 +7421,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0601ac05-5d0e-4be0-be37-43e08a64c400")
-		(property "Reference" "R514"
+		(property "Reference" "R511"
 			(at 24.13 166.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7812,7 +7432,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.4k"
+		(property "Value" "499k"
 			(at 24.13 168.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7865,7 +7485,7 @@
 		(instances
 			(project "ProteusPowerManagment"
 				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/3d83fd0d-6178-4f05-aff2-e418d638b132"
-					(reference "R514")
+					(reference "R511")
 					(unit 1)
 				)
 			)
@@ -7883,7 +7503,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b36f969-68e6-4f10-a5e9-326f7e93c50e")
-		(property "Reference" "R511"
+		(property "Reference" "R510"
 			(at 135.89 119.3799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7947,7 +7567,7 @@
 		(instances
 			(project "ProteusPowerManagment"
 				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/3d83fd0d-6178-4f05-aff2-e418d638b132"
-					(reference "R511")
+					(reference "R510")
 					(unit 1)
 				)
 			)
@@ -8177,7 +7797,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "176335c7-a88a-46ef-8ad6-3f236903ee3d")
 		(property "Reference" "D4"
 			(at 73.66 43.1799 90)
@@ -8286,8 +7905,7 @@
 			)
 		)
 		(property "Part Number" "824541581"
-			(at 64.77 31.75 0)
-			(hide yes)
+			(at 82.042 49.276 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8656,7 +8274,7 @@
 				)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "PGND"
 			(at 227.33 88.8999 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8735,7 +8353,7 @@
 				)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "PGND"
 			(at 275.59 52.0699 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9028,14 +8646,15 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 69.85 57.15 0)
+		(property "Value" "PGND"
+			(at 72.39 53.3399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -9106,15 +8725,14 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 209.55 30.4799 90)
+		(property "Value" "PGND"
+			(at 212.09 26.67 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -9174,7 +8792,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "35e6e08e-2ca0-4078-947c-85284a4cfdfc")
-		(property "Reference" "R515"
+		(property "Reference" "R512"
 			(at 24.13 173.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9185,7 +8803,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "43k"
+		(property "Value" "54.9k"
 			(at 24.13 176.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9238,7 +8856,7 @@
 		(instances
 			(project "ProteusPowerManagment"
 				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/3d83fd0d-6178-4f05-aff2-e418d638b132"
-					(reference "R515")
+					(reference "R512")
 					(unit 1)
 				)
 			)
@@ -9256,7 +8874,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a9b80b5-2e3e-4a4a-a74d-22ebf78461e4")
-		(property "Reference" "R508"
+		(property "Reference" "R507"
 			(at 109.22 110.4899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9267,7 +8885,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "43k"
+		(property "Value" "19.3k"
 			(at 109.22 113.0299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9320,7 +8938,7 @@
 		(instances
 			(project "ProteusPowerManagment"
 				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/3d83fd0d-6178-4f05-aff2-e418d638b132"
-					(reference "R508")
+					(reference "R507")
 					(unit 1)
 				)
 			)
@@ -9583,88 +9201,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 274.32 33.02 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3f894c85-f610-46e7-af7f-9b192a5f7626")
-		(property "Reference" "R506"
-			(at 276.86 31.7499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2"
-			(at 276.86 34.2899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 272.542 33.02 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 274.32 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 274.32 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "8532eb16-c0da-4e00-a41a-faa8bd829c5f")
-		)
-		(pin "1"
-			(uuid "2a66915a-a88e-4b90-9bc9-59b5bab8c764")
-		)
-		(instances
-			(project "ProteusPowerManagment"
-				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/3d83fd0d-6178-4f05-aff2-e418d638b132"
-					(reference "R506")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 274.32 21.59 90)
 		(unit 1)
@@ -9687,7 +9223,7 @@
 				)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "PGND"
 			(at 278.13 21.5899 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9766,7 +9302,7 @@
 				)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "PGND"
 			(at 233.68 119.3799 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9845,14 +9381,15 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 60.96 194.31 0)
+		(property "Value" "PGND"
+			(at 63.5 190.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -9923,15 +9460,14 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 69.85 160.0199 90)
+		(property "Value" "PGND"
+			(at 72.39 156.21 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -10002,7 +9538,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2n"
+		(property "Value" "2.2n"
 			(at 193.04 48.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10345,7 +9881,7 @@
 				)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "PGND"
 			(at 284.48 57.1499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10733,7 +10269,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5746e48d-0748-4262-9df1-4d043c3e4fd1")
-		(property "Reference" "C506"
+		(property "Reference" "C505"
 			(at 146.05 115.5699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11058,7 +10594,7 @@
 		(instances
 			(project "ProteusPowerManagment"
 				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/3d83fd0d-6178-4f05-aff2-e418d638b132"
-					(reference "C506")
+					(reference "C505")
 					(unit 1)
 				)
 			)
@@ -11087,14 +10623,15 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 44.45 45.72 0)
+		(property "Value" "PGND"
+			(at 46.99 41.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -11165,7 +10702,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "21.5k"
+		(property "Value" "499k"
 			(at 156.21 35.5599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11247,14 +10784,15 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 146.05 130.81 0)
+		(property "Value" "PGND"
+			(at 148.59 126.9999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -11303,88 +10841,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 223.52 100.33 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5c687973-033e-454c-bee3-a78491b2ea89")
-		(property "Reference" "R512"
-			(at 226.06 99.0599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2"
-			(at 226.06 101.5999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 221.742 100.33 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 223.52 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 223.52 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "0baab365-4e57-4dd1-89e9-ac9216f849ed")
-		)
-		(pin "1"
-			(uuid "1d2285c6-1fdc-4337-bc10-316a1335d68e")
-		)
-		(instances
-			(project "ProteusPowerManagment"
-				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/3d83fd0d-6178-4f05-aff2-e418d638b132"
-					(reference "R512")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 193.04 55.88 0)
 		(unit 1)
@@ -11407,14 +10863,15 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 193.04 60.96 0)
+		(property "Value" "PGND"
+			(at 195.58 57.1499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -11485,7 +10942,7 @@
 				)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "PGND"
 			(at 284.48 67.3099 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11543,83 +11000,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 86.36 29.21 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7641f903-4f3d-4aa5-a5ff-18dfc74b3021")
-		(property "Reference" "#PWR022"
-			(at 86.36 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 86.36 33.528 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 86.36 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 86.36 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 86.36 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3e9c63eb-a058-46d0-8bbf-f7d8d3db033c")
-		)
-		(instances
-			(project "ProteusPowerManagment"
-				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/3d83fd0d-6178-4f05-aff2-e418d638b132"
-					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 55.88 40.64 0)
 		(unit 1)
 		(body_style 1)
@@ -11641,14 +11021,15 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 55.88 45.72 0)
+		(property "Value" "PGND"
+			(at 58.42 41.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -11708,7 +11089,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "881cffe0-e05d-4b19-8cdc-ddf4785c067f")
-		(property "Reference" "C510"
+		(property "Reference" "C508"
 			(at 60.96 179.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12033,7 +11414,7 @@
 		(instances
 			(project "ProteusPowerManagment"
 				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/3d83fd0d-6178-4f05-aff2-e418d638b132"
-					(reference "C510")
+					(reference "C508")
 					(unit 1)
 				)
 			)
@@ -12051,7 +11432,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "89431ef9-b4ca-449f-a0cf-4bd466d07528")
-		(property "Reference" "R516"
+		(property "Reference" "R513"
 			(at 24.13 181.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12115,350 +11496,7 @@
 		(instances
 			(project "ProteusPowerManagment"
 				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/3d83fd0d-6178-4f05-aff2-e418d638b132"
-					(reference "R516")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Halfdan:0805_H1.25_R_885342007005")
-		(at 66.04 184.15 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8d2b9cc3-efe9-41ab-8ccf-b88ec87110fd")
-		(property "Reference" "C511"
-			(at 69.85 179.0699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2n"
-			(at 69.85 181.6099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD_Wurth:C_Wurth_WCAP-CSMH-0805_H1.25_R"
-			(at 71.12 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/885342007005.pdf?ki"
-			(at 71.12 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "MLCCS Mid and High Voltage"
-			(at 66.04 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Wurth Elektronik"
-			(at 71.12 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer URL" "https://www.we-online.com"
-			(at 71.12 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Created Date" "20250416"
-			(at 71.12 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Series" "WCAP-CSMH"
-			(at 71.12 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Size" "0805_H1.25_R"
-			(at 71.12 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Mounting Technology" "SMT"
-			(at 71.12 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Part Number" "885342007005"
-			(at 69.85 184.1499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Capacitance" "2.2 nF"
-			(at 69.85 186.6899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Voltage" "250"
-			(at 69.85 189.2299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "C" "2.2 nF"
-			(at 71.12 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Tol. C" "±5%"
-			(at 71.12 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "VR (V (DC))" "250"
-			(at 71.12 191.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Operating Temperature" "-55 °C up to +125 °C"
-			(at 71.12 194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Qmin." "1000"
-			(at 71.12 196.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "DF (%)" "–"
-			(at 71.12 199.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "RISO" "10 Gohm"
-			(at 71.12 201.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Ceramic Type" "NP0 Class I"
-			(at 71.12 204.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "L (mm)" "2.0"
-			(at 71.12 207.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "W (mm)" "1.25"
-			(at 71.12 209.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "H (mm)" "1.25"
-			(at 71.12 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Fl (mm)" "0.5"
-			(at 71.12 214.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Critical Parameter" ""
-			(at 66.04 191.77 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1da51547-370b-41f5-80f9-0d7731301853")
-		)
-		(pin "2"
-			(uuid "1ef0c4e9-a4c4-444b-959a-2ecd3649cc07")
-		)
-		(instances
-			(project "ProteusPowerManagment"
-				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/3d83fd0d-6178-4f05-aff2-e418d638b132"
-					(reference "C511")
+					(reference "R513")
 					(unit 1)
 				)
 			)
@@ -12487,15 +11525,14 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 156.21 97.7899 90)
+		(property "Value" "PGND"
+			(at 158.75 93.98 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -12911,7 +11948,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "95108dad-4e89-4cc9-8098-edc9eb663d81")
-		(property "Reference" "R509"
+		(property "Reference" "R508"
 			(at 109.22 118.1099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12922,7 +11959,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "143k"
+		(property "Value" "48.7k"
 			(at 109.22 120.6499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12975,7 +12012,7 @@
 		(instances
 			(project "ProteusPowerManagment"
 				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/3d83fd0d-6178-4f05-aff2-e418d638b132"
-					(reference "R509")
+					(reference "R508")
 					(unit 1)
 				)
 			)
@@ -12991,7 +12028,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "95485155-5a24-4342-be51-4c364dae3267")
 		(property "Reference" "CR104"
 			(at 93.98 107.3149 90)
@@ -13006,6 +12042,7 @@
 		)
 		(property "Value" "SMCJ54CA"
 			(at 93.98 109.8549 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13099,8 +12136,7 @@
 			)
 		)
 		(property "Part Number" "824520151"
-			(at 85.09 97.79 0)
-			(hide yes)
+			(at 100.584 114.554 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13244,7 +12280,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a7b41f8f-d77d-4e0a-a026-37557e611e24")
-		(property "Reference" "C512"
+		(property "Reference" "C507"
 			(at 138.43 149.8599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13594,7 +12630,7 @@
 		(instances
 			(project "ProteusPowerManagment"
 				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/3d83fd0d-6178-4f05-aff2-e418d638b132"
-					(reference "C512")
+					(reference "C507")
 					(unit 1)
 				)
 			)
@@ -13933,7 +12969,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5cbf40c-8107-4f03-bc61-812f319ca12f")
-		(property "Reference" "R507"
+		(property "Reference" "R506"
 			(at 109.22 102.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13944,7 +12980,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10.5k"
+		(property "Value" "499k"
 			(at 109.22 105.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13997,350 +13033,7 @@
 		(instances
 			(project "ProteusPowerManagment"
 				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/3d83fd0d-6178-4f05-aff2-e418d638b132"
-					(reference "R507")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Halfdan:0805_H1.25_R_885342007005")
-		(at 198.12 50.8 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bbb8be0c-98d5-4639-8159-14498ec456db")
-		(property "Reference" "C503"
-			(at 201.93 45.7199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2n"
-			(at 201.93 48.2599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD_Wurth:C_Wurth_WCAP-CSMH-0805_H1.25_R"
-			(at 203.2 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/885342007005.pdf?ki"
-			(at 203.2 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "MLCCS Mid and High Voltage"
-			(at 198.12 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Wurth Elektronik"
-			(at 203.2 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer URL" "https://www.we-online.com"
-			(at 203.2 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Created Date" "20250416"
-			(at 203.2 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Series" "WCAP-CSMH"
-			(at 203.2 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Size" "0805_H1.25_R"
-			(at 203.2 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Mounting Technology" "SMT"
-			(at 203.2 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Part Number" "885342007005"
-			(at 201.93 50.7999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Capacitance" "2.2 nF"
-			(at 201.93 53.3399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Voltage" "250"
-			(at 201.93 55.8799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "C" "2.2 nF"
-			(at 203.2 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Tol. C" "±5%"
-			(at 203.2 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "VR (V (DC))" "250"
-			(at 203.2 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Operating Temperature" "-55 °C up to +125 °C"
-			(at 203.2 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Qmin." "1000"
-			(at 203.2 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "DF (%)" "–"
-			(at 203.2 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "RISO" "10 Gohm"
-			(at 203.2 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Ceramic Type" "NP0 Class I"
-			(at 203.2 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "L (mm)" "2.0"
-			(at 203.2 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "W (mm)" "1.25"
-			(at 203.2 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "H (mm)" "1.25"
-			(at 203.2 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Fl (mm)" "0.5"
-			(at 203.2 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Critical Parameter" ""
-			(at 198.12 58.42 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cd96057a-56f2-499a-9188-78f33fd3871e")
-		)
-		(pin "2"
-			(uuid "a7dd5c28-d04e-4b76-a770-7a1df57af107")
-		)
-		(instances
-			(project "ProteusPowerManagment"
-				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/3d83fd0d-6178-4f05-aff2-e418d638b132"
-					(reference "C503")
+					(reference "R506")
 					(unit 1)
 				)
 			)
@@ -14358,7 +13051,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6a1d307-83fa-46a8-b1fd-3b5c2a21c6ad")
-		(property "Reference" "C501"
+		(property "Reference" "C503"
 			(at 166.37 45.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14696,89 +13389,7 @@
 		(instances
 			(project "ProteusPowerManagment"
 				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/3d83fd0d-6178-4f05-aff2-e418d638b132"
-					(reference "C501")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 134.62 162.56 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c8249027-6b55-4038-b6e6-ffa23589594b")
-		(property "Reference" "R519"
-			(at 137.16 161.2899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2"
-			(at 137.16 163.8299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 132.842 162.56 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 134.62 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 134.62 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "6b382bd8-31d4-4e74-b1a5-123e1190d5a8")
-		)
-		(pin "1"
-			(uuid "def8144f-26e7-4d91-8497-6ff838fc7463")
-		)
-		(instances
-			(project "ProteusPowerManagment"
-				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/3d83fd0d-6178-4f05-aff2-e418d638b132"
-					(reference "R519")
+					(reference "C503")
 					(unit 1)
 				)
 			)
@@ -14796,7 +13407,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cad52751-6579-4e8f-b47b-c808c32bd9e3")
-		(property "Reference" "C508"
+		(property "Reference" "C504"
 			(at 227.33 87.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15134,7 +13745,7 @@
 		(instances
 			(project "ProteusPowerManagment"
 				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/3d83fd0d-6178-4f05-aff2-e418d638b132"
-					(reference "C508")
+					(reference "C504")
 					(unit 1)
 				)
 			)
@@ -15152,7 +13763,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d24ae6dd-ffa3-4771-b6ab-712fac312a26")
-		(property "Reference" "C504"
+		(property "Reference" "C501"
 			(at 278.13 20.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15477,7 +14088,7 @@
 		(instances
 			(project "ProteusPowerManagment"
 				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/3d83fd0d-6178-4f05-aff2-e418d638b132"
-					(reference "C504")
+					(reference "C501")
 					(unit 1)
 				)
 			)
@@ -15506,7 +14117,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "143k"
+		(property "Value" "24.9k"
 			(at 156.21 50.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15577,7 +14188,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ddb02f6b-bc45-4f7f-934c-03afb614cc88")
-		(property "Reference" "R518"
+		(property "Reference" "R515"
 			(at 50.8 182.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15641,7 +14252,7 @@
 		(instances
 			(project "ProteusPowerManagment"
 				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/3d83fd0d-6178-4f05-aff2-e418d638b132"
-					(reference "R518")
+					(reference "R515")
 					(unit 1)
 				)
 			)
@@ -15741,7 +14352,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e13cfcd1-e522-4b76-b313-f9a9a4701c0d")
-		(property "Reference" "R510"
+		(property "Reference" "R509"
 			(at 127 119.3799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15805,7 +14416,7 @@
 		(instances
 			(project "ProteusPowerManagment"
 				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/3d83fd0d-6178-4f05-aff2-e418d638b132"
-					(reference "R510")
+					(reference "R509")
 					(unit 1)
 				)
 			)
@@ -15834,7 +14445,7 @@
 				)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "PGND"
 			(at 138.43 151.1299 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15914,7 +14525,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "PGND"
 			(at 144.78 181.6099 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16057,7 +14668,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Halfdan:DO214-AA-600W_UNI_824520281")
+		(lib_id "Halfdan:DO214-AA-600W_UNI_824520241")
 		(at 135.89 39.37 90)
 		(unit 1)
 		(body_style 1)
@@ -16066,7 +14677,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "eeb6ca62-d581-4d59-85ab-0cad11310028")
 		(property "Reference" "CR103"
 			(at 139.7 36.1949 90)
@@ -16081,6 +14691,7 @@
 		)
 		(property "Value" "SMCJ54CA"
 			(at 139.7 38.7349 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16102,7 +14713,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/824520281.pdf?ki"
+		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/824520241.pdf?ki"
 			(at 118.11 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -16173,9 +14784,8 @@
 				(justify left)
 			)
 		)
-		(property "Part Number" "824520281"
-			(at 130.81 26.67 0)
-			(hide yes)
+		(property "Part Number" "824520241"
+			(at 148.336 42.672 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16209,7 +14819,7 @@
 				(justify left)
 			)
 		)
-		(property "Technical Reference" "SMBJ28A"
+		(property "Technical Reference" "SMBJ24A"
 			(at 138.43 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -16221,7 +14831,7 @@
 				(justify left)
 			)
 		)
-		(property "VDC (V)" "28.0"
+		(property "VDC (V)" "24.0"
 			(at 140.97 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -16233,7 +14843,7 @@
 				(justify left)
 			)
 		)
-		(property "VBR (V)" "32.75"
+		(property "VBR (V)" "28.1"
 			(at 143.51 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -16245,7 +14855,7 @@
 				(justify left)
 			)
 		)
-		(property "IPeak (A)" "13.3"
+		(property "IPeak (A)" "15.5"
 			(at 146.05 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -16269,7 +14879,7 @@
 				(justify left)
 			)
 		)
-		(property "VClamp max. (V)" "45.4"
+		(property "VClamp max. (V)" "38.9"
 			(at 151.13 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -16281,15 +14891,15 @@
 				(justify left)
 			)
 		)
-		(property "Critical Parameter" "28.0 V"
-			(at 139.7 41.2749 90)
+		(property "Critical Parameter" "24.0 V"
+			(at 145.034 39.37 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "2"
@@ -16308,7 +14918,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Halfdan:DO214-AA-600W_BI_824521500")
+		(lib_id "Halfdan:DO214-AC-400W_UNI_824500500")
 		(at 13.97 176.53 90)
 		(unit 1)
 		(body_style 1)
@@ -16331,6 +14941,7 @@
 		)
 		(property "Value" "SMCJ54CA"
 			(at 16.002 172.212 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16340,7 +14951,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD_Wurth:D_Wurth_WE-TVSP-DO214-AA-600W_BI"
+		(property "Footprint" "Diode_SMD_Wurth:D_Wurth_WE-TVSP-DO214-AC-400W_UNI"
 			(at -6.35 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -16352,7 +14963,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/824521500.pdf?ki"
+		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/824500500.pdf?ki"
 			(at -3.81 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -16423,9 +15034,8 @@
 				(justify left)
 			)
 		)
-		(property "Part Number" "824521500"
-			(at 8.89 163.83 0)
-			(hide yes)
+		(property "Part Number" "824500500"
+			(at 11.938 172.974 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16435,7 +15045,7 @@
 				(justify left)
 			)
 		)
-		(property "Size" "DO214-AA-600W_BI"
+		(property "Size" "DO214-AC-400W_UNI"
 			(at 11.43 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -16459,7 +15069,7 @@
 				(justify left)
 			)
 		)
-		(property "Technical Reference" "SMBJ5.0CA"
+		(property "Technical Reference" "SMAJ5.0A"
 			(at 16.51 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -16495,7 +15105,7 @@
 				(justify left)
 			)
 		)
-		(property "IPeak (A)" "65.3"
+		(property "IPeak (A)" "43.5"
 			(at 24.13 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -16507,7 +15117,7 @@
 				(justify left)
 			)
 		)
-		(property "PDiss (W)" "600"
+		(property "PDiss (W)" "400"
 			(at 26.67 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -16532,7 +15142,7 @@
 			)
 		)
 		(property "Critical Parameter" "5.0 V"
-			(at 20.32 176.53 0)
+			(at 8.89 175.514 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16580,7 +15190,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "43k"
+		(property "Value" "7.32k"
 			(at 156.21 43.1799 0)
 			(show_name no)
 			(do_not_autoplace no)

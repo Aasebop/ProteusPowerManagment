@@ -3152,6 +3152,148 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:NetTie_2"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "NT"
+				(at 0 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "NetTie_2"
+				(at 0 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Net tie, 2 pins"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "net tie short"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Net*Tie*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "NetTie_2_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "NetTie_2_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -4571,12 +4713,6 @@
 		(uuid "4b9a3a6b-0294-49bb-9151-8188f5473a0a")
 	)
 	(junction
-		(at 128.27 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5708af54-d1be-4281-8ff1-a564d3e92dc6")
-	)
-	(junction
 		(at 147.32 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4635,12 +4771,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8cc6eee6-23ea-484e-a713-f9eb11f4641b")
-	)
-	(junction
-		(at 123.19 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8d458f33-2522-4707-8904-89580a26e339")
 	)
 	(junction
 		(at 266.7 119.38)
@@ -4768,9 +4898,14 @@
 		(color 0 0 0 0)
 		(uuid "fcfa039f-a9af-4bf3-9d20-6b2d9230dda6")
 	)
-	(no_connect
-		(at 116.84 118.11)
-		(uuid "d241ed67-5054-46e8-b55f-bd6e2c7cfe0d")
+	(bus_entry
+		(at -66.04 54.61)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b544f677-3a4c-4fb1-9768-de6c08f8b471")
 	)
 	(wire
 		(pts
@@ -4951,6 +5086,16 @@
 			(type default)
 		)
 		(uuid "22eb4b1d-2c11-47e4-9f4b-65768376cf97")
+	)
+	(wire
+		(pts
+			(xy 270.51 106.68) (xy 266.7 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27d82553-73ba-414f-9a50-247128c6f90f")
 	)
 	(wire
 		(pts
@@ -5444,16 +5589,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 82.55) (xy 123.19 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9020ff3a-db2c-4c89-b41e-163e15761375")
-	)
-	(wire
-		(pts
 			(xy 266.7 119.38) (xy 266.7 123.19)
 		)
 		(stroke
@@ -5744,16 +5879,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 120.65) (xy 128.27 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2fbbfa2-2a0b-40dc-8abe-d76f01dc98de")
-	)
-	(wire
-		(pts
 			(xy 214.63 80.01) (xy 266.7 80.01)
 		)
 		(stroke
@@ -5894,7 +6019,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 120.65) (xy 123.19 130.81)
+			(xy 123.19 82.55) (xy 123.19 130.81)
 		)
 		(stroke
 			(width 0)
@@ -6003,7 +6128,7 @@
 		(uuid "fed1314c-5901-47f4-b0e3-fc4b5cd7ca6f")
 	)
 	(label "V_Out"
-		(at 266.7 106.68 0)
+		(at 270.51 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6032,7 +6157,7 @@
 		)
 		(uuid "5bb5cb3e-0c4a-480d-8997-ee133032d4f5")
 	)
-	(label "Comp"
+	(label "COMP"
 		(at 52.07 114.3 0)
 		(effects
 			(font
@@ -6127,6 +6252,85 @@
 			(justify left)
 		)
 		(uuid "f56aa684-c87b-4955-920f-c6373f164e3b")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 116.84 118.11 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0171fe46-6312-4263-b485-3cde75e9de6f")
+		(property "Reference" "#PWR011"
+			(at 123.19 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AGND_12"
+			(at 120.65 118.1099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 116.84 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9b00cc57-6f35-4402-ba95-424c070f6d05")
+		)
+		(instances
+			(project "ProteusPowerManagment"
+				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/c1246cae-1020-4e2b-a9f1-a2035453bc0c"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -7628,6 +7832,84 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 99.06 113.03 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "28040092-6281-4716-af44-2e93de981eb4")
+		(property "Reference" "#PWR055"
+			(at 99.06 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AGND_12"
+			(at 99.06 107.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 99.06 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ae7bfe82-ffcb-4d98-bb14-e689875b2179")
+		)
+		(instances
+			(project "ProteusPowerManagment"
+				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/c1246cae-1020-4e2b-a9f1-a2035453bc0c"
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 30.48 134.62 0)
 		(mirror y)
 		(unit 1)
@@ -7650,14 +7932,15 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 30.48 139.7 0)
+		(property "Value" "AGND_12"
+			(at 33.02 135.8899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -7854,6 +8137,117 @@
 			(project "ProteusPowerManagment"
 				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/c1246cae-1020-4e2b-a9f1-a2035453bc0c"
 					(reference "C318")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 82.55 57.15 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "36fbc8b6-f33f-4ecd-b0f7-dc9d78ad393d")
+		(property "Reference" "R213"
+			(at 82.55 50.8 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "301k"
+			(at 82.55 53.34 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 82.55 55.372 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 82.55 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DatasheetValue" "R_UV1"
+			(at 82.804 59.436 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" "ERJ-6ENF3013V "
+			(at 82.55 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "Panasonic "
+			(at 82.55 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d2d50c97-4c5e-4f2a-9332-a7f4bf013abc")
+		)
+		(pin "1"
+			(uuid "fd3a3757-2139-420b-a453-713a75a7ba69")
+		)
+		(instances
+			(project "ProteusPowerManagment"
+				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/c1246cae-1020-4e2b-a9f1-a2035453bc0c"
+					(reference "R213")
 					(unit 1)
 				)
 			)
@@ -8238,7 +8632,7 @@
 				)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "AGND_12"
 			(at 65.786 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8405,14 +8799,15 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 120.65 129.54 0)
+		(property "Value" "AGND_12"
+			(at 123.19 125.7299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -9206,14 +9601,15 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 59.69 66.04 0)
+		(property "Value" "AGND_12"
+			(at 62.23 62.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -9756,6 +10152,88 @@
 			(project "ProteusPowerManagment"
 				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/c1246cae-1020-4e2b-a9f1-a2035453bc0c"
 					(reference "L301")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 99.06 115.57 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9ba63490-8f7a-4423-9729-f4a88ac4b78d")
+		(property "Reference" "NT2"
+			(at 100.33 114.2999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 100.33 116.8399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 99.06 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ceedbb61-9652-48f8-8ff9-ef3985ea88ae")
+		)
+		(pin "1"
+			(uuid "5dcfcd0c-1130-495d-8046-5df1e5e222b9")
+		)
+		(instances
+			(project "ProteusPowerManagment"
+				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/c1246cae-1020-4e2b-a9f1-a2035453bc0c"
+					(reference "NT2")
 					(unit 1)
 				)
 			)
@@ -10866,14 +11344,15 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 76.2 142.24 0)
+		(property "Value" "AGND_12"
+			(at 78.74 138.4299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -11975,7 +12454,7 @@
 				)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "AGND_12"
 			(at 199.39 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12669,106 +13148,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 63.5 57.15 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c859789b-d4e5-4c94-91b9-2fe11a6fac97")
-		(property "Reference" "R301"
-			(at 63.5 50.8 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "9.31k"
-			(at 63.5 53.34 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 63.5 58.928 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 63.5 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field5" "R_UV2"
-			(at 63.5 55.372 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field6" "RC0603FR-079K31L "
-			(at 63.5 57.15 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "12b26c34-a7ea-41ea-ac28-0955737b940c")
-		)
-		(pin "1"
-			(uuid "d089f521-d006-4f88-85a0-ec8dc1cd84b1")
-		)
-		(instances
-			(project "ProteusPowerManagment"
-				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/c1246cae-1020-4e2b-a9f1-a2035453bc0c"
-					(reference "R301")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Aase:1210_H2.5_885012209071")
 		(at 220.98 93.98 0)
 		(unit 1)
@@ -13279,6 +13658,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 99.06 118.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d73ad100-af16-40af-9367-a199ab93db6e")
+		(property "Reference" "#PWR056"
+			(at 99.06 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PGND"
+			(at 101.6 119.3799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 99.06 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "38e8db52-d302-4725-b99d-5449be8b91c2")
+		)
+		(instances
+			(project "ProteusPowerManagment"
+				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/c1246cae-1020-4e2b-a9f1-a2035453bc0c"
+					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 44.45 114.3 90)
 		(mirror x)
@@ -13375,106 +13833,6 @@
 			(project "ProteusPowerManagment"
 				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/c1246cae-1020-4e2b-a9f1-a2035453bc0c"
 					(reference "C306")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 82.55 57.15 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e69efcfa-bbca-450c-b85a-887c2b9ec566")
-		(property "Reference" "R302"
-			(at 82.55 50.8 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100k"
-			(at 82.55 53.34 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 82.55 58.928 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 82.55 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 82.55 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field5" "R_UV1"
-			(at 82.55 55.372 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field6" "RM06F1003CT"
-			(at 82.55 57.15 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "be0b3900-3e98-46c8-a320-0f1c0b88b1a7")
-		)
-		(pin "1"
-			(uuid "a4942c39-29ab-4074-be02-4ea7c9d11de0")
-		)
-		(instances
-			(project "ProteusPowerManagment"
-				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/c1246cae-1020-4e2b-a9f1-a2035453bc0c"
-					(reference "R302")
 					(unit 1)
 				)
 			)
@@ -13580,6 +13938,117 @@
 			(project "ProteusPowerManagment"
 				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/c1246cae-1020-4e2b-a9f1-a2035453bc0c"
 					(reference "C308")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 63.5 57.15 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ff88e7fa-ef7f-4138-90b8-ca71d7c5f55a")
+		(property "Reference" "R212"
+			(at 63.5 50.8 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "11.3k"
+			(at 63.5 53.34 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 63.5 55.372 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 63.5 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DatasheetValue" "R_UV2"
+			(at 63.754 59.436 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" "ERJ-3EKF1132V "
+			(at 63.5 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "Panasonic "
+			(at 63.5 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b90b9324-85d1-4621-a3f6-a8393f01a04a")
+		)
+		(pin "1"
+			(uuid "4955f96c-c3da-4174-8af1-00a1207fc801")
+		)
+		(instances
+			(project "ProteusPowerManagment"
+				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/c1246cae-1020-4e2b-a9f1-a2035453bc0c"
+					(reference "R212")
 					(unit 1)
 				)
 			)

@@ -967,12 +967,6 @@
 		)
 		(uuid "efc8574b-8d9c-48e1-ae68-dc453b514851")
 	)
-	(junction
-		(at 114.3 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c665c996-2529-4230-95d1-6a4344fbdfb4")
-	)
 	(wire
 		(pts
 			(xy 114.3 116.84) (xy 137.16 116.84)
@@ -1005,16 +999,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 106.68) (xy 62.23 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19f65625-a7d6-4d4f-8875-ac09d09e8eb7")
-	)
-	(wire
-		(pts
 			(xy 114.3 95.25) (xy 137.16 95.25)
 		)
 		(stroke
@@ -1035,16 +1019,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 106.68) (xy 62.23 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3836f313-9f3e-4831-a484-33b3df4c4995")
-	)
-	(wire
-		(pts
 			(xy 27.94 152.4) (xy 38.1 152.4)
 		)
 		(stroke
@@ -1052,6 +1026,16 @@
 			(type default)
 		)
 		(uuid "45c58b2b-0369-41a2-b63e-fc571f616a57")
+	)
+	(wire
+		(pts
+			(xy 62.23 104.14) (xy 71.12 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "531f5c3b-c438-44c8-a639-ebf116548d31")
 	)
 	(wire
 		(pts
@@ -1105,7 +1089,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 80.01) (xy 114.3 95.25)
+			(xy 114.3 55.88) (xy 114.3 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1125,16 +1109,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 55.88) (xy 114.3 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1aa29c4-da5e-4e7e-8dfd-778faf6cf518")
-	)
-	(wire
-		(pts
 			(xy 177.8 106.68) (xy 175.26 106.68)
 		)
 		(stroke
@@ -1142,16 +1116,6 @@
 			(type default)
 		)
 		(uuid "e7e977d1-2dfc-4a76-9f43-68aa0c885181")
-	)
-	(wire
-		(pts
-			(xy 62.23 80.01) (xy 114.3 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea072d8c-a59f-4c75-a966-78e53e9ab1ab")
 	)
 	(wire
 		(pts
@@ -1283,6 +1247,30 @@
 			)
 		)
 	)
+	(global_label "50V"
+		(shape input)
+		(at 166.37 121.92 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3fd19901-fe66-4169-a2b3-12945118a20e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 166.37 127.7586 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "5V"
 		(shape output)
 		(at 177.8 116.84 0)
@@ -1392,6 +1380,30 @@
 		(uuid "63c2059b-9c1f-4159-8a73-5b57d4762097")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 245.5609 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "24V"
+		(shape input)
+		(at 62.23 104.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7f612e25-c0f9-4bd4-a744-cbce20becbc1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 56.3914 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4884,18 +4896,8 @@
 			)
 		)
 		(pin "Batt+" input
-			(at 154.94 121.92 270)
+			(at 166.37 121.92 270)
 			(uuid "a1a64e58-6c09-4c01-a2c3-f4ed55b0be85")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Batt-" input
-			(at 157.48 121.92 270)
-			(uuid "5cba4b16-d17a-401b-b179-655779e2efba")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5085,16 +5087,6 @@
 				(justify right)
 			)
 		)
-		(pin "5V_Vin" input
-			(at 71.12 106.68 180)
-			(uuid "6127525a-2a61-4e17-895a-0438417474f9")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "5V_Vout" output
 			(at 110.49 106.68 0)
 			(uuid "cbab018a-7a98-4abe-b1a5-6594af44fee6")
@@ -5103,6 +5095,26 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "5VPgood3v3Logic" input
+			(at 71.12 113.03 180)
+			(uuid "0a17746b-0617-4128-a01a-ab7cb91f99ab")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "24V_VINN" input
+			(at 71.12 104.14 180)
+			(uuid "d8526796-e114-454f-9b10-16ee4882eb65")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
