@@ -8573,7 +8573,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "23289cb0-26b8-409e-87ec-e3d0d5efaff1")
-		(property "Reference" "R30?"
+		(property "Reference" "R308"
 			(at 220.98 67.31 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8667,7 +8667,7 @@
 		(instances
 			(project "ProteusPowerManagment"
 				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/c1246cae-1020-4e2b-a9f1-a2035453bc0c"
-					(reference "R30?")
+					(reference "R308")
 					(unit 1)
 				)
 			)
@@ -11677,7 +11677,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "92e0a4b4-4b82-4a5a-8a2f-ae31b7da53c5")
-		(property "Reference" "R30?"
+		(property "Reference" "R311"
 			(at 140.335 109.855 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11771,7 +11771,7 @@
 		(instances
 			(project "ProteusPowerManagment"
 				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/c1246cae-1020-4e2b-a9f1-a2035453bc0c"
-					(reference "R30?")
+					(reference "R311")
 					(unit 1)
 				)
 			)
