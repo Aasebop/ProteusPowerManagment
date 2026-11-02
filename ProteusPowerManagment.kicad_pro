@@ -774,6 +774,198 @@
           "label": "Availability",
           "name": "Availability",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Diameter (mm)",
+          "name": "Diameter (mm)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mounting Technology",
+          "name": "Mounting Technology",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Endurance (h)",
+          "name": "Endurance (h)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Ceramic Type",
+          "name": "Ceramic Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Operating Temperature",
+          "name": "Operating Temperature",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Capacitance",
+          "name": "Capacitance",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field7",
+          "name": "Field7",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Part Number",
+          "name": "Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Fl (mm)",
+          "name": "Fl (mm)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Q (%)",
+          "name": "Q (%)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "RISO",
+          "name": "RISO",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "H (mm)",
+          "name": "H (mm)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Series",
+          "name": "Series",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Created Date",
+          "name": "Created Date",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Library",
+          "name": "Sim.Library",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Name",
+          "name": "Sim.Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ILeak (uA)",
+          "name": "ILeak (uA)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "IRIPPLE (mA)",
+          "name": "IRIPPLE (mA)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Size",
+          "name": "Size",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "L (mm)",
+          "name": "L (mm)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Tol. C",
+          "name": "Tol. C",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Critical Parameter",
+          "name": "Critical Parameter",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VR (V (DC))",
+          "name": "VR (V (DC))",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Voltage",
+          "name": "Voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "W (mm)",
+          "name": "W (mm)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Z (mohm)",
+          "name": "Z (mohm)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DF (%)",
+          "name": "DF (%)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DatasheetValue",
+          "name": "DatasheetValue",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "C",
+          "name": "C",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer URL",
+          "name": "Manufacturer URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Demoboard",
+          "name": "Demoboard",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -832,7 +1024,7 @@
         "uuid": "c24111dd-5300-4143-a3c3-2d963194a3cb"
       }
     ],
-    "used_designators": "#PWR5-41,R_BST1-2,R1-16,R311-320,R507-508,C_ss1-2,C1-9,C101-102,C319-336,C505-506,C_BST1-2,CR101-105,C_Vin1-2,C_In1-9,C_C4-9,R_C3-6,R_FB3-4,R_RT1-2,U3-4,R_UV3-6,R_Vin1-2,Q1-4,L1-2,L302,C_VCC1,C_Out1-9,C_ILIM1,R_ILIM1,IC1-3,D1-3",
+    "used_designators": "#PWR5-42,R_BST1-2,R1-16,R311-320,R507-508,C_ss1-2,C1-9,C101-102,C319-336,C505-506,C_BST1-2,CR101-105,C_Vin1-2,C_In1-9,C_C4-9,R_C3-6,R_FB3-4,R_RT1-2,U3-4,R_UV3-6,R_Vin1-2,Q1-4,L1-2,L302,C_VCC1,C_Out1-9,C_ILIM1,R_ILIM1,IC1-3,D1-4",
     "variants": []
   },
   "sheets": [
