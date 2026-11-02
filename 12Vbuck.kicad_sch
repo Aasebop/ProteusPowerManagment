@@ -6002,6 +6002,16 @@
 		)
 		(uuid "fed1314c-5901-47f4-b0e3-fc4b5cd7ca6f")
 	)
+	(label "V_Out"
+		(at 266.7 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "38e5dd76-25a7-4f8a-b1b4-93882c7f5d45")
+	)
 	(label "COMP"
 		(at 116.84 110.49 0)
 		(effects
