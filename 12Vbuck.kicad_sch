@@ -4571,12 +4571,6 @@
 		(uuid "4b9a3a6b-0294-49bb-9151-8188f5473a0a")
 	)
 	(junction
-		(at 128.27 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5708af54-d1be-4281-8ff1-a564d3e92dc6")
-	)
-	(junction
 		(at 147.32 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4635,12 +4629,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8cc6eee6-23ea-484e-a713-f9eb11f4641b")
-	)
-	(junction
-		(at 123.19 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8d458f33-2522-4707-8904-89580a26e339")
 	)
 	(junction
 		(at 266.7 119.38)
@@ -4767,10 +4755,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fcfa039f-a9af-4bf3-9d20-6b2d9230dda6")
-	)
-	(no_connect
-		(at 116.84 118.11)
-		(uuid "d241ed67-5054-46e8-b55f-bd6e2c7cfe0d")
 	)
 	(wire
 		(pts
@@ -4951,6 +4935,16 @@
 			(type default)
 		)
 		(uuid "22eb4b1d-2c11-47e4-9f4b-65768376cf97")
+	)
+	(wire
+		(pts
+			(xy 270.51 106.68) (xy 266.7 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27d82553-73ba-414f-9a50-247128c6f90f")
 	)
 	(wire
 		(pts
@@ -5444,16 +5438,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 82.55) (xy 123.19 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9020ff3a-db2c-4c89-b41e-163e15761375")
-	)
-	(wire
-		(pts
 			(xy 266.7 119.38) (xy 266.7 123.19)
 		)
 		(stroke
@@ -5744,16 +5728,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 120.65) (xy 128.27 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2fbbfa2-2a0b-40dc-8abe-d76f01dc98de")
-	)
-	(wire
-		(pts
 			(xy 214.63 80.01) (xy 266.7 80.01)
 		)
 		(stroke
@@ -5894,7 +5868,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 120.65) (xy 123.19 130.81)
+			(xy 123.19 82.55) (xy 123.19 130.81)
 		)
 		(stroke
 			(width 0)
@@ -6003,7 +5977,7 @@
 		(uuid "fed1314c-5901-47f4-b0e3-fc4b5cd7ca6f")
 	)
 	(label "V_Out"
-		(at 266.7 106.68 0)
+		(at 270.51 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6032,7 +6006,7 @@
 		)
 		(uuid "5bb5cb3e-0c4a-480d-8997-ee133032d4f5")
 	)
-	(label "Comp"
+	(label "COMP"
 		(at 52.07 114.3 0)
 		(effects
 			(font
@@ -6127,6 +6101,85 @@
 			(justify left)
 		)
 		(uuid "f56aa684-c87b-4955-920f-c6373f164e3b")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 116.84 118.11 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0171fe46-6312-4263-b485-3cde75e9de6f")
+		(property "Reference" "#PWR011"
+			(at 123.19 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 120.65 118.1099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 116.84 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9b00cc57-6f35-4402-ba95-424c070f6d05")
+		)
+		(instances
+			(project "ProteusPowerManagment"
+				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/c1246cae-1020-4e2b-a9f1-a2035453bc0c"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -9272,7 +9325,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "92e0a4b4-4b82-4a5a-8a2f-ae31b7da53c5")
-		(property "Reference" "R30?"
+		(property "Reference" "R311"
 			(at 132.715 109.855 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9366,7 +9419,7 @@
 		(instances
 			(project "ProteusPowerManagment"
 				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/c1246cae-1020-4e2b-a9f1-a2035453bc0c"
-					(reference "R30?")
+					(reference "R311")
 					(unit 1)
 				)
 			)
