@@ -1075,7 +1075,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 151.13) (xy 77.47 151.13)
+			(xy 114.3 152.4) (xy 77.47 152.4)
 		)
 		(stroke
 			(width 0)
@@ -1095,7 +1095,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 151.13) (xy 114.3 116.84)
+			(xy 114.3 152.4) (xy 114.3 116.84)
 		)
 		(stroke
 			(width 0)
@@ -4969,9 +4969,9 @@
 				(justify right)
 			)
 		)
-		(pin "12V_PGOOD" output
-			(at 77.47 163.83 0)
-			(uuid "7fd34758-c5ee-4a10-802e-6586137e814f")
+		(pin "12VPGOOD" output
+			(at 77.47 143.51 0)
+			(uuid "f618a2c3-d1f1-445d-bf97-2c76cbe9e06b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4979,9 +4979,19 @@
 				(justify right)
 			)
 		)
-		(pin "12V_Vin" input
+		(pin "12V_VOUT" output
+			(at 77.47 152.4 0)
+			(uuid "ebff0e5c-5191-46bd-84f1-a401f224e2ab")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "50V_VINN" input
 			(at 38.1 152.4 180)
-			(uuid "e04015ba-ef0e-4ed8-aa7b-c64f01a90650")
+			(uuid "03f88262-a0ea-48e5-8591-b3d7076d5b77")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4989,14 +4999,14 @@
 				(justify left)
 			)
 		)
-		(pin "12V_Vout" output
-			(at 77.47 151.13 0)
-			(uuid "8f915639-fea7-43ca-8183-b6aa6747f607")
+		(pin "12VPgood3v3Logic" input
+			(at 38.1 143.51 180)
+			(uuid "6382efbc-090d-4595-bde7-423eabc88df1")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(instances
