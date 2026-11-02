@@ -3709,7 +3709,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 209.55 156.21 0)
+		(at 204.47 156.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3719,7 +3719,7 @@
 		(dnp yes)
 		(uuid "a90db6a6-7d1f-462b-a5e7-cfe7b1ed39cb")
 		(property "Reference" "J19"
-			(at 210.185 151.13 0)
+			(at 205.105 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3729,7 +3729,7 @@
 			)
 		)
 		(property "Value" "1711725"
-			(at 210.185 153.67 0)
+			(at 205.105 153.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3739,7 +3739,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 209.55 156.21 0)
+			(at 204.47 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3750,7 +3750,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 156.21 0)
+			(at 204.47 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3761,7 +3761,7 @@
 			)
 		)
 		(property "Description" "skruterminal Reserve 10 x 1776508"
-			(at 210.82 161.036 0)
+			(at 205.74 161.036 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
