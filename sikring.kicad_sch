@@ -15911,6 +15911,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "GND"
@@ -15957,6 +15958,9 @@
 				)
 			)
 		)
+		(pin "2"
+			(uuid "bdb816a6-1efd-4938-8c19-6f5ea724c623")
+		)
 		(pin "1"
 			(uuid "688cacc7-00f7-4621-be3f-305d82f8417a")
 		)
@@ -15988,6 +15992,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "D_Schottky"
@@ -15998,6 +16003,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "DIODE_TO-277A"
@@ -16035,6 +16041,9 @@
 				)
 			)
 		)
+		(pin "2"
+			(uuid "6f85b50d-16b2-4257-973f-6ade2d6e8d94")
+		)
 		(pin "1"
 			(uuid "787d2272-97c8-407a-856e-02a6f750d1d9")
 		)
@@ -16071,7 +16080,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 				(justify right)
 			)
@@ -16082,7 +16091,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 				(justify right)
 			)
@@ -16321,9 +16330,9 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "SMCJ54CA"
@@ -16332,9 +16341,9 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD_Wurth:D_Wurth_WE-TVSP-DO214-AA-600W_BI"

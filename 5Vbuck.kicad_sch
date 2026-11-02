@@ -2817,7 +2817,7 @@
 		(uuid "63584145-ff29-4f0d-ab65-d24477e225e5")
 	)
 	(hierarchical_label "5V_Vout"
-		(shape input)
+		(shape output)
 		(at 215.9 87.63 0)
 		(effects
 			(font
@@ -2839,7 +2839,7 @@
 		(uuid "7d725390-4181-4090-9508-3862cd9b55e9")
 	)
 	(hierarchical_label "5VSYNC_Out"
-		(shape input)
+		(shape output)
 		(at 77.47 96.52 180)
 		(effects
 			(font
@@ -2850,7 +2850,7 @@
 		(uuid "cd21b109-6da9-4da1-9f65-e0c8a494b7aa")
 	)
 	(hierarchical_label "5V_PGOOD"
-		(shape input)
+		(shape output)
 		(at 113.03 104.14 0)
 		(effects
 			(font
