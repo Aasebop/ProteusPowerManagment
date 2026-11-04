@@ -4524,6 +4524,12 @@
 		(uuid "259b5f19-4cd0-4731-ab6a-e5f770b0d9b9")
 	)
 	(junction
+		(at 48.26 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2865c0c2-fd7b-4a9d-9b1c-f832c87233b2")
+	)
+	(junction
 		(at 213.36 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4578,7 +4584,7 @@
 		(uuid "4dbc1304-b6a3-4897-9949-08dbddb858b9")
 	)
 	(junction
-		(at 55.88 31.75)
+		(at 68.58 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4de45c97-2500-4faa-ba6f-71dafdfff99b")
@@ -4672,6 +4678,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "88db112e-f267-4560-a4ef-e38f8f37d198")
+	)
+	(junction
+		(at 90.17 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "89df74e1-8b39-4dfc-8a6b-b2ac215ac913")
 	)
 	(junction
 		(at 116.84 163.83)
@@ -4770,12 +4782,6 @@
 		(uuid "b8fcf6fc-a830-4783-a7aa-3a8bde3a777e")
 	)
 	(junction
-		(at 135.89 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b998f2a9-74b0-4d3e-988a-0a823ed58039")
-	)
-	(junction
 		(at 116.84 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4860,10 +4866,10 @@
 		(uuid "ed1ff540-b80c-4fad-8e8a-cf25e891d27a")
 	)
 	(junction
-		(at 69.85 31.75)
+		(at 135.89 24.13)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f537f0ef-0aa6-40b3-bee6-721bf5604687")
+		(uuid "ed6a2003-6a4a-4428-871a-fb9b881e720b")
 	)
 	(junction
 		(at 203.2 99.06)
@@ -4912,16 +4918,6 @@
 			(type default)
 		)
 		(uuid "00f4b068-2b92-4f90-9c1b-df08b32e77dd")
-	)
-	(wire
-		(pts
-			(xy 24.13 72.39) (xy 135.89 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "030d3b36-64b9-4482-8262-61c23d60db5f")
 	)
 	(wire
 		(pts
@@ -5025,16 +5021,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 31.75) (xy 76.2 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c0ab5cb-6f2b-467d-8c96-5af8174fa56f")
-	)
-	(wire
-		(pts
 			(xy 193.04 54.61) (xy 193.04 55.88)
 		)
 		(stroke
@@ -5065,16 +5051,6 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 31.75) (xy 55.88 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e3e55db-a5eb-468b-891c-33099e13c32d")
-	)
-	(wire
-		(pts
 			(xy 73.66 153.67) (xy 72.39 153.67)
 		)
 		(stroke
@@ -5095,7 +5071,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 39.37) (xy 55.88 40.64)
+			(xy 68.58 39.37) (xy 68.58 40.64)
 		)
 		(stroke
 			(width 0)
@@ -5255,7 +5231,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 85.09) (xy 45.72 85.09)
+			(xy 22.86 91.44) (xy 90.17 91.44)
 		)
 		(stroke
 			(width 0)
@@ -5275,6 +5251,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 31.75) (xy 90.17 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e3bee59-f802-43e3-8466-d19cf3f8cab7")
+	)
+	(wire
+		(pts
 			(xy 116.84 181.61) (xy 129.54 181.61)
 		)
 		(stroke
@@ -5282,6 +5268,16 @@
 			(type default)
 		)
 		(uuid "30af1fba-0491-46dc-b77c-6a2fc2394898")
+	)
+	(wire
+		(pts
+			(xy 115.57 72.39) (xy 115.57 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "334f6aa5-444f-471d-8a7b-95920d9b655e")
 	)
 	(wire
 		(pts
@@ -5395,7 +5391,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 91.44) (xy 24.13 153.67)
+			(xy 24.13 99.06) (xy 24.13 153.67)
 		)
 		(stroke
 			(width 0)
@@ -5502,16 +5498,6 @@
 			(type default)
 		)
 		(uuid "50a0d2ef-b067-47b5-a18f-19afd3fb43d7")
-	)
-	(wire
-		(pts
-			(xy 45.72 91.44) (xy 90.17 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50aa3bd5-b89f-4281-ae00-f17c7c89678a")
 	)
 	(wire
 		(pts
@@ -5955,7 +5941,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 31.75) (xy 69.85 39.37)
+			(xy 48.26 31.75) (xy 48.26 39.37)
 		)
 		(stroke
 			(width 0)
@@ -6125,7 +6111,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 31.75) (xy 76.2 31.75)
+			(xy 48.26 31.75) (xy 41.91 31.75)
 		)
 		(stroke
 			(width 0)
@@ -6205,16 +6191,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 31.75) (xy 69.85 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b0e1095-ccc2-448b-9213-a907528ddfe4")
-	)
-	(wire
-		(pts
 			(xy 171.45 39.37) (xy 213.36 39.37)
 		)
 		(stroke
@@ -6232,6 +6208,16 @@
 			(type default)
 		)
 		(uuid "9f13b4cb-d0f9-4654-9576-e06c068c48dc")
+	)
+	(wire
+		(pts
+			(xy 91.44 31.75) (xy 90.17 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a06b9b90-04ef-4e41-ba98-7ec35496aa8e")
 	)
 	(wire
 		(pts
@@ -6405,6 +6391,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 24.13) (xy 135.89 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b611dbfd-83ea-4135-ab47-ab8b24281c24")
+	)
+	(wire
+		(pts
 			(xy 116.84 163.83) (xy 116.84 166.37)
 		)
 		(stroke
@@ -6442,16 +6438,6 @@
 			(type default)
 		)
 		(uuid "bda1f1d7-2b6c-4cc3-9b05-60164dc64b21")
-	)
-	(wire
-		(pts
-			(xy 45.72 85.09) (xy 45.72 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf901c35-258d-4217-96a5-a008106f17f9")
 	)
 	(wire
 		(pts
@@ -6575,17 +6561,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 54.61) (xy 135.89 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d157e0a7-a29d-40f5-b4d9-efef6bddcf25")
-	)
-	(wire
-		(pts
-			(xy 44.45 39.37) (xy 44.45 40.64)
+			(xy 90.17 39.37) (xy 90.17 40.64)
 		)
 		(stroke
 			(width 0)
@@ -6775,6 +6751,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 31.75) (xy 68.58 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec1bf2cf-b802-4379-9b37-f211ce552078")
+	)
+	(wire
+		(pts
 			(xy 133.35 109.22) (xy 133.35 116.84)
 		)
 		(stroke
@@ -6785,7 +6771,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 49.53) (xy 69.85 52.07)
+			(xy 48.26 49.53) (xy 48.26 52.07)
 		)
 		(stroke
 			(width 0)
@@ -6883,8 +6869,18 @@
 		)
 		(uuid "f94f9081-9768-42db-b454-a6f4be3d2a2a")
 	)
+	(wire
+		(pts
+			(xy 24.13 72.39) (xy 115.57 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff5d9dc4-ac46-49dd-95cd-c8fdd32ddb05")
+	)
 	(hierarchical_label "5V_ut"
-		(shape input)
+		(shape output)
 		(at 273.05 154.94 0)
 		(effects
 			(font
@@ -6895,7 +6891,7 @@
 		(uuid "bea37bbb-4dbc-4689-98be-5230b54b863f")
 	)
 	(hierarchical_label "24V_ut"
-		(shape input)
+		(shape output)
 		(at 273.05 149.86 0)
 		(effects
 			(font
@@ -6907,29 +6903,29 @@
 	)
 	(hierarchical_label "Batt+"
 		(shape input)
-		(at 76.2 29.21 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c320ffda-116b-4ff6-a20a-7a42f7d1cf00")
-	)
-	(hierarchical_label "50V_Safe"
-		(shape input)
-		(at 44.45 31.75 180)
+		(at 41.91 31.75 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
+		(uuid "c320ffda-116b-4ff6-a20a-7a42f7d1cf00")
+	)
+	(hierarchical_label "50V_Safe"
+		(shape output)
+		(at 91.44 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
 		(uuid "d908b463-336a-4e44-9298-bcb69404c48d")
 	)
 	(hierarchical_label "5V_inn"
 		(shape input)
-		(at 24.13 91.44 180)
+		(at 24.13 99.06 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6951,7 +6947,7 @@
 	)
 	(hierarchical_label "12V_inn"
 		(shape input)
-		(at 24.13 85.09 180)
+		(at 22.86 91.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6961,7 +6957,7 @@
 		(uuid "fddda0a2-07b4-4c03-b3f3-bb1d38b9ea7a")
 	)
 	(hierarchical_label "12V_ut"
-		(shape input)
+		(shape output)
 		(at 273.05 152.4 0)
 		(effects
 			(font
@@ -7789,7 +7785,8 @@
 	)
 	(symbol
 		(lib_id "Halfdan:DO214-AB-1500W_BI_824541581")
-		(at 69.85 44.45 90)
+		(at 48.26 44.45 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7799,7 +7796,7 @@
 		(dnp no)
 		(uuid "176335c7-a88a-46ef-8ad6-3f236903ee3d")
 		(property "Reference" "D4"
-			(at 73.66 43.1799 90)
+			(at 44.45 43.1799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7810,7 +7807,7 @@
 			)
 		)
 		(property "Value" "DO214-AB-1500W_BI_824541581"
-			(at 46.99 31.75 0)
+			(at 71.12 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7822,7 +7819,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD_Wurth:D_Wurth_WE-TVSP-DO214-AB-1500W_BI"
-			(at 49.53 31.75 0)
+			(at 68.58 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7834,7 +7831,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/824541581.pdf?ki"
-			(at 52.07 31.75 0)
+			(at 66.04 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7846,7 +7843,7 @@
 			)
 		)
 		(property "Description" "Power TVS Diode"
-			(at 69.85 44.45 0)
+			(at 48.26 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7857,7 +7854,7 @@
 			)
 		)
 		(property "Manufacturer" "Wurth Elektronik"
-			(at 54.61 31.75 0)
+			(at 63.5 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7869,7 +7866,7 @@
 			)
 		)
 		(property "Manufacturer URL" "https://www.we-online.com"
-			(at 57.15 31.75 0)
+			(at 60.96 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7881,7 +7878,7 @@
 			)
 		)
 		(property "Created Date" "20250721"
-			(at 59.69 31.75 0)
+			(at 58.42 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7893,7 +7890,7 @@
 			)
 		)
 		(property "Series" "WE-TVSP"
-			(at 62.23 31.75 0)
+			(at 55.88 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7905,7 +7902,7 @@
 			)
 		)
 		(property "Part Number" "824541581"
-			(at 82.042 49.276 90)
+			(at 36.068 49.276 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7916,7 +7913,7 @@
 			)
 		)
 		(property "Size" "DO214-AB-1500W_BI"
-			(at 67.31 31.75 0)
+			(at 50.8 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7928,7 +7925,7 @@
 			)
 		)
 		(property "Mounting Technology" "SMT"
-			(at 69.85 31.75 0)
+			(at 48.26 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7940,7 +7937,7 @@
 			)
 		)
 		(property "Technical Reference" "SMCJ58CA"
-			(at 72.39 31.75 0)
+			(at 45.72 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7952,7 +7949,7 @@
 			)
 		)
 		(property "VDC (V)" "58.0"
-			(at 74.93 31.75 0)
+			(at 43.18 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7964,7 +7961,7 @@
 			)
 		)
 		(property "VBR (V)" "67.8"
-			(at 77.47 31.75 0)
+			(at 40.64 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7976,7 +7973,7 @@
 			)
 		)
 		(property "IPeak (A)" "16.1"
-			(at 80.01 31.75 0)
+			(at 38.1 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7988,7 +7985,7 @@
 			)
 		)
 		(property "PDiss (W)" "1500"
-			(at 82.55 31.75 0)
+			(at 35.56 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8000,7 +7997,7 @@
 			)
 		)
 		(property "VClamp max. (V)" "93.6"
-			(at 85.09 31.75 0)
+			(at 33.02 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8012,7 +8009,7 @@
 			)
 		)
 		(property "Critical Parameter" "58.0 V"
-			(at 73.66 45.7199 90)
+			(at 44.45 45.7199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8625,7 +8622,8 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 69.85 52.07 0)
+		(at 48.26 52.07 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8636,7 +8634,7 @@
 		(fields_autoplaced yes)
 		(uuid "2ad43a9c-25f7-4cba-8198-0840904050aa")
 		(property "Reference" "#PWR026"
-			(at 69.85 58.42 0)
+			(at 48.26 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8647,7 +8645,7 @@
 			)
 		)
 		(property "Value" "PGND"
-			(at 72.39 53.3399 0)
+			(at 45.72 53.3399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8658,7 +8656,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.85 52.07 0)
+			(at 48.26 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8669,7 +8667,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 52.07 0)
+			(at 48.26 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8680,7 +8678,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 69.85 52.07 0)
+			(at 48.26 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9939,7 +9937,8 @@
 	)
 	(symbol
 		(lib_id "Halfdan:P7.5D16L35.5_860040880011")
-		(at 44.45 35.56 0)
+		(at 90.17 35.56 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9950,7 +9949,7 @@
 		(fields_autoplaced yes)
 		(uuid "56fb8701-12cf-43e0-ab36-722211378ffb")
 		(property "Reference" "C102"
-			(at 48.26 29.4639 0)
+			(at 86.36 29.4639 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9961,7 +9960,7 @@
 			)
 		)
 		(property "Value" "470u"
-			(at 48.26 32.0039 0)
+			(at 86.36 32.0039 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9972,7 +9971,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT_Wurth:CP_Wurth_WCAP-ATUL-P7.5D16L35.5"
-			(at 49.53 15.24 0)
+			(at 85.09 15.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9984,7 +9983,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/860040880011.pdf?ki"
-			(at 49.53 17.78 0)
+			(at 85.09 17.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9996,7 +9995,7 @@
 			)
 		)
 		(property "Description" "Aluminum Electrolytic Capacitors"
-			(at 44.45 35.56 0)
+			(at 90.17 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10007,7 +10006,7 @@
 			)
 		)
 		(property "Manufacturer" "Wurth Elektronik"
-			(at 49.53 20.32 0)
+			(at 85.09 20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10019,7 +10018,7 @@
 			)
 		)
 		(property "Manufacturer URL" "https://www.we-online.com"
-			(at 49.53 22.86 0)
+			(at 85.09 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10031,7 +10030,7 @@
 			)
 		)
 		(property "Created Date" "20251008"
-			(at 49.53 25.4 0)
+			(at 85.09 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10043,7 +10042,7 @@
 			)
 		)
 		(property "Series" "WCAP-ATUL"
-			(at 49.53 27.94 0)
+			(at 85.09 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10055,7 +10054,7 @@
 			)
 		)
 		(property "Size" "P7.5D16L35.5"
-			(at 49.53 30.48 0)
+			(at 85.09 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10067,7 +10066,7 @@
 			)
 		)
 		(property "Mounting Technology" "THT"
-			(at 49.53 33.02 0)
+			(at 85.09 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10079,7 +10078,7 @@
 			)
 		)
 		(property "Part Number" "860040880011"
-			(at 48.26 34.5439 0)
+			(at 86.36 34.5439 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10090,7 +10089,7 @@
 			)
 		)
 		(property "Capacitance" "470 uF"
-			(at 48.26 37.0839 0)
+			(at 86.36 37.0839 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10101,7 +10100,7 @@
 			)
 		)
 		(property "Voltage" "100"
-			(at 48.26 39.6239 0)
+			(at 86.36 39.6239 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10112,7 +10111,7 @@
 			)
 		)
 		(property "C" "470 uF"
-			(at 57.15 38.1 0)
+			(at 77.47 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10124,7 +10123,7 @@
 			)
 		)
 		(property "VR (V (DC))" "100"
-			(at 57.15 40.64 0)
+			(at 77.47 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10136,7 +10135,7 @@
 			)
 		)
 		(property "Endurance (h)" "10000"
-			(at 57.15 43.18 0)
+			(at 77.47 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10148,7 +10147,7 @@
 			)
 		)
 		(property "Operating Temperature" "-40 °C up to +105 °C"
-			(at 57.15 45.72 0)
+			(at 77.47 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10160,7 +10159,7 @@
 			)
 		)
 		(property "IRIPPLE (mA)" "1880"
-			(at 57.15 48.26 0)
+			(at 77.47 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10172,7 +10171,7 @@
 			)
 		)
 		(property "ILeak (uA)" "470.0"
-			(at 57.15 50.8 0)
+			(at 77.47 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10184,7 +10183,7 @@
 			)
 		)
 		(property "DF (%)" "9"
-			(at 57.15 53.34 0)
+			(at 77.47 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10196,7 +10195,7 @@
 			)
 		)
 		(property "Pitch (mm)" "7.5"
-			(at 57.15 55.88 0)
+			(at 77.47 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10208,7 +10207,7 @@
 			)
 		)
 		(property "Diameter (mm)" "16.0"
-			(at 57.15 58.42 0)
+			(at 77.47 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10220,7 +10219,7 @@
 			)
 		)
 		(property "L (mm)" "35.5"
-			(at 57.15 60.96 0)
+			(at 77.47 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10232,7 +10231,7 @@
 			)
 		)
 		(property "Critical Parameter" ""
-			(at 44.45 43.18 0)
+			(at 90.17 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10602,7 +10601,8 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 44.45 40.64 0)
+		(at 90.17 40.64 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10613,7 +10613,7 @@
 		(fields_autoplaced yes)
 		(uuid "57bd14e7-f953-4bc4-a12d-1406d666aa4a")
 		(property "Reference" "#PWR029"
-			(at 44.45 46.99 0)
+			(at 90.17 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10624,7 +10624,7 @@
 			)
 		)
 		(property "Value" "PGND"
-			(at 46.99 41.9099 0)
+			(at 87.63 41.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10635,7 +10635,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 44.45 40.64 0)
+			(at 90.17 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10646,7 +10646,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 40.64 0)
+			(at 90.17 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10657,7 +10657,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 44.45 40.64 0)
+			(at 90.17 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11000,7 +11000,8 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 55.88 40.64 0)
+		(at 68.58 40.64 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11011,7 +11012,7 @@
 		(fields_autoplaced yes)
 		(uuid "773bdadb-2b65-4f11-ac51-51c038e923e5")
 		(property "Reference" "#PWR028"
-			(at 55.88 46.99 0)
+			(at 68.58 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11022,7 +11023,7 @@
 			)
 		)
 		(property "Value" "PGND"
-			(at 58.42 41.9099 0)
+			(at 66.04 41.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11033,7 +11034,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 55.88 40.64 0)
+			(at 68.58 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11044,7 +11045,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 40.64 0)
+			(at 68.58 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11055,7 +11056,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 55.88 40.64 0)
+			(at 68.58 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12638,8 +12639,7 @@
 	)
 	(symbol
 		(lib_id "Halfdan:P7.5D16L35.5_860040880011")
-		(at 55.88 35.56 0)
-		(mirror y)
+		(at 68.58 35.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12650,7 +12650,7 @@
 		(fields_autoplaced yes)
 		(uuid "ac9f50bc-b6e5-4566-9b77-ebd1d770b627")
 		(property "Reference" "C101"
-			(at 59.69 39.6241 0)
+			(at 64.77 39.6241 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12661,7 +12661,7 @@
 			)
 		)
 		(property "Value" "470u"
-			(at 59.69 37.0841 0)
+			(at 64.77 37.0841 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12672,7 +12672,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT_Wurth:CP_Wurth_WCAP-ATUL-P7.5D16L35.5"
-			(at 50.8 15.24 0)
+			(at 73.66 15.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12684,7 +12684,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/860040880011.pdf?ki"
-			(at 50.8 17.78 0)
+			(at 73.66 17.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12696,7 +12696,7 @@
 			)
 		)
 		(property "Description" "Aluminum Electrolytic Capacitors"
-			(at 55.88 35.56 0)
+			(at 68.58 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12707,7 +12707,7 @@
 			)
 		)
 		(property "Manufacturer" "Wurth Elektronik"
-			(at 50.8 20.32 0)
+			(at 73.66 20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12719,7 +12719,7 @@
 			)
 		)
 		(property "Manufacturer URL" "https://www.we-online.com"
-			(at 50.8 22.86 0)
+			(at 73.66 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12731,7 +12731,7 @@
 			)
 		)
 		(property "Created Date" "20251008"
-			(at 50.8 25.4 0)
+			(at 73.66 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12743,7 +12743,7 @@
 			)
 		)
 		(property "Series" "WCAP-ATUL"
-			(at 50.8 27.94 0)
+			(at 73.66 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12755,7 +12755,7 @@
 			)
 		)
 		(property "Size" "P7.5D16L35.5"
-			(at 50.8 30.48 0)
+			(at 73.66 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12767,7 +12767,7 @@
 			)
 		)
 		(property "Mounting Technology" "THT"
-			(at 50.8 33.02 0)
+			(at 73.66 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12779,7 +12779,7 @@
 			)
 		)
 		(property "Part Number" "860040880011"
-			(at 59.69 34.5441 0)
+			(at 64.77 34.5441 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12790,7 +12790,7 @@
 			)
 		)
 		(property "Capacitance" "470 uF"
-			(at 59.69 32.0041 0)
+			(at 64.77 32.0041 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12801,7 +12801,7 @@
 			)
 		)
 		(property "Voltage" "100"
-			(at 59.69 29.4641 0)
+			(at 64.77 29.4641 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12812,7 +12812,7 @@
 			)
 		)
 		(property "C" "470 uF"
-			(at 43.18 38.1 0)
+			(at 81.28 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12824,7 +12824,7 @@
 			)
 		)
 		(property "VR (V (DC))" "100"
-			(at 43.18 40.64 0)
+			(at 81.28 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12836,7 +12836,7 @@
 			)
 		)
 		(property "Endurance (h)" "10000"
-			(at 43.18 43.18 0)
+			(at 81.28 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12848,7 +12848,7 @@
 			)
 		)
 		(property "Operating Temperature" "-40 °C up to +105 °C"
-			(at 43.18 45.72 0)
+			(at 81.28 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12860,7 +12860,7 @@
 			)
 		)
 		(property "IRIPPLE (mA)" "1880"
-			(at 43.18 48.26 0)
+			(at 81.28 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12872,7 +12872,7 @@
 			)
 		)
 		(property "ILeak (uA)" "470.0"
-			(at 43.18 50.8 0)
+			(at 81.28 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12884,7 +12884,7 @@
 			)
 		)
 		(property "DF (%)" "9"
-			(at 43.18 53.34 0)
+			(at 81.28 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12896,7 +12896,7 @@
 			)
 		)
 		(property "Pitch (mm)" "7.5"
-			(at 43.18 55.88 0)
+			(at 81.28 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12908,7 +12908,7 @@
 			)
 		)
 		(property "Diameter (mm)" "16.0"
-			(at 43.18 58.42 0)
+			(at 81.28 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12920,7 +12920,7 @@
 			)
 		)
 		(property "L (mm)" "35.5"
-			(at 43.18 60.96 0)
+			(at 81.28 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12932,7 +12932,7 @@
 			)
 		)
 		(property "Critical Parameter" ""
-			(at 55.88 43.18 0)
+			(at 68.58 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
