@@ -984,6 +984,102 @@
 		(color 0 0 0 0)
 		(uuid "ef6ae7e2-b466-4b0b-9243-1cc8a25c0efd")
 	)
+	(no_connect
+		(at 237.49 157.48)
+		(uuid "0d041590-7944-45ef-a897-bf7ab805843e")
+	)
+	(no_connect
+		(at 237.49 129.54)
+		(uuid "13349fbe-10ae-4102-bccd-d75e20f864aa")
+	)
+	(no_connect
+		(at 237.49 127)
+		(uuid "55ee9501-b881-48ec-8864-691414bf5521")
+	)
+	(no_connect
+		(at 237.49 140.97)
+		(uuid "59f7cd11-68f6-4247-ba2e-ca258d7344a7")
+	)
+	(no_connect
+		(at 237.49 63.5)
+		(uuid "65fdaa56-f635-4957-90bf-75281606e159")
+	)
+	(no_connect
+		(at 237.49 143.51)
+		(uuid "694fc38e-dad2-4840-9644-47d15b2d020c")
+	)
+	(no_connect
+		(at 237.49 87.63)
+		(uuid "7dbc2426-e12a-4309-b176-642d33492984")
+	)
+	(no_connect
+		(at 209.55 158.75)
+		(uuid "816041de-3ffd-44d7-a134-7ae853336933")
+	)
+	(no_connect
+		(at 237.49 105.41)
+		(uuid "81a88989-d590-47e6-b475-22926d4b487c")
+	)
+	(no_connect
+		(at 237.49 85.09)
+		(uuid "83202e0f-cdbd-4bc2-9e23-0c1bd1bd602e")
+	)
+	(no_connect
+		(at 237.49 21.59)
+		(uuid "84362504-a505-4272-a131-a5bd7a426b9c")
+	)
+	(no_connect
+		(at 237.49 52.07)
+		(uuid "8d8e399c-d1e0-4fd3-a72e-201137a8856f")
+	)
+	(no_connect
+		(at 237.49 102.87)
+		(uuid "a5b8bc41-d0fa-4adf-a8ca-f5c48eeb9578")
+	)
+	(no_connect
+		(at 237.49 49.53)
+		(uuid "b2c5359b-b910-43f7-9df9-5becf3931ff5")
+	)
+	(no_connect
+		(at 209.55 156.21)
+		(uuid "d5c00a8e-61a3-411c-bc49-fff9227eefdd")
+	)
+	(no_connect
+		(at 237.49 35.56)
+		(uuid "d9b36a3e-3079-4c47-a0fc-2a960f958406")
+	)
+	(no_connect
+		(at 200.66 52.07)
+		(uuid "dcaa37cf-f83f-4070-8358-85f88a49986f")
+	)
+	(no_connect
+		(at 200.66 38.1)
+		(uuid "e7a8d143-e050-44e0-ad27-f26e8a628ff1")
+	)
+	(no_connect
+		(at 237.49 66.04)
+		(uuid "ebadffc9-ab86-4623-8bff-85a384ded7c2")
+	)
+	(no_connect
+		(at 200.66 49.53)
+		(uuid "ee554f67-d7a0-4b3e-a428-a5f9631112ad")
+	)
+	(no_connect
+		(at 200.66 35.56)
+		(uuid "f14c11bf-0771-47ad-9bd7-b0bbf7bf7871")
+	)
+	(no_connect
+		(at 237.49 154.94)
+		(uuid "f1a04f3b-7cac-416a-a43d-bed8b8d83f01")
+	)
+	(no_connect
+		(at 237.49 38.1)
+		(uuid "fac5ea16-a896-4d69-bad5-501c123904af")
+	)
+	(no_connect
+		(at 237.49 24.13)
+		(uuid "fb0ffb63-748f-4f28-804c-db9f0aa4f010")
+	)
 	(wire
 		(pts
 			(xy 34.29 82.55) (xy 34.29 140.97)
@@ -5078,7 +5174,7 @@
 				(justify right)
 			)
 		)
-		(pin "12V_VOUT" output
+		(pin "12V_VOUT" input
 			(at 77.47 152.4 0)
 			(uuid "ebff0e5c-5191-46bd-84f1-a401f224e2ab")
 			(effects
@@ -5154,7 +5250,7 @@
 				(justify left)
 			)
 		)
-		(pin "5V_Vout" output
+		(pin "5V_Vout" input
 			(at 110.49 106.68 0)
 			(uuid "cbab018a-7a98-4abe-b1a5-6594af44fee6")
 			(effects

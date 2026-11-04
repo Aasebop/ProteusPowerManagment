@@ -5844,16 +5844,6 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 106.68) (xy 266.7 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27d82553-73ba-414f-9a50-247128c6f90f")
-	)
-	(wire
-		(pts
 			(xy 147.32 80.01) (xy 154.94 80.01)
 		)
 		(stroke
@@ -6912,16 +6902,6 @@
 		)
 		(uuid "fed1314c-5901-47f4-b0e3-fc4b5cd7ca6f")
 	)
-	(label "V_Out"
-		(at 270.51 106.68 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "38e5dd76-25a7-4f8a-b1b4-93882c7f5d45")
-	)
 	(label "COMP"
 		(at 116.84 110.49 0)
 		(effects
@@ -6952,16 +6932,6 @@
 		)
 		(uuid "77abcb4b-8c2a-4182-a2e7-830458694fd3")
 	)
-	(label "V_Out"
-		(at 21.59 99.06 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "dc35554c-16f7-482e-ab0d-30cd8b835967")
-	)
 	(label "FB"
 		(at 48.26 127 0)
 		(effects
@@ -6971,6 +6941,17 @@
 			(justify left bottom)
 		)
 		(uuid "e355a3a9-ae84-4e3f-8782-bf3d74ddd12a")
+	)
+	(hierarchical_label "12V_VOUT"
+		(shape input)
+		(at 21.59 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3e86b4c3-8343-495d-8de2-58e40f6482e5")
 	)
 	(hierarchical_label "12VSYNC_In"
 		(shape input)
@@ -7006,7 +6987,7 @@
 		(uuid "ca7e617f-4b21-4dad-9500-6b7e27c52a20")
 	)
 	(hierarchical_label "12V_VOUT"
-		(shape output)
+		(shape input)
 		(at 273.05 80.01 0)
 		(effects
 			(font
@@ -7458,10 +7439,10 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD_Wurth:C_Wurth_WCAP-CSGP-0805_H1.25_R"
+		(property "Footprint" "Marinor:C_Wurth_WCAP-CSGP-0805_H1.25_R"
 			(at 128.27 114.3 0)
 			(hide yes)
-			(show_name no)
+			(show_name yes)
 			(do_not_autoplace no)
 			(effects
 				(font
@@ -7826,7 +7807,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD_Wurth:CP_Wurth_WCAP-ASLI-D12.5L14"
+		(property "Footprint" "Marinor:CP_Wurth_WCAP-ASLI-D12.5L14"
 			(at 185.42 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -8348,7 +8329,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD_Wurth:C_Wurth_WCAP-CSGP-1210_H2.5"
+		(property "Footprint" "Marinor:C_Wurth_WCAP-CSGP-1210_H2.5"
 			(at 212.09 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -8863,7 +8844,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "CAPAE830X1000N"
+		(property "Footprint" "Marinor:CAPAE830X1000N"
 			(at 362.89 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -9128,7 +9109,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD_Wurth:C_Wurth_WCAP-CSGP-1210_H2.5"
+		(property "Footprint" "Marinor:C_Wurth_WCAP-CSGP-1210_H2.5"
 			(at 254 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -9530,6 +9511,83 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 59.69 60.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5d367cfa-ed70-4346-b81c-a75b460e5f6a")
+		(property "Reference" "#PWR059"
+			(at 59.69 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AGND_12"
+			(at 59.436 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 59.69 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4caac06c-26dc-4b2f-bb33-44059f8eda60")
+		)
+		(instances
+			(project "ProteusPowerManagment"
+				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/c1246cae-1020-4e2b-a9f1-a2035453bc0c"
+					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 120.65 124.46 0)
 		(unit 1)
 		(body_style 1)
@@ -9720,7 +9778,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD_Wurth:C_Wurth_WCAP-CSGP-1210_H2.5"
+		(property "Footprint" "Marinor:C_Wurth_WCAP-CSGP-1210_H2.5"
 			(at 217.17 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -10259,7 +10317,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD_Wurth:C_Wurth_WCAP-CSGP-0603_R"
+		(property "Footprint" "Marinor:C_Wurth_WCAP-CSGP-0603_R"
 			(at 50.8 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -10600,7 +10658,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "82a880f8-d8cd-4685-927c-cc90a3269907")
+		(uuid "82a880f8-d8cd-4685-927c-cc90a3269908")
 		(property "Reference" "R311"
 			(at 128.27 111.76 90)
 			(show_name no)
@@ -10687,122 +10745,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "0c07be74-1509-4d2c-b0e6-4c8446153fd5")
+			(uuid "0c07be74-1509-4d2c-b0e6-4c8446153fd6")
 		)
 		(pin "1"
-			(uuid "47ae8c7e-6b91-4358-80f9-8bdaa75a909c")
-		)
-		(instances
-			(project "ProteusPowerManagment"
-				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/c1246cae-1020-4e2b-a9f1-a2035453bc0c"
-					(reference "R311")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 129.54 102.87 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "82a880f8-d8cd-4685-927c-cc90a3269907")
-		(property "Reference" "R311"
-			(at 128.27 111.76 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4.3k"
-			(at 128.27 109.22 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 129.54 104.648 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.54 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 129.54 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DatasheetValue" "R_PGOOD"
-			(at 129.921 106.553 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" "560112116141"
-			(at 129.54 102.87 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" "Würth"
-			(at 129.54 102.87 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "0c07be74-1509-4d2c-b0e6-4c8446153fd5")
-		)
-		(pin "1"
-			(uuid "47ae8c7e-6b91-4358-80f9-8bdaa75a909c")
+			(uuid "47ae8c7e-6b91-4358-80f9-8bdaa75a909d")
 		)
 		(instances
 			(project "ProteusPowerManagment"
@@ -11337,7 +11283,7 @@
 				)
 			)
 		)
-		(property "Footprint" "WE-XHMA_1510:WE-XHMA_1510"
+		(property "Footprint" "Marinor:L_Wurth_WE-XHMA-1510-6.8uH"
 			(at 207.01 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -11502,7 +11448,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD_Wurth:C_Wurth_WCAP-CSGP-0603_R"
+		(property "Footprint" "Marinor:C_Wurth_WCAP-CSGP-0603_R"
 			(at 204.47 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -11871,7 +11817,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD_Wurth:C_Wurth_WCAP-CSGP-1210_H2.5"
+		(property "Footprint" "Marinor:C_Wurth_WCAP-CSGP-1210_H2.5"
 			(at 234.95 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -12227,7 +12173,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD_Wurth:C_Wurth_WCAP-CSGP-1210_H2.5"
+		(property "Footprint" "Marinor:C_Wurth_WCAP-CSGP-1210_H2.5"
 			(at 240.03 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -12661,7 +12607,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LM5146RGYR:IC_LM5146RGYR"
+		(property "Footprint" "Marinor:IC_LM5146RGYR"
 			(at 99.06 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -12970,7 +12916,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD_Wurth:C_Wurth_WCAP-CSGP-1210_H2.5"
+		(property "Footprint" "Marinor:C_Wurth_WCAP-CSGP-1210_H2.5"
 			(at 196.85 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -13327,7 +13273,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD_Wurth:C_Wurth_WCAP-CSGP-0603_R"
+		(property "Footprint" "Marinor:C_Wurth_WCAP-CSGP-0603_R"
 			(at 140.97 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -14169,7 +14115,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD_Wurth:C_Wurth_WCAP-CSGP-0805_H1.25_R"
+		(property "Footprint" "Marinor:C_Wurth_WCAP-CSGP-0805_H1.25_R"
 			(at 199.39 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -14525,7 +14471,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD_Wurth:C_Wurth_WCAP-CSGP-1210_H2.5"
+		(property "Footprint" "Marinor:C_Wurth_WCAP-CSGP-1210_H2.5"
 			(at 226.06 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -14959,7 +14905,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "CAPAE830X1000N"
+		(property "Footprint" "Marinor:CAPAE830X1000N"
 			(at 156.54 115.57 0)
 			(hide yes)
 			(show_name no)

@@ -6503,6 +6503,16 @@
 	)
 	(wire
 		(pts
+			(xy 281.94 67.31) (xy 280.67 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c64e2c2e-c885-4678-bd45-1b04e94ab41e")
+	)
+	(wire
+		(pts
 			(xy 203.2 91.44) (xy 218.44 91.44)
 		)
 		(stroke
@@ -7105,7 +7115,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD_Wurth:C_Wurth_WCAP-CSGP-0805_H0.8_R"
+		(property "Footprint" "Marinor:C_Wurth_WCAP-CSGP-0805_H0.8_R"
 			(at 120.65 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -7840,7 +7850,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD_Wurth:D_Wurth_WE-TVSP-DO214-AB-1500W_BI"
+		(property "Footprint" "Marinor:D_Wurth_WE-TVSP-DO214-AB-1500W_BI"
 			(at 68.58 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -8998,7 +9008,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "DIODE_TO-277A"
+		(property "Footprint" "Marinor:DIODE_TO-277A"
 			(at 223.52 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -9167,7 +9177,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "DIODE_TO-277A"
+		(property "Footprint" "Marinor:DIODE_TO-277A"
 			(at 134.62 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -9569,7 +9579,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD_Wurth:C_Wurth_WCAP-CSMH-0805_H1.25_R"
+		(property "Footprint" "Marinor:C_Wurth_WCAP-CSMH-0805_H1.25_R"
 			(at 194.31 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -9992,7 +10002,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT_Wurth:CP_Wurth_WCAP-ATUL-P7.5D16L35.5"
+		(property "Footprint" "Marinor:CP_Wurth_WCAP-ATUL-P7.5D16L35.5"
 			(at 85.09 15.24 0)
 			(hide yes)
 			(show_name no)
@@ -10312,7 +10322,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD_Wurth:C_Wurth_WCAP-CSMH-0805_H1.25_R"
+		(property "Footprint" "Marinor:C_Wurth_WCAP-CSMH-0805_H1.25_R"
 			(at 147.32 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -10943,7 +10953,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 280.67 67.31 90)
+		(at 281.94 67.31 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10954,7 +10964,7 @@
 		(fields_autoplaced yes)
 		(uuid "7216f65b-690a-483c-a745-5ef3867361b2")
 		(property "Reference" "#PWR143"
-			(at 287.02 67.31 0)
+			(at 288.29 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10965,7 +10975,7 @@
 			)
 		)
 		(property "Value" "PGND"
-			(at 284.48 67.3099 90)
+			(at 285.75 67.3099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10976,7 +10986,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 280.67 67.31 0)
+			(at 281.94 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10987,7 +10997,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 280.67 67.31 0)
+			(at 281.94 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10998,7 +11008,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 280.67 67.31 0)
+			(at 281.94 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11134,7 +11144,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD_Wurth:C_Wurth_WCAP-CSMH-0805_H1.25_R"
+		(property "Footprint" "Marinor:C_Wurth_WCAP-CSMH-0805_H1.25_R"
 			(at 62.23 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -11637,7 +11647,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD_Wurth:C_Wurth_WCAP-CSGP-0805_H0.8_R"
+		(property "Footprint" "Marinor:C_Wurth_WCAP-CSGP-0805_H0.8_R"
 			(at 35.56 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -12075,7 +12085,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD_Wurth:D_Wurth_WE-TVSP-DO214-AA-600W_UNI"
+		(property "Footprint" "Marinor:D_Wurth_WE-TVSP-DO214-AA-600W_UNI"
 			(at 69.85 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -12325,7 +12335,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD_Wurth:C_Wurth_WCAP-CSGP-0805_H0.8_R"
+		(property "Footprint" "Marinor:C_Wurth_WCAP-CSGP-0805_H0.8_R"
 			(at 139.7 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -12693,7 +12703,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT_Wurth:CP_Wurth_WCAP-ATUL-P7.5D16L35.5"
+		(property "Footprint" "Marinor:CP_Wurth_WCAP-ATUL-P7.5D16L35.5"
 			(at 73.66 15.24 0)
 			(hide yes)
 			(show_name no)
@@ -13095,7 +13105,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD_Wurth:C_Wurth_WCAP-CSGP-0805_H0.8_R"
+		(property "Footprint" "Marinor:C_Wurth_WCAP-CSGP-0805_H0.8_R"
 			(at 167.64 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -13451,7 +13461,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD_Wurth:C_Wurth_WCAP-CSGP-0805_H0.8_R"
+		(property "Footprint" "Marinor:C_Wurth_WCAP-CSGP-0805_H0.8_R"
 			(at 228.6 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -13807,7 +13817,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD_Wurth:C_Wurth_WCAP-CSMH-0805_H1.25_R"
+		(property "Footprint" "Marinor:C_Wurth_WCAP-CSMH-0805_H1.25_R"
 			(at 279.4 5.08 0)
 			(hide yes)
 			(show_name no)
@@ -14636,7 +14646,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "DIODE_TO-277A"
+		(property "Footprint" "Marinor:DIODE_TO-277A"
 			(at 274.32 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -14723,7 +14733,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD_Wurth:D_Wurth_WE-TVSP-DO214-AA-600W_UNI"
+		(property "Footprint" "Marinor:D_Wurth_WE-TVSP-DO214-AA-600W_UNI"
 			(at 115.57 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -14973,7 +14983,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD_Wurth:D_Wurth_WE-TVSP-DO214-AC-400W_UNI"
+		(property "Footprint" "Marinor:D_Wurth_WE-TVSP-DO214-AC-400W_UNI"
 			(at -6.35 163.83 0)
 			(hide yes)
 			(show_name no)

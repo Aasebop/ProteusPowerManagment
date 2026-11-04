@@ -4600,16 +4600,6 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 100.33) (xy 269.24 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee6b8b74-7b51-48ae-9942-bca976a6e9ff")
-	)
-	(wire
-		(pts
 			(xy 266.7 96.52) (xy 266.7 100.33)
 		)
 		(stroke
@@ -4658,16 +4648,6 @@
 		)
 		(uuid "fd6bc20b-bbc8-4a44-9637-fa7aaf2965a7")
 	)
-	(label "V_Out"
-		(at 269.24 100.33 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "55ae6c10-7fdc-405a-819f-d33908ade6dd")
-	)
 	(label "Comp"
 		(at 113.03 109.22 0)
 		(effects
@@ -4677,16 +4657,6 @@
 			(justify left bottom)
 		)
 		(uuid "722915f2-e042-4837-8390-4ff0f6871a27")
-	)
-	(label "V_Out"
-		(at 264.16 119.38 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7f6d6545-f6ae-4327-8071-bbf67579a3a3")
 	)
 	(label "FB"
 		(at 237.49 147.32 180)
@@ -4719,7 +4689,7 @@
 		(uuid "ed82a389-d988-471b-8e70-ef88efb36514")
 	)
 	(hierarchical_label "5V_Vout"
-		(shape output)
+		(shape input)
 		(at 266.7 96.52 0)
 		(effects
 			(font
@@ -4750,6 +4720,17 @@
 			(justify right)
 		)
 		(uuid "7d725390-4181-4090-9508-3862cd9b55e9")
+	)
+	(hierarchical_label "5V_Vout"
+		(shape input)
+		(at 264.16 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bfef07df-0999-4b55-bd2c-c7e21d081e3e")
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
@@ -5590,7 +5571,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD_Wurth:C_Wurth_WCAP-CSGP-0603_R"
+		(property "Footprint" "Marinor:C_Wurth_WCAP-CSGP-0603_R"
 			(at 45.72 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -6328,7 +6309,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LM5146RGYR:IC_LM5146RGYR"
+		(property "Footprint" "Marinor:IC_LM5146RGYR"
 			(at 95.25 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -7234,7 +7215,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPAE830X1000N"
+		(property "Footprint" "Marinor:CAPAE830X1000N"
 			(at 362.89 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -7990,7 +7971,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPAE830X1000N"
+		(property "Footprint" "Marinor:CAPAE830X1000N"
 			(at 160.35 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -8449,7 +8430,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD_Wurth:C_Wurth_WCAP-CSGP-0603_R"
+		(property "Footprint" "Marinor:C_Wurth_WCAP-CSGP-0603_R"
 			(at 208.28 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -9847,7 +9828,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DMM0022A"
+		(property "Footprint" "Marinor:DMM0022A"
 			(at 171.45 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -10116,7 +10097,7 @@
 				)
 			)
 		)
-		(property "Footprint" "WE-PD_1245:WE-PD_1245"
+		(property "Footprint" "Marinor:WE-PD_1245_18uH"
 			(at 209.55 100.33 0)
 			(hide yes)
 			(show_name no)
