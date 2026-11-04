@@ -8221,7 +8221,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LM5146RGYR:IC_LM5146RGYR"
+		(property "Footprint" "Marinor:IC_LM5146RGYR"
 			(at 97.79 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -8877,7 +8877,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD_Wurth:C_Wurth_WCAP-CSGP-1210_H2.5"
+		(property "Footprint" "Marinor:C_Wurth_WCAP-CSGP-1210_H2.5"
 			(at 209.55 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -9350,7 +9350,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD_Wurth:C_Wurth_WCAP-CSGP-1210_H2.5"
+		(property "Footprint" "Marinor:C_Wurth_WCAP-CSGP-1210_H2.5"
 			(at 228.6 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -9707,7 +9707,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD_Wurth:C_Wurth_WCAP-CSGP-1210_H2.5"
+		(property "Footprint" "Marinor:C_Wurth_WCAP-CSGP-1210_H2.5"
 			(at 271.78 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -10142,7 +10142,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD_Wurth:C_Wurth_WCAP-CSGP-0603_R"
+		(property "Footprint" "Marinor:C_Wurth_WCAP-CSGP-0603_R"
 			(at 138.43 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -10666,7 +10666,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD_Wurth:CP_Wurth_WCAP-ASLI-D12.5L14"
+		(property "Footprint" "Marinor:CP_Wurth_WCAP-ASLI-D12.5L14"
 			(at 182.88 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -10998,7 +10998,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD_Wurth:C_Wurth_WCAP-CSGP-0805_H1.25_R"
+		(property "Footprint" "Marinor:C_Wurth_WCAP-CSGP-0805_H0.8_R"
 			(at 125.73 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -11445,7 +11445,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD_Wurth:C_Wurth_WCAP-CSGP-1210_H2.5"
+		(property "Footprint" "Marinor:C_Wurth_WCAP-CSGP-1210_H2.5"
 			(at 251.46 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -12227,7 +12227,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD_Wurth:C_Wurth_WCAP-CSGP-0603_R"
+		(property "Footprint" "Marinor:C_Wurth_WCAP-CSGP-0603_R"
 			(at 68.58 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -12592,7 +12592,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD_Wurth:C_Wurth_WCAP-CSGP-0603_R"
+		(property "Footprint" "Marinor:C_Wurth_WCAP-CSGP-0603_R"
 			(at 83.82 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -12959,7 +12959,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD_Wurth:C_Wurth_WCAP-CSGP-0805_H1.25_R"
+		(property "Footprint" "Marinor:C_Wurth_WCAP-CSGP-0805_H1.25_R"
 			(at 27.94 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -13403,7 +13403,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD_Wurth:C_Wurth_WCAP-CSGP-1210_H2.5"
+		(property "Footprint" "Marinor:C_Wurth_WCAP-CSGP-1210_H2.5"
 			(at 251.46 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -13917,7 +13917,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD_Wurth:C_Wurth_WCAP-CSGP-1210_H2.5"
+		(property "Footprint" "Marinor:C_Wurth_WCAP-CSGP-1210_H2.5"
 			(at 265.43 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -14274,7 +14274,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD_Wurth:C_Wurth_WCAP-CSGP-0603_R"
+		(property "Footprint" "Marinor:C_Wurth_WCAP-CSGP-0603_R"
 			(at 53.34 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -14930,7 +14930,7 @@
 				)
 			)
 		)
-		(property "Footprint" "WE-XHMI_1510:WE-XHMI_1510"
+		(property "Footprint" "Marinor:WE-XHMI_1510"
 			(at 204.47 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -15672,7 +15672,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD_Wurth:C_Wurth_WCAP-CSGP-1210_H2.5"
+		(property "Footprint" "Marinor:C_Wurth_WCAP-CSGP-1210_H2.5"
 			(at 237.49 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -16253,7 +16253,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD_Wurth:C_Wurth_WCAP-CSGP-1210_H2.5"
+		(property "Footprint" "Marinor:C_Wurth_WCAP-CSGP-1210_H2.5"
 			(at 223.52 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -16800,7 +16800,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD_Wurth:C_Wurth_WCAP-CSGP-1210_H2.5"
+		(property "Footprint" "Marinor:C_Wurth_WCAP-CSGP-1210_H2.5"
 			(at 194.31 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -17568,7 +17568,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD_Wurth:C_Wurth_WCAP-CSGP-0603_R"
+		(property "Footprint" "Marinor:C_Wurth_WCAP-CSGP-0603_R"
 			(at 210.82 38.1 0)
 			(hide yes)
 			(show_name no)
