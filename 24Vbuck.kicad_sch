@@ -6683,16 +6683,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 74.93) (xy 80.01 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21579ef3-c1fc-43b0-9495-8bb0640cd910")
-	)
-	(wire
-		(pts
 			(xy 152.4 96.52) (xy 152.4 100.33)
 		)
 		(stroke
@@ -7553,6 +7543,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 73.66) (xy 80.01 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2494ad3-6ada-475d-bb21-ae5c60392743")
+	)
+	(wire
+		(pts
 			(xy 31.75 107.95) (xy 31.75 109.22)
 		)
 		(stroke
@@ -7650,6 +7650,16 @@
 			(type default)
 		)
 		(uuid "ee66d8ea-e3d3-4d2a-8e38-65c1deb3cebb")
+	)
+	(wire
+		(pts
+			(xy 59.69 73.66) (xy 80.01 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef7b7956-995b-42a6-ad95-517c62d8e3c3")
 	)
 	(wire
 		(pts
@@ -7836,17 +7846,6 @@
 			(justify left)
 		)
 		(uuid "8eb30bb2-a96d-403e-8fcd-15db9027102d")
-	)
-	(hierarchical_label "24Vsync_inn"
-		(shape input)
-		(at 57.15 74.93 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c5fcc935-3174-4915-9578-0d8cb26005d0")
 	)
 	(symbol
 		(lib_id "LM5146RGYR:LM5146RGYR")
@@ -16427,6 +16426,83 @@
 			(project "ProteusPowerManagment"
 				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/02b1550a-377b-4da6-a00f-9f724cf4d25c"
 					(reference "C204")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 59.69 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e7b7d552-63f2-471b-889b-04ecf6147c40")
+		(property "Reference" "#PWR060"
+			(at 59.69 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 59.69 77.216 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 59.69 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4bf4ff7e-fe77-4004-9aa5-4ff7b261c529")
+		)
+		(instances
+			(project "ProteusPowerManagment"
+				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/02b1550a-377b-4da6-a00f-9f724cf4d25c"
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)

@@ -927,6 +927,17 @@
 		)
 		(uuid "c61f4d96-b32d-44f5-ac8e-8189f60afe7c")
 	)
+	(text "24V buck is sync master\n12V buck is then 180 deg shift\n5V buck is in same phase as 24V buck\n"
+		(exclude_from_sim no)
+		(at 79.502 42.164 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "27732cf7-3c37-41cd-b827-da81bedd0454")
+	)
 	(text "Utganger 12V"
 		(exclude_from_sim no)
 		(at 260.858 78.994 0)
@@ -967,6 +978,22 @@
 		)
 		(uuid "efc8574b-8d9c-48e1-ae68-dc453b514851")
 	)
+	(junction
+		(at 114.3 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ef6ae7e2-b466-4b0b-9243-1cc8a25c0efd")
+	)
+	(wire
+		(pts
+			(xy 29.21 83.82) (xy 29.21 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03d2d637-55b0-4c34-887d-8d7adb1b98b0")
+	)
 	(wire
 		(pts
 			(xy 114.3 116.84) (xy 137.16 116.84)
@@ -976,6 +1003,16 @@
 			(type default)
 		)
 		(uuid "04720fd4-e4f6-4bd9-bf6c-75558a4ce282")
+	)
+	(wire
+		(pts
+			(xy 29.21 140.97) (xy 38.1 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "126b277d-1bff-486d-805a-c53cdfac1d99")
 	)
 	(wire
 		(pts
@@ -1009,6 +1046,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 96.52) (xy 71.12 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22d90f29-6817-4ab8-87c2-1ee8cd0804fa")
+	)
+	(wire
+		(pts
 			(xy 156.21 88.9) (xy 156.21 30.48)
 		)
 		(stroke
@@ -1019,6 +1066,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 86.36) (xy 114.3 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ac05880-26de-4b73-8fdf-8ffcc312622e")
+	)
+	(wire
+		(pts
 			(xy 27.94 152.4) (xy 38.1 152.4)
 		)
 		(stroke
@@ -1026,6 +1083,26 @@
 			(type default)
 		)
 		(uuid "45c58b2b-0369-41a2-b63e-fc571f616a57")
+	)
+	(wire
+		(pts
+			(xy 62.23 86.36) (xy 114.3 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4709e01c-a7a0-49db-91d4-3135dea64e76")
+	)
+	(wire
+		(pts
+			(xy 82.55 83.82) (xy 29.21 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b8f8fda-87a2-4042-98dd-d94455906794")
 	)
 	(wire
 		(pts
@@ -1059,6 +1136,36 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 125.73) (xy 64.77 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72c9ca76-32e5-4ec0-ab78-b79c524cd6dd")
+	)
+	(wire
+		(pts
+			(xy 77.47 45.72) (xy 82.55 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8527c3cd-ab2e-417d-9792-98e5b94ef590")
+	)
+	(wire
+		(pts
+			(xy 81.28 140.97) (xy 81.28 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a27e9de5-5d03-4036-abe8-b93e123e5357")
+	)
+	(wire
+		(pts
 			(xy 114.3 152.4) (xy 77.47 152.4)
 		)
 		(stroke
@@ -1079,6 +1186,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 104.14) (xy 62.23 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc9ce2c8-7e71-4f87-ac98-bdb27b263f57")
+	)
+	(wire
+		(pts
 			(xy 114.3 152.4) (xy 114.3 116.84)
 		)
 		(stroke
@@ -1089,7 +1206,17 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 55.88) (xy 114.3 95.25)
+			(xy 64.77 125.73) (xy 64.77 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc1204ae-9e57-4ead-b8a4-d565f07afb9e")
+	)
+	(wire
+		(pts
+			(xy 114.3 55.88) (xy 114.3 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1109,6 +1236,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 45.72) (xy 82.55 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dde54108-d543-4aab-9524-4c6201eb1cae")
+	)
+	(wire
+		(pts
 			(xy 177.8 106.68) (xy 175.26 106.68)
 		)
 		(stroke
@@ -1116,6 +1253,16 @@
 			(type default)
 		)
 		(uuid "e7e977d1-2dfc-4a76-9f43-68aa0c885181")
+	)
+	(wire
+		(pts
+			(xy 77.47 140.97) (xy 81.28 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb839df6-dc9e-4cba-9756-7f5d80bae888")
 	)
 	(wire
 		(pts
@@ -1380,30 +1527,6 @@
 		(uuid "63c2059b-9c1f-4159-8a73-5b57d4762097")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 245.5609 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "24V"
-		(shape input)
-		(at 62.23 104.14 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7f612e25-c0f9-4bd4-a744-cbce20becbc1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 56.3914 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4729,16 +4852,6 @@
 				(justify right)
 			)
 		)
-		(pin "24Vsync_inn" input
-			(at 38.1 43.18 180)
-			(uuid "43f5cc35-d59a-416d-a6e3-db9587a415dd")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "24Vsync_out" output
 			(at 77.47 45.72 0)
 			(uuid "209804a5-286f-4cbb-8f32-fe3a40451ce5")
@@ -5065,16 +5178,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-		(pin "5VSYNC_Out" output
-			(at 110.49 96.52 0)
-			(uuid "216f0ffc-1e38-4bb0-b28b-64dab7329ed7")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(pin "5V_PGOOD" output
