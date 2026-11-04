@@ -7633,7 +7633,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TPS259830LNRGER"
+		(property "Footprint" "Marinor:TPS259830LNRGER"
 			(at 113.03 246.05 0)
 			(hide yes)
 			(show_name no)
@@ -8098,7 +8098,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TPS259830LNRGER"
+		(property "Footprint" "Marinor:TPS259830LNRGER"
 			(at 252.73 116.51 0)
 			(hide yes)
 			(show_name no)
@@ -8470,7 +8470,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TPS259830LNRGER"
+		(property "Footprint" "Marinor:TPS259830LNRGER"
 			(at 199.39 183.82 0)
 			(hide yes)
 			(show_name no)
