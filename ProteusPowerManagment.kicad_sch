@@ -927,6 +927,17 @@
 		)
 		(uuid "c61f4d96-b32d-44f5-ac8e-8189f60afe7c")
 	)
+	(text "24V buck is sync master\n12V buck is then 180 deg shift\n5V buck is in same phase as 24V buck\n"
+		(exclude_from_sim no)
+		(at 79.502 42.164 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "27732cf7-3c37-41cd-b827-da81bedd0454")
+	)
 	(text "Utganger 12V"
 		(exclude_from_sim no)
 		(at 260.858 78.994 0)
@@ -967,6 +978,22 @@
 		)
 		(uuid "efc8574b-8d9c-48e1-ae68-dc453b514851")
 	)
+	(junction
+		(at 114.3 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ef6ae7e2-b466-4b0b-9243-1cc8a25c0efd")
+	)
+	(wire
+		(pts
+			(xy 34.29 82.55) (xy 34.29 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03d2d637-55b0-4c34-887d-8d7adb1b98b0")
+	)
 	(wire
 		(pts
 			(xy 114.3 116.84) (xy 137.16 116.84)
@@ -979,7 +1006,17 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 55.88) (xy 38.1 55.88)
+			(xy 34.29 140.97) (xy 38.1 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "126b277d-1bff-486d-805a-c53cdfac1d99")
+	)
+	(wire
+		(pts
+			(xy 35.56 55.88) (xy 38.1 55.88)
 		)
 		(stroke
 			(width 0)
@@ -999,7 +1036,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 95.25) (xy 137.16 95.25)
+			(xy 114.3 99.06) (xy 137.16 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1009,17 +1046,27 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 88.9) (xy 156.21 30.48)
+			(xy 64.77 111.76) (xy 71.12 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "29953dd2-02dc-43cb-81e3-8167322c891a")
+		(uuid "22d90f29-6817-4ab8-87c2-1ee8cd0804fa")
 	)
 	(wire
 		(pts
-			(xy 27.94 152.4) (xy 38.1 152.4)
+			(xy 114.3 86.36) (xy 114.3 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ac05880-26de-4b73-8fdf-8ffcc312622e")
+	)
+	(wire
+		(pts
+			(xy 34.29 152.4) (xy 38.1 152.4)
 		)
 		(stroke
 			(width 0)
@@ -1029,7 +1076,27 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 104.14) (xy 71.12 104.14)
+			(xy 64.77 86.36) (xy 114.3 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4709e01c-a7a0-49db-91d4-3135dea64e76")
+	)
+	(wire
+		(pts
+			(xy 80.01 82.55) (xy 34.29 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b8f8fda-87a2-4042-98dd-d94455906794")
+	)
+	(wire
+		(pts
+			(xy 64.77 104.14) (xy 71.12 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1049,13 +1116,53 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 95.25) (xy 175.26 95.25)
+			(xy 175.26 99.06) (xy 177.8 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5eab3c13-7462-4b6c-a43c-b408d1fa13db")
+	)
+	(wire
+		(pts
+			(xy 81.28 125.73) (xy 64.77 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72c9ca76-32e5-4ec0-ab78-b79c524cd6dd")
+	)
+	(wire
+		(pts
+			(xy 175.26 91.44) (xy 177.8 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e6d02b9-8eb3-456b-9f20-a6d24257f908")
+	)
+	(wire
+		(pts
+			(xy 135.89 91.44) (xy 137.16 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a04cc91f-7e7b-463d-b5ce-7bdcbfb958f5")
+	)
+	(wire
+		(pts
+			(xy 81.28 140.97) (xy 81.28 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a27e9de5-5d03-4036-abe8-b93e123e5357")
 	)
 	(wire
 		(pts
@@ -1069,13 +1176,13 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 30.48) (xy 25.4 55.88)
+			(xy 64.77 104.14) (xy 64.77 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b47274b2-267b-4ed9-8e3e-a3eae3d40ec1")
+		(uuid "bc9ce2c8-7e71-4f87-ac98-bdb27b263f57")
 	)
 	(wire
 		(pts
@@ -1089,7 +1196,17 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 55.88) (xy 114.3 95.25)
+			(xy 64.77 125.73) (xy 64.77 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc1204ae-9e57-4ead-b8a4-d565f07afb9e")
+	)
+	(wire
+		(pts
+			(xy 114.3 55.88) (xy 114.3 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1099,13 +1216,23 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 30.48) (xy 25.4 30.48)
+			(xy 80.01 66.04) (xy 80.01 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dcfc40f7-1cd7-4041-b0e2-b592f98f2f28")
+		(uuid "dde54108-d543-4aab-9524-4c6201eb1cae")
+	)
+	(wire
+		(pts
+			(xy 77.47 66.04) (xy 80.01 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1f2ca77-aaa1-4055-a5cb-cd2f18566ccd")
 	)
 	(wire
 		(pts
@@ -1116,6 +1243,16 @@
 			(type default)
 		)
 		(uuid "e7e977d1-2dfc-4a76-9f43-68aa0c885181")
+	)
+	(wire
+		(pts
+			(xy 77.47 140.97) (xy 81.28 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb839df6-dc9e-4cba-9756-7f5d80bae888")
 	)
 	(wire
 		(pts
@@ -1201,7 +1338,7 @@
 	)
 	(global_label "50V"
 		(shape input)
-		(at 25.4 30.48 180)
+		(at 35.56 55.88 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1211,7 +1348,7 @@
 		)
 		(uuid "22c1fbc8-d2b2-48e5-ba67-45f10acb73bd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 19.5614 30.48 0)
+			(at 29.7214 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1247,9 +1384,9 @@
 			)
 		)
 	)
-	(global_label "50V"
+	(global_label "50Vbat"
 		(shape input)
-		(at 166.37 121.92 270)
+		(at 135.89 91.44 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1259,7 +1396,7 @@
 		)
 		(uuid "3fd19901-fe66-4169-a2b3-12945118a20e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 166.37 127.7586 90)
+			(at 127.0277 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1321,7 +1458,7 @@
 	)
 	(global_label "50V"
 		(shape input)
-		(at 27.94 152.4 180)
+		(at 34.29 152.4 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1331,7 +1468,7 @@
 		)
 		(uuid "5646bb6f-ca9e-45b7-86b2-8c0b79905d9d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 22.1014 152.4 0)
+			(at 28.4514 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1345,7 +1482,7 @@
 	)
 	(global_label "24V"
 		(shape output)
-		(at 177.8 95.25 0)
+		(at 177.8 99.06 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1355,7 +1492,7 @@
 		)
 		(uuid "58f01094-bfa1-4473-a5cb-3ada6b093854")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 183.6386 95.25 0)
+			(at 183.6386 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1391,19 +1528,19 @@
 			)
 		)
 	)
-	(global_label "24V"
-		(shape input)
-		(at 62.23 104.14 180)
+	(global_label "50V"
+		(shape output)
+		(at 177.8 91.44 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "7f612e25-c0f9-4bd4-a744-cbce20becbc1")
+		(uuid "69e36726-ebb5-4f4c-97f0-a649309ef1ab")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 56.3914 104.14 0)
+			(at 183.6386 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1411,11 +1548,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
-	(global_label "50V"
+	(global_label "50Vbat"
 		(shape input)
 		(at 189.23 20.32 180)
 		(fields_autoplaced yes)
@@ -1427,7 +1564,7 @@
 		)
 		(uuid "84f03825-541e-453b-8c61-00a4df4f4a70")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 183.3914 20.32 0)
+			(at 180.3677 20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4719,28 +4856,8 @@
 				(justify left top)
 			)
 		)
-		(pin "24VPGOOD" output
-			(at 77.47 67.31 0)
-			(uuid "a919fe82-83f2-4f88-9805-868424f696ba")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "24Vsync_inn" input
-			(at 38.1 43.18 180)
-			(uuid "43f5cc35-d59a-416d-a6e3-db9587a415dd")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "24Vsync_out" output
-			(at 77.47 45.72 0)
+			(at 77.47 66.04 0)
 			(uuid "209804a5-286f-4cbb-8f32-fe3a40451ce5")
 			(effects
 				(font
@@ -4762,16 +4879,6 @@
 		(pin "50V_VINN" input
 			(at 38.1 55.88 180)
 			(uuid "4bf70912-fb18-4d1d-b314-dc9af511f2f5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "24VPgood3v3Logic" input
-			(at 38.1 68.58 180)
-			(uuid "6b76c23e-2dc0-4fc3-b154-089901ba1bfb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4835,7 +4942,7 @@
 				(justify left)
 			)
 		)
-		(pin "5V_ut" input
+		(pin "5V_ut" output
 			(at 175.26 116.84 0)
 			(uuid "75605988-8386-4882-889e-045118cf9e3b")
 			(effects
@@ -4855,7 +4962,7 @@
 				(justify left)
 			)
 		)
-		(pin "12V_ut" input
+		(pin "12V_ut" output
 			(at 175.26 106.68 0)
 			(uuid "3c927665-7bcf-4e9c-9a56-bc054f64d7f0")
 			(effects
@@ -4866,7 +4973,7 @@
 			)
 		)
 		(pin "24V_inn" input
-			(at 137.16 95.25 180)
+			(at 137.16 99.06 180)
 			(uuid "21bf7d60-dac1-410f-bc72-d7ac483e04c1")
 			(effects
 				(font
@@ -4875,8 +4982,8 @@
 				(justify left)
 			)
 		)
-		(pin "24V_ut" input
-			(at 175.26 95.25 0)
+		(pin "24V_ut" output
+			(at 175.26 99.06 0)
 			(uuid "95cb10a6-9be0-43bd-8fb2-206fd7dd15e9")
 			(effects
 				(font
@@ -4885,8 +4992,8 @@
 				(justify right)
 			)
 		)
-		(pin "50V_Safe" input
-			(at 156.21 88.9 90)
+		(pin "50V_Safe" output
+			(at 175.26 91.44 0)
 			(uuid "e31b46aa-878b-45d8-bbca-448a758c3888")
 			(effects
 				(font
@@ -4896,7 +5003,7 @@
 			)
 		)
 		(pin "Batt+" input
-			(at 166.37 121.92 270)
+			(at 137.16 91.44 180)
 			(uuid "a1a64e58-6c09-4c01-a2c3-f4ed55b0be85")
 			(effects
 				(font
@@ -4971,16 +5078,6 @@
 				(justify right)
 			)
 		)
-		(pin "12VPGOOD" output
-			(at 77.47 143.51 0)
-			(uuid "f618a2c3-d1f1-445d-bf97-2c76cbe9e06b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "12V_VOUT" output
 			(at 77.47 152.4 0)
 			(uuid "ebff0e5c-5191-46bd-84f1-a401f224e2ab")
@@ -4994,16 +5091,6 @@
 		(pin "50V_VINN" input
 			(at 38.1 152.4 180)
 			(uuid "03f88262-a0ea-48e5-8591-b3d7076d5b77")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "12VPgood3v3Logic" input
-			(at 38.1 143.51 180)
-			(uuid "6382efbc-090d-4595-bde7-423eabc88df1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5058,33 +5145,13 @@
 			)
 		)
 		(pin "5VSYNC_In" input
-			(at 71.12 96.52 180)
+			(at 71.12 111.76 180)
 			(uuid "fdf5df52-5132-4f3b-9508-6fe0e0625d17")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-		(pin "5VSYNC_Out" output
-			(at 110.49 96.52 0)
-			(uuid "216f0ffc-1e38-4bb0-b28b-64dab7329ed7")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "5V_PGOOD" output
-			(at 110.49 116.84 0)
-			(uuid "0fa0ebbf-f7a1-4240-adf6-7fdeb0524901")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(pin "5V_Vout" output
@@ -5095,16 +5162,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-		(pin "5VPgood3v3Logic" input
-			(at 71.12 113.03 180)
-			(uuid "0a17746b-0617-4128-a01a-ab7cb91f99ab")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(pin "24V_VINN" input
