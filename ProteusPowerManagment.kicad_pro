@@ -260,7 +260,16 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "power_pin_not_driven|1206500|1193800|43203e49-b08f-407c-a6f5-ec3e6a47e55f|00000000-0000-0000-0000-000000000000|/c24111dd-5300-4143-a3c3-2d963194a3cb/02b1550a-377b-4da6-a00f-9f724cf4d25c|/c24111dd-5300-4143-a3c3-2d963194a3cb/02b1550a-377b-4da6-a00f-9f724cf4d25c|",
+        "input power er fikset"
+      ],
+      [
+        "power_pin_not_driven|660400|812800|ca674967-bbad-442f-bd30-ecc7fbb81873|00000000-0000-0000-0000-000000000000|/c24111dd-5300-4143-a3c3-2d963194a3cb/02b1550a-377b-4da6-a00f-9f724cf4d25c|/c24111dd-5300-4143-a3c3-2d963194a3cb/02b1550a-377b-4da6-a00f-9f724cf4d25c|",
+        "er fikset"
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -1024,7 +1033,7 @@
         "uuid": "c24111dd-5300-4143-a3c3-2d963194a3cb"
       }
     ],
-    "used_designators": "#PWR5-42,#PWR53-58,R_BST1-2,C_ss1-2,R1-16,R212-213,R301,R311-320,R401-403,R407-410,R507-508,C1-9,C101-102,C219-220,C319-336,C402,C405-419,C505-506,CR101-105,C_Vin1-2,C_BST1-2,C_C4-9,C_In1-9,R_C3-6,R_FB3-4,U2-4,R_RT1-2,R_UV3-6,R_Vin1-2,Q1-4,L1-2,L302,L401-402,C_Out1-9,C_VCC1,C_ILIM1,R_ILIM1,IC1-3,D1-4,NT1-3",
+    "used_designators": "#PWR5-42,#PWR53-58,R_BST1-2,C_ss1-2,#FLG1-9,R1-16,R212-213,R301,R311-320,R401-403,R407-410,R507-508,C1-9,C101-102,C219-220,C319-336,C402,C405-419,C505-506,CR101-105,C_Vin1-2,C_BST1-2,C_C4-9,C_In1-9,R_C3-6,R_FB3-4,U2-4,R_RT1-2,R_UV3-6,R_Vin1-2,Q1-4,L1-2,L302,L401-402,C_Out1-9,C_VCC1,C_ILIM1,R_ILIM1,IC1-3,D1-4,NT1-3",
     "variants": []
   },
   "sheets": [
