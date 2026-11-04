@@ -4771,7 +4771,7 @@
 	(footprint "Marinor:C_Wurth_WCAP-CSGP-1210_H2.5"
 		(layer "F.Cu")
 		(uuid "0be7ad40-b495-472c-bebb-f605043bc7a3")
-		(at 363.995 88.15)
+		(at 120.25 144.735)
 		(descr "MLCCs General Purpose, body 3.2x2.5x2.5mm, https://www.we-online.com/en/components/products/WCAP-CSGP-6_3VDC")
 		(tags "SMT")
 		(property "Reference" "C310"
@@ -6800,7 +6800,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "2a18e2ea-e43f-40bb-a560-7797a2e889b8")
-		(at 350.285 103.655)
+		(at 106.54 160.24)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R307"
@@ -8141,7 +8141,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "304f1e80-45ec-4eb8-bffb-183b1c3a396a")
-		(at 350.285 106.165)
+		(at 106.54 162.75)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R308"
@@ -11980,7 +11980,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "3f3fb5c4-9e31-4086-ac42-41d31265173b")
-		(at 381.645 83.195)
+		(at 137.9 139.78)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
 		(property "Reference" "R212"
@@ -13278,7 +13278,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "4795d97f-f03f-4759-805f-87785f973589")
-		(at 346.275 106.165)
+		(at 102.53 162.75)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C307"
@@ -14461,7 +14461,7 @@
 	(footprint "Marinor:C_Wurth_WCAP-CSGP-1210_H2.5"
 		(layer "F.Cu")
 		(uuid "4ff1391f-efc1-4ca1-8fdc-7e3162e40c92")
-		(at 363.995 108.85)
+		(at 120.25 165.435)
 		(descr "MLCCs General Purpose, body 3.2x2.5x2.5mm, https://www.we-online.com/en/components/products/WCAP-CSGP-6_3VDC")
 		(tags "SMT")
 		(property "Reference" "C316"
@@ -14910,7 +14910,7 @@
 	(footprint "Marinor:C_Wurth_WCAP-CSGP-1210_H2.5"
 		(layer "F.Cu")
 		(uuid "5081f906-114f-4e92-9add-74b954dd71ba")
-		(at 363.995 100.57)
+		(at 120.25 157.155)
 		(descr "MLCCs General Purpose, body 3.2x2.5x2.5mm, https://www.we-online.com/en/components/products/WCAP-CSGP-6_3VDC")
 		(tags "SMT")
 		(property "Reference" "C313"
@@ -15823,7 +15823,7 @@
 	(footprint "Marinor:C_Wurth_WCAP-CSGP-0805_H1.25_R"
 		(layer "F.Cu")
 		(uuid "59129ec4-cddb-47e5-9b30-99b451af0e8a")
-		(at 363.395 115.33)
+		(at 119.65 171.915)
 		(descr "MLCCs General Purpose, body 2x1.25x1.25mm, https://www.we-online.com/en/components/products/WCAP-CSGP-6_3VDC")
 		(tags "SMT")
 		(property "Reference" "C314"
@@ -17258,7 +17258,7 @@
 	(footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "5ca93a78-aa5e-48a6-a88d-49c2d4129d29")
-		(at 346.49 113.735)
+		(at 102.745 170.32)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf)")
 		(tags "LED handsolder")
 		(property "Reference" "D7"
@@ -18090,7 +18090,7 @@
 	(footprint "Marinor:C_Wurth_WCAP-CSGP-0603_R"
 		(layer "F.Cu")
 		(uuid "5cf3bffb-2a7c-4b46-a40c-0ddc6e60c31b")
-		(at 381.395 95.64)
+		(at 137.65 152.225)
 		(descr "MLCCs General Purpose, body 1.6x0.8x0.8mm, https://www.we-online.com/en/components/products/WCAP-CSGP-6_3VDC")
 		(tags "SMT")
 		(property "Reference" "C301"
@@ -18552,7 +18552,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "5fb919a7-5124-48b4-a6ee-41563c5afdeb")
-		(at 381.645 90.725)
+		(at 137.9 147.31)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
 		(property "Reference" "R311"
@@ -18749,7 +18749,7 @@
 	(footprint "Marinor:CP_Wurth_WCAP-ASLI-D12.5L14"
 		(layer "F.Cu")
 		(uuid "607769c5-4fc0-42c6-afd2-796faa9ea7a5")
-		(at 375.745 110.565)
+		(at 132 167.15)
 		(descr "Aluminum Electrolytic Capacitors Low Impedance +105 °C, body x12.5x14mm, https://www.we-online.com/en/components/products/WCAP-ASLI#/articles/WCAP_ASLI_SIZE_12_5")
 		(tags "SMT")
 		(property "Reference" "C319"
@@ -20616,7 +20616,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "652d4953-2c0a-4f52-810d-9fb50d83bfa4")
-		(at 346.275 101.145)
+		(at 102.53 157.73)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C305"
@@ -20800,7 +20800,7 @@
 	(footprint "Marinor:C_Wurth_WCAP-CSGP-1210_H2.5"
 		(layer "F.Cu")
 		(uuid "66e711c8-f3c0-4daa-87cf-565498e62325")
-		(at 363.995 92.29)
+		(at 120.25 148.875)
 		(descr "MLCCs General Purpose, body 3.2x2.5x2.5mm, https://www.we-online.com/en/components/products/WCAP-CSGP-6_3VDC")
 		(tags "SMT")
 		(property "Reference" "C311"
@@ -22671,7 +22671,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "725ca6b2-b536-4b48-b102-e1b665cf2912")
-		(at 346.275 108.675)
+		(at 102.53 165.26)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C308"
@@ -23184,7 +23184,7 @@
 	(footprint "Marinor:CAPAE830X1000N"
 		(layer "F.Cu")
 		(uuid "7b11dfb1-4c1f-4d23-87f9-0e023a737c31")
-		(at 373.12 97.765)
+		(at 129.375 154.35)
 		(descr "0809")
 		(tags "Capacitor Polarised")
 		(property "Reference" "C318"
@@ -23486,7 +23486,7 @@
 	(footprint "Marinor:IC_LM5146RGYR"
 		(layer "F.Cu")
 		(uuid "7be1357f-7bb2-4a04-9e87-74471dc84813")
-		(at 355.015 113.72)
+		(at 111.27 170.305)
 		(property "Reference" "U301"
 			(at 0.975 -3.975 0)
 			(layer "F.SilkS")
@@ -26192,7 +26192,7 @@
 	(footprint "NetTie:NetTie-2_SMD_Pad0.5mm"
 		(layer "F.Cu")
 		(uuid "81f48ab4-4524-483f-9ab6-6922cba7f32c")
-		(at 345.52 115.78)
+		(at 101.775 172.365)
 		(descr "Net tie, 2 pin, 0.5mm square SMD pads")
 		(tags "net tie")
 		(property "Reference" "NT2"
@@ -28594,7 +28594,7 @@
 	(footprint "Marinor:CAPAE830X1000N"
 		(layer "F.Cu")
 		(uuid "92eda8b4-da88-42f9-a271-7bbc21e6767b")
-		(at 373.12 87.215)
+		(at 129.375 143.8)
 		(descr "0809")
 		(tags "Capacitor Polarised")
 		(property "Reference" "C317"
@@ -28896,7 +28896,7 @@
 	(footprint "Marinor:C_Wurth_WCAP-CSGP-0603_R"
 		(layer "F.Cu")
 		(uuid "9793c4a8-fd0c-4736-92c2-59aed01013e1")
-		(at 381.395 93.2)
+		(at 137.65 149.785)
 		(descr "MLCCs General Purpose, body 1.6x0.8x0.8mm, https://www.we-online.com/en/components/products/WCAP-CSGP-6_3VDC")
 		(tags "SMT")
 		(property "Reference" "C220"
@@ -29555,7 +29555,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "99188731-75a8-4421-81bc-cdc1843e8fdf")
-		(at 350.285 108.675)
+		(at 106.54 165.26)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R309"
@@ -30184,7 +30184,7 @@
 	(footprint "Marinor:C_Wurth_WCAP-CSGP-0603_R"
 		(layer "F.Cu")
 		(uuid "997aed7d-8be2-46db-97b7-c688a92c1839")
-		(at 381.395 98.08)
+		(at 137.65 154.665)
 		(descr "MLCCs General Purpose, body 1.6x0.8x0.8mm, https://www.we-online.com/en/components/products/WCAP-CSGP-6_3VDC")
 		(tags "SMT")
 		(property "Reference" "C304"
@@ -32083,7 +32083,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "a4c7bc6b-4126-4d59-a587-c642a5fb1af8")
-		(at 381.675 100.775)
+		(at 137.93 157.36)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R213"
@@ -32900,7 +32900,7 @@
 	(footprint "Marinor:NVMFD5C674NLT1G"
 		(layer "F.Cu")
 		(uuid "a6fcf6b8-5ff0-4d8e-9366-c9b1d8202434")
-		(at 356.616 104.625)
+		(at 112.871 161.21)
 		(descr "DFN8 5x6, 1.27P Dual Flag (SO8FL−Dual) CASE 506BT ISSUE E_1")
 		(tags "MOSFET (N-Channel)")
 		(property "Reference" "Q2"
@@ -33339,7 +33339,7 @@
 	(footprint "Marinor:C_Wurth_WCAP-CSGP-1210_H2.5"
 		(layer "F.Cu")
 		(uuid "a7bc7c41-cbe1-4256-a824-799f83cbde45")
-		(at 363.995 104.71)
+		(at 120.25 161.295)
 		(descr "MLCCs General Purpose, body 3.2x2.5x2.5mm, https://www.we-online.com/en/components/products/WCAP-CSGP-6_3VDC")
 		(tags "SMT")
 		(property "Reference" "C315"
@@ -33788,7 +33788,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "a7dad9f6-2017-4800-ab3b-795cf2df2ecd")
-		(at 350.285 111.185)
+		(at 106.54 167.77)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R310"
@@ -34714,7 +34714,7 @@
 	(footprint "Marinor:C_Wurth_WCAP-CSGP-1210_H2.5"
 		(layer "F.Cu")
 		(uuid "ab396355-23ac-42f7-b609-d8db979b4bec")
-		(at 363.995 84.01)
+		(at 120.25 140.595)
 		(descr "MLCCs General Purpose, body 3.2x2.5x2.5mm, https://www.we-online.com/en/components/products/WCAP-CSGP-6_3VDC")
 		(tags "SMT")
 		(property "Reference" "C309"
@@ -37732,7 +37732,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "bedb0357-a4e9-4b8b-a79d-459e96193367")
-		(at 346.275 103.655)
+		(at 102.53 160.24)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C306"
@@ -40279,7 +40279,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "d097e470-cffc-42eb-8bef-bdf99718a694")
-		(at 350.285 101.145)
+		(at 106.54 157.73)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R306"
@@ -40463,7 +40463,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "d1c6602e-80fc-4f4c-a195-d24e9cee4e2f")
-		(at 346.275 111.185)
+		(at 102.53 167.77)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R305"
@@ -40647,7 +40647,7 @@
 	(footprint "Marinor:C_Wurth_WCAP-CSGP-0805_H1.25_R"
 		(layer "F.Cu")
 		(uuid "d2c4a4c9-31ca-450c-aa18-7278f3fd5d8b")
-		(at 363.395 112.39)
+		(at 119.65 168.975)
 		(descr "MLCCs General Purpose, body 2x1.25x1.25mm, https://www.we-online.com/en/components/products/WCAP-CSGP-6_3VDC")
 		(tags "SMT")
 		(property "Reference" "C302"
@@ -41984,7 +41984,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "d4f869fe-b075-4d2a-bc03-53e6ca6bb694")
-		(at 381.645 85.705)
+		(at 137.9 142.29)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
 		(property "Reference" "R303"
@@ -46270,7 +46270,7 @@
 	(footprint "Marinor:C_Wurth_WCAP-CSGP-1210_H2.5"
 		(layer "F.Cu")
 		(uuid "e3e0e8bf-686d-4236-85c3-d7b4d805c5ec")
-		(at 363.995 96.43)
+		(at 120.25 153.015)
 		(descr "MLCCs General Purpose, body 3.2x2.5x2.5mm, https://www.we-online.com/en/components/products/WCAP-CSGP-6_3VDC")
 		(tags "SMT")
 		(property "Reference" "C312"
@@ -46993,7 +46993,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "ec67c124-b409-40f4-a1e9-39f86a8fb28d")
-		(at 381.645 88.215)
+		(at 137.9 144.8)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
 		(property "Reference" "R304"
@@ -47348,7 +47348,7 @@
 	(footprint "Marinor:L_Wurth_WE-XHMA-1510-6.8uH"
 		(layer "F.Cu")
 		(uuid "f0181403-00a4-496c-9bb0-95c7ea475503")
-		(at 352.745 90.915)
+		(at 109 147.5)
 		(descr "SMD Power Inductor, body 15.4x16.4x10mm, https://www.we-online.com/en/components/products/WE-XHMA#/articles/WE_XHMA_1510")
 		(tags "SMT")
 		(property "Reference" "L301"
@@ -47577,7 +47577,7 @@
 			)
 			(polygon
 				(pts
-					(xy 349.095 99.365) (xy 356.395 99.365) (xy 356.395 82.465) (xy 349.095 82.465)
+					(xy 105.35 155.95) (xy 112.65 155.95) (xy 112.65 139.05) (xy 105.35 139.05)
 				)
 			)
 		)
