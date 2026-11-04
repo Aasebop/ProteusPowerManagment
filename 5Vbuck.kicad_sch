@@ -7890,7 +7890,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
 			(at 95.25 113.03 0)
 			(hide yes)
 			(show_name no)
