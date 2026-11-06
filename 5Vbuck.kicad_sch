@@ -3529,6 +3529,12 @@
 		(uuid "27b38c7a-53d9-47ce-be24-89249890445d")
 	)
 	(junction
+		(at 133.35 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "28f83113-dacd-420f-9c7f-e560cb95dbae")
+	)
+	(junction
 		(at 255.27 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3617,6 +3623,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8cdee9ee-254b-4214-a7e5-ba7f6df5f856")
+	)
+	(junction
+		(at 116.84 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "94589da8-3781-41a1-a85d-4152096548dc")
 	)
 	(junction
 		(at 153.67 114.3)
@@ -3820,6 +3832,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 121.92) (xy 142.24 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11d947a0-3693-4adf-a0ed-f703c12e659a")
+	)
+	(wire
+		(pts
 			(xy 242.57 100.33) (xy 266.7 100.33)
 		)
 		(stroke
@@ -3930,7 +3952,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 121.92) (xy 142.24 121.92)
+			(xy 113.03 121.92) (xy 133.35 121.92)
 		)
 		(stroke
 			(width 0)
@@ -4097,6 +4119,16 @@
 			(type default)
 		)
 		(uuid "772f460a-29ea-4023-9184-e29f59f5b101")
+	)
+	(wire
+		(pts
+			(xy 130.81 119.38) (xy 133.35 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78836c51-a6f8-4dc8-896f-daf43125150e")
 	)
 	(wire
 		(pts
@@ -4297,6 +4329,16 @@
 			(type default)
 		)
 		(uuid "a1fa8672-8319-463b-8c64-51ace10f9cf3")
+	)
+	(wire
+		(pts
+			(xy 133.35 119.38) (xy 133.35 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a62ab36e-40ad-4042-8982-e73a6ed6ac50")
 	)
 	(wire
 		(pts
@@ -4590,6 +4632,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 119.38) (xy 125.73 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e66783a5-1f56-44c4-9908-61933807f3b9")
+	)
+	(wire
+		(pts
 			(xy 113.03 93.98) (xy 113.03 91.44)
 		)
 		(stroke
@@ -4647,6 +4699,16 @@
 			(type default)
 		)
 		(uuid "fd6bc20b-bbc8-4a44-9637-fa7aaf2965a7")
+	)
+	(label "AGND_5"
+		(at 113.03 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6e135006-a4a2-471b-9f62-5ada8379aa0a")
 	)
 	(label "Comp"
 		(at 113.03 109.22 0)
@@ -5067,85 +5129,6 @@
 			(project "ProteusPowerManagment"
 				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/ff489ca0-c022-46f0-934f-be95c81d38e4"
 					(reference "C411")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 95.25 115.57 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "214d9697-d886-4b2d-8edb-166c2005f359")
-		(property "Reference" "#PWR022"
-			(at 95.25 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PGND"
-			(at 97.79 116.8399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 95.25 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 95.25 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 95.25 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "edcd454f-db2c-4388-bff3-ad708546da83")
-		)
-		(instances
-			(project "ProteusPowerManagment"
-				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/ff489ca0-c022-46f0-934f-be95c81d38e4"
-					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -7858,7 +7841,7 @@
 	)
 	(symbol
 		(lib_id "Device:NetTie_2")
-		(at 95.25 113.03 90)
+		(at 128.27 119.38 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7869,29 +7852,27 @@
 		(fields_autoplaced yes)
 		(uuid "8b495883-1dec-49a8-bee0-c19ad571d646")
 		(property "Reference" "NT1"
-			(at 96.52 111.7599 90)
+			(at 128.27 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "NetTie_2"
-			(at 96.52 114.2999 90)
+			(at 128.27 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
-			(at 95.25 113.03 0)
+		(property "Footprint" "Marinor:NetTie"
+			(at 128.27 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7902,7 +7883,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 113.03 0)
+			(at 128.27 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7913,7 +7894,7 @@
 			)
 		)
 		(property "Description" "Net tie, 2 pins"
-			(at 95.25 113.03 0)
+			(at 128.27 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9480,7 +9461,7 @@
 				)
 			)
 		)
-		(property "Value" "AGND_5"
+		(property "Value" "PGND"
 			(at 116.84 116.8399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9712,84 +9693,6 @@
 			(project "ProteusPowerManagment"
 				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/ff489ca0-c022-46f0-934f-be95c81d38e4"
 					(reference "C412")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 95.25 110.49 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e9dbe60e-d037-4fc3-9b45-608b29a78a6d")
-		(property "Reference" "#PWR05"
-			(at 95.25 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AGND_5"
-			(at 95.25 105.41 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 95.25 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 95.25 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 95.25 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cc06226f-b2e6-46ba-a2e3-f511cc4506e6")
-		)
-		(instances
-			(project "ProteusPowerManagment"
-				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/ff489ca0-c022-46f0-934f-be95c81d38e4"
-					(reference "#PWR05")
 					(unit 1)
 				)
 			)

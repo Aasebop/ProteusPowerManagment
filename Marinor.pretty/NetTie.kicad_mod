@@ -1,0 +1,103 @@
+(footprint "NetTie"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "b0e1d79e-2be4-48f1-8746-7b777445a1fc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "NetTie"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0c19b853-b583-44f8-8ab6-63932c9f9d61")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "51372ed6-aed7-482a-b303-929d84eeb6af")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8deea930-370c-4a29-9ac5-1f7ae435267a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(duplicate_pad_numbers_are_jumpers no)
+	(pad "" smd custom
+		(at -0.15 -0.15 180)
+		(size 0.000001 0.000001)
+		(layers "F.Cu")
+		(thermal_bridge_angle 90)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0 0) (xy -0.3048 0) (xy -0.3048 -0.254) (xy 0 -0.254)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "fc46ccad-0d87-441a-b289-40272547d357")
+	)
+	(pad "1" smd rect
+		(at -0.2516 -0.023)
+		(size 0.254 0.254)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin -0.127)
+		(solder_paste_margin -0.127)
+		(uuid "57b07f1d-79ff-421e-bcf6-cea4ea59d6de")
+	)
+	(pad "2" smd rect
+		(at 0.2564 -0.023)
+		(size 0.254 0.254)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin -0.127)
+		(solder_paste_margin -0.127)
+		(uuid "096fc70f-305b-488d-a629-4f35572c62c5")
+	)
+	(group ""
+		(uuid "a0e0f0a0-8d94-4b5c-badc-02ceca61c4ee")
+		(members "096fc70f-305b-488d-a629-4f35572c62c5" "57b07f1d-79ff-421e-bcf6-cea4ea59d6de"
+			"fc46ccad-0d87-441a-b289-40272547d357"
+		)
+	)
+	(embedded_fonts no)
+)

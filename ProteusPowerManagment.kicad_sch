@@ -2497,7 +2497,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PHOENIX_1776508"
+		(property "Footprint" "Marinor:PHOENIX_1776508"
 			(at 257.81 49.53 0)
 			(hide yes)
 			(show_name no)
