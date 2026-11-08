@@ -6938,6 +6938,26 @@
 		)
 		(uuid "fed1314c-5901-47f4-b0e3-fc4b5cd7ca6f")
 	)
+	(label "LO_12"
+		(at 116.84 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "43e9774a-81ac-490c-9aa4-33f25e0f97c2")
+	)
+	(label "VCC_12"
+		(at 123.19 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "474454f4-c2ab-4252-9015-c1048855727e")
+	)
 	(label "COMP"
 		(at 116.84 110.49 0)
 		(effects
@@ -6968,6 +6988,36 @@
 		)
 		(uuid "77abcb4b-8c2a-4182-a2e7-830458694fd3")
 	)
+	(label "PGOOD_12"
+		(at 116.84 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8fa9fd9c-73e1-45c7-812a-ce98d8034fa1")
+	)
+	(label "ILIM_12"
+		(at 77.47 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8fb21566-1000-4856-80b7-0d607530664f")
+	)
+	(label "BST_12"
+		(at 118.11 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c4d4a782-9ddf-40d0-ab1b-0af9bd7424ef")
+	)
 	(label "FB"
 		(at 48.26 127 0)
 		(effects
@@ -6987,6 +7037,56 @@
 			(justify left bottom)
 		)
 		(uuid "e69ddc90-643d-4ffe-8981-e44895c6a6ba")
+	)
+	(label "SS_12"
+		(at 76.2 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e7a7b3fe-e919-42cc-8e58-c91d1d629fbe")
+	)
+	(label "SW_12"
+		(at 118.11 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eb5695d4-b2e1-4992-8b35-5bb3da65f298")
+	)
+	(label "HO_12"
+		(at 116.84 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f4e99158-59aa-4dc0-ac72-a97e76b2b18b")
+	)
+	(label "RT_12"
+		(at 76.2 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fc828644-05ed-458b-91f1-ca1ef024123f")
+	)
+	(label "VIN_12"
+		(at 124.46 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fcc5a5a3-b432-4f6f-b092-8e33ae175383")
 	)
 	(hierarchical_label "12V_VOUT"
 		(shape input)

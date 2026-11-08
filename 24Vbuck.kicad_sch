@@ -8363,7 +8363,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02d430f5-8114-4af0-b28a-edbade287c44")
-		(property "Reference" "U1"
+		(property "Reference" "U201"
 			(at 97.79 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8696,7 +8696,7 @@
 		(instances
 			(project "ProteusPowerManagment"
 				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/02b1550a-377b-4da6-a00f-9f724cf4d25c"
-					(reference "U1")
+					(reference "U201")
 					(unit 1)
 				)
 			)
