@@ -4700,6 +4700,36 @@
 		)
 		(uuid "fd6bc20b-bbc8-4a44-9637-fa7aaf2965a7")
 	)
+	(label "PGOOD_5"
+		(at 113.03 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "100ce162-68e0-429b-8c39-da69c525fbca")
+	)
+	(label "VCC_5"
+		(at 113.03 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "202f0b81-dd22-4be6-b2fa-b1b0f2633501")
+	)
+	(label "RT_5"
+		(at 77.47 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3fa1b930-6e76-450d-934f-a46fc6ed978d")
+	)
 	(label "AGND_5"
 		(at 113.03 119.38 0)
 		(effects
@@ -4720,6 +4750,26 @@
 		)
 		(uuid "722915f2-e042-4837-8390-4ff0f6871a27")
 	)
+	(label "SS_5"
+		(at 74.93 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "76c47e86-d8e2-49c4-9f88-a6daf30b2a07")
+	)
+	(label "SW_5"
+		(at 113.03 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a4c262ed-c23a-49fa-98ee-83ed4836566f")
+	)
 	(label "FB"
 		(at 237.49 147.32 180)
 		(effects
@@ -4730,6 +4780,36 @@
 		)
 		(uuid "a824b729-1391-4272-90c9-3f1b611f9b45")
 	)
+	(label "ILIM_5"
+		(at 76.2 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b66073fc-215f-42f0-85d9-b036d44280fd")
+	)
+	(label "HO_5"
+		(at 113.03 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ba636f46-4c88-444f-9afb-363c2b130280")
+	)
+	(label "VIN_5"
+		(at 113.03 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bb743efd-c925-4056-b8e5-8afd3b9fb402")
+	)
 	(label "FB"
 		(at 113.03 111.76 0)
 		(effects
@@ -4739,6 +4819,26 @@
 			(justify left bottom)
 		)
 		(uuid "c78f888b-a08a-4aad-ae7a-b548f2f85475")
+	)
+	(label "BST_5"
+		(at 113.03 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cf0c25f6-8b8b-4d32-a75a-e5dd1dd95332")
+	)
+	(label "LO_5"
+		(at 113.03 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d2c17bc1-65d4-4bc6-a8ce-fdaa188a9360")
 	)
 	(label "Comp"
 		(at 233.68 134.62 180)
