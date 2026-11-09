@@ -4665,6 +4665,117 @@
 		)
 		(embedded_fonts no)
 	)
+	(footprint "Marinor:NetTie"
+		(layer "F.Cu")
+		(uuid "0b840e75-14c7-49a0-97b2-74a2e7d3fbd8")
+		(at 323.9 76.74 180)
+		(property "Reference" "NT1"
+			(at 0 -0.5 180)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "9c3d8fe3-420f-4a9b-9ca5-d333876898f1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 0 1 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b2206a42-9c9c-4119-b4c2-e834e8d10249")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f1a95342-aaa4-459d-9751-a85c4a11f352")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6f0182c4-fccc-4412-b6c9-f62ed36554a8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Net*Tie*")
+		(sheetname "/5Vbuck/")
+		(sheetfile "5Vbuck.kicad_sch")
+		(attr exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
+		(pad "" smd custom
+			(at -0.15 -0.15)
+			(size 0.000001 0.000001)
+			(layers "F.Cu")
+			(thermal_bridge_angle 90)
+			(options
+				(clearance outline)
+				(anchor circle)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 0 0) (xy -0.3048 0) (xy -0.3048 -0.254) (xy 0 -0.254)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
+			(uuid "46ac3480-b247-4991-93f2-6b13dcaa7cce")
+		)
+		(pad "1" smd rect
+			(at -0.2516 -0.023 180)
+			(size 0.254 0.254)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "PGND")
+			(pinfunction "1_1")
+			(pintype "passive")
+			(solder_mask_margin -0.127)
+			(solder_paste_margin -0.127)
+			(uuid "16fff218-5028-41d3-a0e2-f9a6648d77d8")
+		)
+		(pad "2" smd rect
+			(at 0.2564 -0.023 180)
+			(size 0.254 0.254)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "PGND")
+			(pinfunction "2_2")
+			(pintype "passive")
+			(solder_mask_margin -0.127)
+			(solder_paste_margin -0.127)
+			(uuid "a4a6b08a-fb53-4d8a-89c0-a7d0ef319d7f")
+		)
+		(group ""
+			(uuid "1c8e3178-1dc6-48a7-8575-a411bb58b363")
+			(members "16fff218-5028-41d3-a0e2-f9a6648d77d8" "46ac3480-b247-4991-93f2-6b13dcaa7cce"
+				"a4a6b08a-fb53-4d8a-89c0-a7d0ef319d7f"
+			)
+		)
+		(embedded_fonts no)
+	)
 	(footprint "Marinor:C_Wurth_WCAP-CSGP-1210_H2.5"
 		(layer "F.Cu")
 		(uuid "0be7ad40-b495-472c-bebb-f605043bc7a3")
@@ -5239,7 +5350,7 @@
 		(descr "MLCCs General Purpose, body 1.6x0.8x0.8mm, https://www.we-online.com/en/components/products/WCAP-CSGP-6_3VDC")
 		(tags "SMT")
 		(property "Reference" "C401"
-			(at -3.35 -0.15 0)
+			(at -2.425 1.11 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "5310f39e-980c-4065-bf97-c732869647e7")
@@ -5697,11 +5808,11 @@
 	(footprint "Marinor:C_Wurth_WCAP-CSGP-1210_H2.5"
 		(layer "F.Cu")
 		(uuid "1da36656-b265-48e4-950b-ecdbebd179b9")
-		(at 368.755101 67.865)
+		(at 338.06 69.4 90)
 		(descr "MLCCs General Purpose, body 3.2x2.5x2.5mm, https://www.we-online.com/en/components/products/WCAP-CSGP-6_3VDC")
 		(tags "SMT")
 		(property "Reference" "C411"
-			(at 0 -2.5 0)
+			(at 5.25 -0.04 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "9c0bc8e3-84d5-482b-8ecb-369f729d32fd")
@@ -5713,7 +5824,7 @@
 			)
 		)
 		(property "Value" "2.2 uF"
-			(at 0 2.5 0)
+			(at 0 2.5 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5726,7 +5837,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/885012209071.pdf?ki"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "831e1cf4-946b-47bc-90f1-26e4fd08509a")
@@ -5737,7 +5848,7 @@
 			)
 		)
 		(property "Description" "MLCCs 100 V(DC) ED"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f6a09829-d333-4161-b8b5-ea6d6db45db9")
@@ -5748,7 +5859,7 @@
 			)
 		)
 		(property "Manufacturer" "Wurth Elektronik"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5761,7 +5872,7 @@
 			)
 		)
 		(property "Manufacturer URL" "https://www.we-online.com"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5774,7 +5885,7 @@
 			)
 		)
 		(property "Created Date" "20251008"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5787,7 +5898,7 @@
 			)
 		)
 		(property "Series" "WCAP-CSGP"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5800,7 +5911,7 @@
 			)
 		)
 		(property "Size" "1210_H2.5"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5813,7 +5924,7 @@
 			)
 		)
 		(property "Mounting Technology" "SMT"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5826,7 +5937,7 @@
 			)
 		)
 		(property "Part Number" "885012209071"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5839,7 +5950,7 @@
 			)
 		)
 		(property "Capacitance" "2.2 uF"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5852,7 +5963,7 @@
 			)
 		)
 		(property "Voltage" "100.0"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5865,7 +5976,7 @@
 			)
 		)
 		(property "C" "2.2 uF"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5878,7 +5989,7 @@
 			)
 		)
 		(property "Tol. C" "±10%"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5891,7 +6002,7 @@
 			)
 		)
 		(property "VR (V (DC))" "100.0"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5904,7 +6015,7 @@
 			)
 		)
 		(property "Operating Temperature" "-55 °C up to +125 °C"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5917,7 +6028,7 @@
 			)
 		)
 		(property "DF (%)" "5"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5930,7 +6041,7 @@
 			)
 		)
 		(property "RISO" "0.05 Gohm"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5943,7 +6054,7 @@
 			)
 		)
 		(property "Ceramic Type" "X7R Class II"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5956,7 +6067,7 @@
 			)
 		)
 		(property "L (mm)" "3.2"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5969,7 +6080,7 @@
 			)
 		)
 		(property "W (mm)" "2.5"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5982,7 +6093,7 @@
 			)
 		)
 		(property "H (mm)" "2.5"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5995,7 +6106,7 @@
 			)
 		)
 		(property "Fl (mm)" "0.75"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -6008,7 +6119,7 @@
 			)
 		)
 		(property "Q (%)" "–"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -6021,7 +6132,7 @@
 			)
 		)
 		(property "Demoboard" "nan"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -6034,7 +6145,7 @@
 			)
 		)
 		(property "Critical Parameter" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -6101,7 +6212,7 @@
 			(uuid "8e5a2177-9e68-4043-87e2-853bb9cd3fc7")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "43b49a6f-42f6-4530-a446-26c711105f3c")
@@ -6113,7 +6224,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -1.55 0)
+			(at -1.55 0 90)
 			(size 0.9 2.5)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "/24Vbuck/24V_VOUT")
@@ -6122,7 +6233,7 @@
 			(uuid "8f4d457e-0c3b-4090-ae50-10e2e11032cf")
 		)
 		(pad "2" smd rect
-			(at 1.55 0)
+			(at 1.55 0 90)
 			(size 0.9 2.5)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "PGND")
@@ -7150,11 +7261,11 @@
 	(footprint "Marinor:C_Wurth_WCAP-CSGP-1210_H2.5"
 		(layer "F.Cu")
 		(uuid "26225206-9641-4528-8a3a-07a6d2e7e81c")
-		(at 368.755101 76.145)
+		(at 343.25 75.1)
 		(descr "MLCCs General Purpose, body 3.2x2.5x2.5mm, https://www.we-online.com/en/components/products/WCAP-CSGP-6_3VDC")
 		(tags "SMT")
 		(property "Reference" "C413"
-			(at 0 -2.5 0)
+			(at 5.25 -0.04 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "6eb488bc-d536-4d34-9824-6a56ef386462")
@@ -12985,11 +13096,11 @@
 	(footprint "Marinor:C_Wurth_WCAP-CSGP-1210_H2.5"
 		(layer "F.Cu")
 		(uuid "3fd3c5a8-8ff0-4c0a-817f-96c636ae251b")
-		(at 368.755101 59.585)
+		(at 329.78 69.4 90)
 		(descr "MLCCs General Purpose, body 3.2x2.5x2.5mm, https://www.we-online.com/en/components/products/WCAP-CSGP-6_3VDC")
 		(tags "SMT")
 		(property "Reference" "C409"
-			(at 0 -2.5 0)
+			(at 5.25 -0.04 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "a84b70a6-0556-40fd-a01f-51d9bba5917c")
@@ -13001,7 +13112,7 @@
 			)
 		)
 		(property "Value" "2.2 uF"
-			(at 0 2.5 0)
+			(at 0 2.5 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -13014,7 +13125,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/885012209071.pdf?ki"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "72bc3d6a-fc6b-456b-8230-448c716aa1d9")
@@ -13025,7 +13136,7 @@
 			)
 		)
 		(property "Description" "MLCCs 100 V(DC) ED"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "cca297d9-e1f1-40be-80d6-9bb1640b9079")
@@ -13036,7 +13147,7 @@
 			)
 		)
 		(property "Manufacturer" "Wurth Elektronik"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -13049,7 +13160,7 @@
 			)
 		)
 		(property "Manufacturer URL" "https://www.we-online.com"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -13062,7 +13173,7 @@
 			)
 		)
 		(property "Created Date" "20251008"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -13075,7 +13186,7 @@
 			)
 		)
 		(property "Series" "WCAP-CSGP"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -13088,7 +13199,7 @@
 			)
 		)
 		(property "Size" "1210_H2.5"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -13101,7 +13212,7 @@
 			)
 		)
 		(property "Mounting Technology" "SMT"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -13114,7 +13225,7 @@
 			)
 		)
 		(property "Part Number" "885012209071"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -13127,7 +13238,7 @@
 			)
 		)
 		(property "Capacitance" "2.2 uF"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -13140,7 +13251,7 @@
 			)
 		)
 		(property "Voltage" "100.0"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -13153,7 +13264,7 @@
 			)
 		)
 		(property "C" "2.2 uF"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -13166,7 +13277,7 @@
 			)
 		)
 		(property "Tol. C" "±10%"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -13179,7 +13290,7 @@
 			)
 		)
 		(property "VR (V (DC))" "100.0"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -13192,7 +13303,7 @@
 			)
 		)
 		(property "Operating Temperature" "-55 °C up to +125 °C"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -13205,7 +13316,7 @@
 			)
 		)
 		(property "DF (%)" "5"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -13218,7 +13329,7 @@
 			)
 		)
 		(property "RISO" "0.05 Gohm"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -13231,7 +13342,7 @@
 			)
 		)
 		(property "Ceramic Type" "X7R Class II"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -13244,7 +13355,7 @@
 			)
 		)
 		(property "L (mm)" "3.2"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -13257,7 +13368,7 @@
 			)
 		)
 		(property "W (mm)" "2.5"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -13270,7 +13381,7 @@
 			)
 		)
 		(property "H (mm)" "2.5"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -13283,7 +13394,7 @@
 			)
 		)
 		(property "Fl (mm)" "0.75"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -13296,7 +13407,7 @@
 			)
 		)
 		(property "Q (%)" "–"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -13309,7 +13420,7 @@
 			)
 		)
 		(property "Demoboard" "nan"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -13322,7 +13433,7 @@
 			)
 		)
 		(property "Critical Parameter" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -13389,7 +13500,7 @@
 			(uuid "c88c558e-30af-4f0c-82e2-0871c2b4f0d2")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "084a4f00-20fa-4639-923d-827865c4457e")
@@ -13401,7 +13512,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -1.55 0)
+			(at -1.55 0 90)
 			(size 0.9 2.5)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "/24Vbuck/24V_VOUT")
@@ -13410,7 +13521,7 @@
 			(uuid "d4e519d3-1453-475d-80c2-17c6b5f01a3c")
 		)
 		(pad "2" smd rect
-			(at 1.55 0)
+			(at 1.55 0 90)
 			(size 0.9 2.5)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "PGND")
@@ -29579,11 +29690,11 @@
 	(footprint "Marinor:C_Wurth_WCAP-CSGP-1210_H2.5"
 		(layer "F.Cu")
 		(uuid "934b7760-7f53-494f-b64e-79b697274048")
-		(at 368.755101 63.725)
+		(at 333.92 69.4 90)
 		(descr "MLCCs General Purpose, body 3.2x2.5x2.5mm, https://www.we-online.com/en/components/products/WCAP-CSGP-6_3VDC")
 		(tags "SMT")
 		(property "Reference" "C410"
-			(at 0 -2.5 0)
+			(at 5.25 -0.04 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "961fcda4-ea4c-44d1-a97b-98de16829050")
@@ -29595,7 +29706,7 @@
 			)
 		)
 		(property "Value" "2.2 uF"
-			(at 0 2.5 0)
+			(at 0 2.5 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -29608,7 +29719,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/885012209071.pdf?ki"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9d0c6668-f5cf-47db-846d-459f579cf6e1")
@@ -29619,7 +29730,7 @@
 			)
 		)
 		(property "Description" "MLCCs 100 V(DC) ED"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4d8829a3-d1eb-468c-a56e-04eaed91e235")
@@ -29630,7 +29741,7 @@
 			)
 		)
 		(property "Manufacturer" "Wurth Elektronik"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -29643,7 +29754,7 @@
 			)
 		)
 		(property "Manufacturer URL" "https://www.we-online.com"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -29656,7 +29767,7 @@
 			)
 		)
 		(property "Created Date" "20251008"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -29669,7 +29780,7 @@
 			)
 		)
 		(property "Series" "WCAP-CSGP"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -29682,7 +29793,7 @@
 			)
 		)
 		(property "Size" "1210_H2.5"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -29695,7 +29806,7 @@
 			)
 		)
 		(property "Mounting Technology" "SMT"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -29708,7 +29819,7 @@
 			)
 		)
 		(property "Part Number" "885012209071"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -29721,7 +29832,7 @@
 			)
 		)
 		(property "Capacitance" "2.2 uF"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -29734,7 +29845,7 @@
 			)
 		)
 		(property "Voltage" "100.0"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -29747,7 +29858,7 @@
 			)
 		)
 		(property "C" "2.2 uF"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -29760,7 +29871,7 @@
 			)
 		)
 		(property "Tol. C" "±10%"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -29773,7 +29884,7 @@
 			)
 		)
 		(property "VR (V (DC))" "100.0"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -29786,7 +29897,7 @@
 			)
 		)
 		(property "Operating Temperature" "-55 °C up to +125 °C"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -29799,7 +29910,7 @@
 			)
 		)
 		(property "DF (%)" "5"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -29812,7 +29923,7 @@
 			)
 		)
 		(property "RISO" "0.05 Gohm"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -29825,7 +29936,7 @@
 			)
 		)
 		(property "Ceramic Type" "X7R Class II"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -29838,7 +29949,7 @@
 			)
 		)
 		(property "L (mm)" "3.2"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -29851,7 +29962,7 @@
 			)
 		)
 		(property "W (mm)" "2.5"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -29864,7 +29975,7 @@
 			)
 		)
 		(property "H (mm)" "2.5"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -29877,7 +29988,7 @@
 			)
 		)
 		(property "Fl (mm)" "0.75"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -29890,7 +30001,7 @@
 			)
 		)
 		(property "Q (%)" "–"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -29903,7 +30014,7 @@
 			)
 		)
 		(property "Demoboard" "nan"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -29916,7 +30027,7 @@
 			)
 		)
 		(property "Critical Parameter" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -29983,7 +30094,7 @@
 			(uuid "e7779df8-93d3-44a0-b0b6-5b77db24c752")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "c2fe1257-3672-4d01-9b81-045b0f19a68f")
@@ -29995,7 +30106,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -1.55 0)
+			(at -1.55 0 90)
 			(size 0.9 2.5)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "/24Vbuck/24V_VOUT")
@@ -30004,7 +30115,7 @@
 			(uuid "120e5d6d-22f7-4c34-b9e7-432655cd718b")
 		)
 		(pad "2" smd rect
-			(at 1.55 0)
+			(at 1.55 0 90)
 			(size 0.9 2.5)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "PGND")
@@ -31956,7 +32067,7 @@
 		(descr "DFN8 5x6, 1.27P Dual Flag (SO8FL−Dual) CASE 506BT ISSUE E_1")
 		(tags "MOSFET (N-Channel)")
 		(property "Reference" "Q3"
-			(at 0 -5.5 90)
+			(at 2.305 -5.395 90)
 			(layer "F.SilkS")
 			(uuid "7d3fb71e-862b-4dca-b970-9058c6dc91ab")
 			(effects
@@ -38225,7 +38336,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C404"
-			(at 0.1 -1.4 0)
+			(at -3.4 -0.8 0)
 			(layer "F.SilkS")
 			(uuid "c01a341a-0e4a-4c22-b70b-521c58b1b566")
 			(effects
@@ -38909,11 +39020,11 @@
 	(footprint "Marinor:C_Wurth_WCAP-CSGP-1210_H2.5"
 		(layer "F.Cu")
 		(uuid "c17430ad-4ff4-41b7-b3e4-8c47a2f68723")
-		(at 368.755101 72.005)
+		(at 342.2 69.4 90)
 		(descr "MLCCs General Purpose, body 3.2x2.5x2.5mm, https://www.we-online.com/en/components/products/WCAP-CSGP-6_3VDC")
 		(tags "SMT")
 		(property "Reference" "C412"
-			(at 0 -2.5 0)
+			(at 5.25 -0.04 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "790bf6cc-e825-4338-b3f8-67c3ced3d052")
@@ -38925,7 +39036,7 @@
 			)
 		)
 		(property "Value" "2.2 uF"
-			(at 0 2.5 0)
+			(at 0 2.5 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -38938,7 +39049,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/885012209071.pdf?ki"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a978dfad-a90d-4c56-959e-dcda27102b1e")
@@ -38949,7 +39060,7 @@
 			)
 		)
 		(property "Description" "MLCCs 100 V(DC) ED"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e7319d26-9c60-45b1-8f05-dd2b986fa60a")
@@ -38960,7 +39071,7 @@
 			)
 		)
 		(property "Manufacturer" "Wurth Elektronik"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -38973,7 +39084,7 @@
 			)
 		)
 		(property "Manufacturer URL" "https://www.we-online.com"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -38986,7 +39097,7 @@
 			)
 		)
 		(property "Created Date" "20251008"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -38999,7 +39110,7 @@
 			)
 		)
 		(property "Series" "WCAP-CSGP"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -39012,7 +39123,7 @@
 			)
 		)
 		(property "Size" "1210_H2.5"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -39025,7 +39136,7 @@
 			)
 		)
 		(property "Mounting Technology" "SMT"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -39038,7 +39149,7 @@
 			)
 		)
 		(property "Part Number" "885012209071"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -39051,7 +39162,7 @@
 			)
 		)
 		(property "Capacitance" "2.2 uF"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -39064,7 +39175,7 @@
 			)
 		)
 		(property "Voltage" "100.0"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -39077,7 +39188,7 @@
 			)
 		)
 		(property "C" "2.2 uF"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -39090,7 +39201,7 @@
 			)
 		)
 		(property "Tol. C" "±10%"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -39103,7 +39214,7 @@
 			)
 		)
 		(property "VR (V (DC))" "100.0"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -39116,7 +39227,7 @@
 			)
 		)
 		(property "Operating Temperature" "-55 °C up to +125 °C"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -39129,7 +39240,7 @@
 			)
 		)
 		(property "DF (%)" "5"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -39142,7 +39253,7 @@
 			)
 		)
 		(property "RISO" "0.05 Gohm"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -39155,7 +39266,7 @@
 			)
 		)
 		(property "Ceramic Type" "X7R Class II"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -39168,7 +39279,7 @@
 			)
 		)
 		(property "L (mm)" "3.2"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -39181,7 +39292,7 @@
 			)
 		)
 		(property "W (mm)" "2.5"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -39194,7 +39305,7 @@
 			)
 		)
 		(property "H (mm)" "2.5"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -39207,7 +39318,7 @@
 			)
 		)
 		(property "Fl (mm)" "0.75"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -39220,7 +39331,7 @@
 			)
 		)
 		(property "Q (%)" "–"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -39233,7 +39344,7 @@
 			)
 		)
 		(property "Demoboard" "nan"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -39246,7 +39357,7 @@
 			)
 		)
 		(property "Critical Parameter" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -39313,7 +39424,7 @@
 			(uuid "2c7965a4-75bf-42fe-a0d4-fb97f83eb976")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "542acd8f-4d4c-4949-9f27-3d0227bbafc2")
@@ -39325,7 +39436,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -1.55 0)
+			(at -1.55 0 90)
 			(size 0.9 2.5)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "/24Vbuck/24V_VOUT")
@@ -39334,7 +39445,7 @@
 			(uuid "4fc91c2b-7ba3-4dd4-9afe-a1cd075998b0")
 		)
 		(pad "2" smd rect
-			(at 1.55 0)
+			(at 1.55 0 90)
 			(size 0.9 2.5)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "PGND")
@@ -40231,7 +40342,7 @@
 	(footprint "Marinor:NetTie"
 		(layer "F.Cu")
 		(uuid "c5cba8ef-7b21-4359-a8a3-c3c14182dd5e")
-		(at 321.5954 76.665 180)
+		(at 321.65 76.75 180)
 		(property "Reference" "NT1"
 			(at 0 -0.5 180)
 			(unlocked yes)
@@ -43883,107 +43994,6 @@
 				(xyz 0 0 0)
 			)
 		)
-	)
-	(footprint "NetTie:NetTie-2_SMD_Pad0.5mm"
-		(layer "F.Cu")
-		(uuid "d92637f5-2a1e-4ae6-95b6-659b04116776")
-		(at 367.230101 58.265)
-		(descr "Net tie, 2 pin, 0.5mm square SMD pads")
-		(tags "net tie")
-		(property "Reference" "NT2"
-			(at 0 -1.2 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "f00e207c-7f58-4196-a23b-4a3cde7fd18e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "NetTie_2"
-			(at 0 1.2 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4c9eb46d-34db-49e2-b8f6-d6498c6d22e9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "41aec102-7602-4601-9f42-66a41c42cc01")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "Net tie, 2 pins"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "95dc1a07-f987-4592-a7d6-8a170ae1816b")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Net*Tie*")
-		(path "/c1246cae-1020-4e2b-a9f1-a2035453bc0c/9ba63490-8f7a-4423-9729-f4a88ac4b78d")
-		(sheetname "/12Vbuck/")
-		(sheetfile "12Vbuck.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
-		(attr exclude_from_bom allow_missing_courtyard)
-		(net_tie_pad_groups "1, 2")
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_poly
-			(pts
-				(xy -0.5 -0.25) (xy 0.5 -0.25) (xy 0.5 0.25) (xy -0.5 0.25)
-			)
-			(stroke
-				(width 0)
-				(type solid)
-			)
-			(fill yes)
-			(layer "F.Cu")
-			(uuid "d22a0e34-1166-4035-867c-c481ecda2818")
-		)
-		(pad "1" smd circle
-			(at -0.5 0)
-			(size 0.5 0.5)
-			(layers "F.Cu")
-			(net "PGND")
-			(pinfunction "1_1")
-			(pintype "passive")
-			(uuid "b20195be-e213-406c-b240-d7a61c491fcb")
-		)
-		(pad "2" smd circle
-			(at 0.5 0)
-			(size 0.5 0.5)
-			(layers "F.Cu")
-			(net "AGND_12")
-			(pinfunction "2_2")
-			(pintype "passive")
-			(uuid "c52c0b24-db82-4884-aaaa-ddf1e70ba541")
-		)
-		(embedded_fonts no)
 	)
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
@@ -51261,7 +51271,7 @@
 		)
 	)
 	(gr_text "5V"
-		(at 341.35 78.26 0)
+		(at 347 81.9 0)
 		(layer "F.SilkS")
 		(uuid "bf30f583-d96b-47e6-9415-eaafb7ce5775")
 		(effects
@@ -51619,6 +51629,15 @@
 		(uuid "ef90b10b-fccf-4ca2-9493-f0a85d1f6f21")
 	)
 	(via
+		(at 331.56 72.2)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "/24Vbuck/24V_VOUT")
+		(uuid "023d2484-2383-4c66-b86a-2e3e66e6b9c7")
+	)
+	(via
 		(at 448.67 96.83)
 		(size 0.6)
 		(drill 0.3)
@@ -51655,6 +51674,24 @@
 		(uuid "04e9139d-18cb-48fe-a6e8-955081753ebf")
 	)
 	(via
+		(at 335.506667 72.2)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "/24Vbuck/24V_VOUT")
+		(uuid "08162e8a-4f47-4c53-8583-0b7115bc5a71")
+	)
+	(via
+		(at 334.52 72.2)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "/24Vbuck/24V_VOUT")
+		(uuid "083cf02b-b259-4b6c-b4bd-b8aadcfe0526")
+	)
+	(via
 		(at 424.184118 101.95)
 		(size 0.6)
 		(drill 0.3)
@@ -51664,7 +51701,16 @@
 		(uuid "0b2e695f-6ff4-4bd4-9b73-59fbff963766")
 	)
 	(via
-		(at 332.249 68.66)
+		(at 336.493333 72.2)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "/24Vbuck/24V_VOUT")
+		(uuid "0c185acb-4e44-4d98-8503-05a35999ac66")
+	)
+	(via
+		(at 343.874 61.4)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -51673,7 +51719,25 @@
 		(uuid "0d0610e5-7fc2-42c8-b13e-ea34acfe0d6f")
 	)
 	(via
-		(at 332.251 67.66)
+		(at 337.48 72.2)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "/24Vbuck/24V_VOUT")
+		(uuid "0d7c6883-483b-42ea-9ced-92f6836d762f")
+	)
+	(via
+		(at 341.486667 73.1)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "/24Vbuck/24V_VOUT")
+		(uuid "10821828-b1e9-49ec-8240-25333111a7d1")
+	)
+	(via
+		(at 343.876 60.4)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -51682,7 +51746,7 @@
 		(uuid "115db6a6-f357-4ac8-877b-0e51447f3e3c")
 	)
 	(via
-		(at 333.013 64.16)
+		(at 344.638 57.5)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -51718,7 +51782,7 @@
 		(uuid "1b3e7f39-f5b1-4bc1-93a4-6a03ca1e5681")
 	)
 	(via
-		(at 332.251 64.16)
+		(at 343.876 57.5)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -51808,6 +51872,15 @@
 		(uuid "31c31942-aea0-4759-9533-8183ac1b53f7")
 	)
 	(via
+		(at 336 71.2)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "/24Vbuck/24V_VOUT")
+		(uuid "38ed1e5d-f036-4999-a957-3078bcd57eed")
+	)
+	(via
 		(at 444.145714 98.78)
 		(size 0.6)
 		(drill 0.3)
@@ -51844,6 +51917,15 @@
 		(uuid "438549af-e016-4576-a992-987887044348")
 	)
 	(via
+		(at 329.586667 72.2)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "/24Vbuck/24V_VOUT")
+		(uuid "4567a89d-227f-4680-b7c7-b17629a16ea6")
+	)
+	(via
 		(at 436.974118 102.8)
 		(size 0.6)
 		(drill 0.3)
@@ -51871,13 +51953,31 @@
 		(uuid "4c86235b-bd81-43c3-a1b7-b399cd4c4462")
 	)
 	(via
-		(at 333.775 64.16)
+		(at 340.5 74.026667)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "/24Vbuck/24V_VOUT")
+		(uuid "503b303a-2ed3-494e-8c61-9c7c4da51eb5")
+	)
+	(via
+		(at 339.453333 72.2)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
 		(net "/24Vbuck/24V_VOUT")
 		(uuid "50c5121c-59ff-4db2-b95c-26efd828ca15")
+	)
+	(via
+		(at 340.5 75.013333)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "/24Vbuck/24V_VOUT")
+		(uuid "519c89c9-5cb0-49df-8fcb-db370fb20519")
 	)
 	(via
 		(at 448.65 96.04)
@@ -51889,7 +51989,7 @@
 		(uuid "5252495c-c285-4b18-95ae-8dbb3a6c8f14")
 	)
 	(via
-		(at 333.773 68.66)
+		(at 343.4 72.2)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -51898,7 +51998,7 @@
 		(uuid "5687495f-bcf3-44ca-949b-c36ca5e9e982")
 	)
 	(via
-		(at 333.013 66.66)
+		(at 344.638 59.4)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -51907,7 +52007,7 @@
 		(uuid "5717d6c2-910b-44f4-8000-eae0fa3eeb2f")
 	)
 	(via
-		(at 333.763 66.66)
+		(at 341.426667 72.2)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -51925,7 +52025,16 @@
 		(uuid "5ef5225e-2ca3-47fa-831d-e9bcb23d4c6b")
 	)
 	(via
-		(at 333.775 67.66)
+		(at 328.6 72.2)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "/24Vbuck/24V_VOUT")
+		(uuid "5f2718f0-d393-4c94-94bc-75e206ddc782")
+	)
+	(via
+		(at 342.413333 72.2)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -51941,6 +52050,15 @@
 		(free yes)
 		(net "/24Vbuck/24V_VOUT")
 		(uuid "60efde15-f667-44d4-8b93-fa582957b4d2")
+	)
+	(via
+		(at 333.533333 72.2)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "/24Vbuck/24V_VOUT")
+		(uuid "62b5ca85-07c0-4db0-a0ce-62ba381d934d")
 	)
 	(via
 		(at 430.571765 102.8)
@@ -51988,13 +52106,22 @@
 		(uuid "6d42082b-d27c-4721-b41a-acdbff508c8a")
 	)
 	(via
-		(at 333.011 65.16)
+		(at 344.636 58.5)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
 		(net "/24Vbuck/24V_VOUT")
 		(uuid "728c51f7-f44d-4730-8f44-ee6e2e5c4390")
+	)
+	(via
+		(at 332.546667 72.2)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "/24Vbuck/24V_VOUT")
+		(uuid "73a8ed8e-9558-458e-9756-28bbf3d16b71")
 	)
 	(via
 		(at 438.041176 102.8)
@@ -52024,6 +52151,24 @@
 		(uuid "7fab5295-65d3-4ab3-a44e-da0d49e416c5")
 	)
 	(via
+		(at 343.46 73.1)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "/24Vbuck/24V_VOUT")
+		(uuid "82a31c8a-363a-4e57-ae93-b8d541cd0f96")
+	)
+	(via
+		(at 330.573333 72.2)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "/24Vbuck/24V_VOUT")
+		(uuid "82c4b1fe-4582-476e-85da-68635da18484")
+	)
+	(via
 		(at 441.12 98.78)
 		(size 0.6)
 		(drill 0.3)
@@ -52040,6 +52185,15 @@
 		(free yes)
 		(net "/24Vbuck/24V_VOUT")
 		(uuid "83082ca1-5c50-4f60-a43c-981930f429be")
+	)
+	(via
+		(at 340.5 76)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "/24Vbuck/24V_VOUT")
+		(uuid "83c89263-6a40-43d4-9c42-9c566336d3ce")
 	)
 	(via
 		(at 419.35 98.44)
@@ -52087,7 +52241,16 @@
 		(uuid "90b58ff2-0201-4574-87e9-215e67718664")
 	)
 	(via
-		(at 332.263 63.16)
+		(at 340.5 73.1)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "/24Vbuck/24V_VOUT")
+		(uuid "90fa3433-8f66-423d-bc32-8f3b0670e081")
+	)
+	(via
+		(at 343.888 56.5)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -52105,7 +52268,7 @@
 		(uuid "96664f91-c05d-43f9-be15-214e14318a3d")
 	)
 	(via
-		(at 333.773 65.16)
+		(at 340.44 72.2)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -52121,6 +52284,15 @@
 		(free yes)
 		(net "/24Vbuck/24V_VOUT")
 		(uuid "98bf392f-5805-469c-bfb4-f94e553796a5")
+	)
+	(via
+		(at 336 70.213333)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "/24Vbuck/24V_VOUT")
+		(uuid "9dc3f5fa-528e-4a8d-9548-b4d6ccf4999d")
 	)
 	(via
 		(at 434.84 102.8)
@@ -52150,7 +52322,7 @@
 		(uuid "a8ea93f6-0aa6-43bb-a5d7-a1f7b44baae1")
 	)
 	(via
-		(at 332.263 66.66)
+		(at 343.888 59.4)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -52168,7 +52340,7 @@
 		(uuid "b6cc0ddf-37e2-4950-b44e-bb689927cb01")
 	)
 	(via
-		(at 333.013 67.66)
+		(at 344.638 60.4)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -52195,7 +52367,7 @@
 		(uuid "bde86fb2-f23b-40a5-add5-563d5efa26bf")
 	)
 	(via
-		(at 333.011 68.66)
+		(at 344.636 61.4)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -52258,6 +52430,15 @@
 		(uuid "d5a6ca82-52d9-4eb3-8b03-b74aa6bc1915")
 	)
 	(via
+		(at 336 69.226667)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "/24Vbuck/24V_VOUT")
+		(uuid "d7716398-9bbd-4923-8ada-ec5db95dbbb9")
+	)
+	(via
 		(at 433.787647 101.95)
 		(size 0.6)
 		(drill 0.3)
@@ -52267,7 +52448,7 @@
 		(uuid "d7c7d432-4bee-4a65-840f-277888464433")
 	)
 	(via
-		(at 333.013 63.16)
+		(at 344.638 56.5)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -52294,6 +52475,15 @@
 		(uuid "decd7958-24a4-48de-b93f-2680e9c7e0a2")
 	)
 	(via
+		(at 342.473333 73.1)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "/24Vbuck/24V_VOUT")
+		(uuid "e3fa3275-eb4b-4824-96ee-1db2fe94582c")
+	)
+	(via
 		(at 429.504706 102.8)
 		(size 0.6)
 		(drill 0.3)
@@ -52312,7 +52502,7 @@
 		(uuid "e488398d-5894-4b08-82c7-a1f9f5aae994")
 	)
 	(via
-		(at 332.249 65.16)
+		(at 343.874 58.5)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -52339,7 +52529,7 @@
 		(uuid "f0080638-01af-4162-b2b2-5f62fb214dfe")
 	)
 	(via
-		(at 333.763 63.16)
+		(at 338.466667 72.2)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -59783,29 +59973,6 @@
 		)
 	)
 	(zone
-		(net "/24Vbuck/24V_VOUT")
-		(layer "F.Cu")
-		(uuid "7175cc92-6a43-46dd-b6e3-19bf99e4fde8")
-		(hatch edge 0.5)
-		(priority 22)
-		(connect_pads yes
-			(clearance 0.5)
-		)
-		(min_thickness 0.25)
-		(fill
-			(thermal_gap 0.254)
-			(thermal_bridge_width 0.254)
-			(island_removal_mode 0)
-		)
-		(polygon
-			(pts
-				(xy 324.64027 72.631873) (xy 333.169632 72.580492) (xy 333.920162 73.856393) (xy 333.920162 76.606393)
-				(xy 347.370162 76.606393) (xy 348.220162 75.906393) (xy 348.170162 68.056393) (xy 346.203233 66.089464)
-				(xy 341.726122 66.124997) (xy 339.933586 68.732323) (xy 323.820162 68.780423) (xy 323.820162 71.906393)
-			)
-		)
-	)
-	(zone
 		(net "PGND")
 		(layer "F.Cu")
 		(uuid "73c2474f-9d4a-42c1-bf9f-720b6af6a0c2")
@@ -59875,27 +60042,6 @@
 				(xy 403.79224 80.999827) (xy 403.784282 81.002464) (xy 403.744879 81.008753) (xy 402.72646 81.005371)
 				(xy 402.659486 80.985464) (xy 402.613907 80.932509) (xy 402.602872 80.881044) (xy 402.632266 69.784701)
 				(xy 402.652129 69.717715) (xy 402.705054 69.672101) (xy 402.757377 69.661036)
-			)
-		)
-	)
-	(zone
-		(net "/24Vbuck/24V_VOUT")
-		(layer "F.Cu")
-		(uuid "ad76514a-a0e5-4c51-9458-44461a1214c2")
-		(hatch edge 0.5)
-		(priority 13)
-		(connect_pads yes
-			(clearance 0.5)
-		)
-		(min_thickness 0.25)
-		(fill
-			(thermal_gap 0.254)
-			(thermal_bridge_width 0.254)
-			(island_removal_mode 0)
-		)
-		(polygon
-			(pts
-				(xy 329.975 50.8) (xy 336.5 50.8) (xy 336.5 66.5) (xy 329.975 66.5)
 			)
 		)
 	)
@@ -60043,6 +60189,27 @@
 		(polygon
 			(pts
 				(xy 405.742446 76.512453) (xy 404.102446 76.512453) (xy 404.13314 80.267453) (xy 405.762909 80.267453)
+			)
+		)
+	)
+	(zone
+		(net "/24Vbuck/24V_VOUT")
+		(layers "F.Cu" "In2.Cu")
+		(uuid "66c06666-1002-4772-945a-6da128a599e6")
+		(hatch edge 0.5)
+		(priority 12)
+		(connect_pads yes
+			(clearance 0.5)
+		)
+		(min_thickness 0.25)
+		(fill
+			(thermal_gap 0.254)
+			(thermal_bridge_width 0.254)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy 344 69.8) (xy 328 69.8) (xy 328 72.4) (xy 334 74.052661) (xy 334 76.4) (xy 342.6 76.4) (xy 344 73.4)
 			)
 		)
 	)
@@ -60342,8 +60509,7 @@
 		)
 		(polygon
 			(pts
-				(xy 329.7 59.312303) (xy 330.65 60.558553) (xy 331.645 60.560553) (xy 337.5 60.560553) (xy 337.5 39.808553)
-				(xy 329.7 39.808553)
+				(xy 332.4 71.55175) (xy 333.35 72.798) (xy 334.345 72.8) (xy 340.2 72.8) (xy 340.2 52.048) (xy 332.4 52.048)
 			)
 		)
 	)
