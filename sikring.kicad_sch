@@ -10641,7 +10641,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2n"
+		(property "Value" "2.2n"
 			(at 146.05 118.1099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11507,7 +11507,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2n"
+		(property "Value" "2.2n"
 			(at 60.96 181.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12535,7 +12535,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SMCJ54CA"
+		(property "Value" ""
 			(at 93.98 109.8549 90)
 			(hide yes)
 			(show_name no)
@@ -14776,7 +14776,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 151.892 49.53 90)
 			(hide yes)
 			(show_name no)
@@ -15447,7 +15447,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SMCJ54CA"
+		(property "Value" ""
 			(at 139.7 38.7349 90)
 			(hide yes)
 			(show_name no)
@@ -15719,7 +15719,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SMCJ54CA"
+		(property "Value" ""
 			(at 16.002 172.212 90)
 			(hide yes)
 			(show_name no)
@@ -16004,7 +16004,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 151.892 41.91 90)
 			(hide yes)
 			(show_name no)
