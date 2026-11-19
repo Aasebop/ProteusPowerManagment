@@ -8,7 +8,7 @@
 		(unlocked yes)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "b0e1d79e-2be4-48f1-8746-7b777445a1fc")
+		(uuid "62d2b971-23d5-45fb-a091-2e4e27407fdd")
 		(effects
 			(font
 				(size 1 1)
@@ -21,7 +21,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "0c19b853-b583-44f8-8ab6-63932c9f9d61")
+		(uuid "52b198cd-deed-4562-b52b-12378c23ad82")
 		(effects
 			(font
 				(size 1 1)
@@ -34,7 +34,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "51372ed6-aed7-482a-b303-929d84eeb6af")
+		(uuid "2dfff8ea-f840-4b9f-89a7-a97e8acc5bde")
 		(effects
 			(font
 				(size 1 1)
@@ -47,7 +47,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "8deea930-370c-4a29-9ac5-1f7ae435267a")
+		(uuid "cbbde65a-1712-44e1-af95-ee403e66c145")
 		(effects
 			(font
 				(size 1 1)
@@ -55,49 +55,34 @@
 			)
 		)
 	)
-	(attr exclude_from_pos_files exclude_from_bom)
+	(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
+	(net_tie_pad_groups "1, 2")
 	(duplicate_pad_numbers_are_jumpers no)
-	(pad "" smd custom
-		(at -0.15 -0.15 180)
-		(size 0.000001 0.000001)
-		(layers "F.Cu")
-		(thermal_bridge_angle 90)
-		(options
-			(clearance outline)
-			(anchor circle)
+	(fp_line
+		(start 0.15 -0.025)
+		(end -0.15 -0.025)
+		(stroke
+			(width 0.2)
+			(type solid)
 		)
-		(primitives
-			(gr_poly
-				(pts
-					(xy 0 0) (xy -0.3048 0) (xy -0.3048 -0.254) (xy 0 -0.254)
-				)
-				(width 0)
-				(fill yes)
-			)
-		)
-		(uuid "fc46ccad-0d87-441a-b289-40272547d357")
+		(layer "F.Cu")
+		(uuid "62c7f052-6ee3-4d3c-875b-c695b07d7097")
 	)
 	(pad "1" smd rect
-		(at -0.2516 -0.023)
-		(size 0.254 0.254)
+		(at -0.2248 -0.023)
+		(size 0.2004 0.254)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin -0.127)
 		(solder_paste_margin -0.127)
-		(uuid "57b07f1d-79ff-421e-bcf6-cea4ea59d6de")
+		(uuid "9b1b03d7-486d-4dcb-b7cb-b82ecd429cd2")
 	)
 	(pad "2" smd rect
-		(at 0.2564 -0.023)
-		(size 0.254 0.254)
+		(at 0.2272 -0.023)
+		(size 0.1956 0.254)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin -0.127)
 		(solder_paste_margin -0.127)
-		(uuid "096fc70f-305b-488d-a629-4f35572c62c5")
-	)
-	(group ""
-		(uuid "a0e0f0a0-8d94-4b5c-badc-02ceca61c4ee")
-		(members "096fc70f-305b-488d-a629-4f35572c62c5" "57b07f1d-79ff-421e-bcf6-cea4ea59d6de"
-			"fc46ccad-0d87-441a-b289-40272547d357"
-		)
+		(uuid "2b34727f-7e39-4607-8dd1-d11f509ea98c")
 	)
 	(embedded_fonts no)
 )

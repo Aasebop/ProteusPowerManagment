@@ -4287,6 +4287,16 @@
 		)
 		(uuid "7e884ec7-d721-4de2-9edb-81dc2b46ea34")
 	)
+	(text "C219 -> C403\n"
+		(exclude_from_sim no)
+		(at 59.69 118.364 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4ec0d8a4-b7d1-47c4-98ae-8544864c89f4")
+	)
 	(junction
 		(at 133.35 93.98)
 		(diameter 0)
@@ -6709,7 +6719,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "34fb4ac4-dbfd-42a9-aea2-9e2cfa2e2cdb")
-		(property "Reference" "C219"
+		(property "Reference" "C403"
 			(at 66.04 113.792 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7077,7 +7087,7 @@
 		(instances
 			(project "ProteusPowerManagment"
 				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/ff489ca0-c022-46f0-934f-be95c81d38e4"
-					(reference "C219")
+					(reference "C403")
 					(unit 1)
 				)
 			)
@@ -8426,7 +8436,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Marinor:C_Wurth_WCAP-CSGP-1210_H2.5"
 			(at 225.7552 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -8769,7 +8779,7 @@
 				)
 			)
 		)
-		(property "Field6" "GMK212B7105MG-T"
+		(property "Field6" "885012207103"
 			(at 213.36 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -9988,7 +9998,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Marinor:C_Wurth_WCAP-CSGP-1210_H2.5"
 			(at 239.7252 109.22 0)
 			(hide yes)
 			(show_name no)

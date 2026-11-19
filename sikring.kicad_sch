@@ -5053,7 +5053,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 153.67) (xy 129.54 153.67)
+			(xy 116.84 153.67) (xy 128.27 153.67)
 		)
 		(stroke
 			(width 0)
@@ -5113,7 +5113,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 153.67) (xy 129.54 158.75)
+			(xy 128.27 153.67) (xy 128.27 162.56)
 		)
 		(stroke
 			(width 0)
@@ -5220,6 +5220,16 @@
 			(type default)
 		)
 		(uuid "25f42010-87fa-4f36-81d4-62f8530a3476")
+	)
+	(wire
+		(pts
+			(xy 223.52 92.71) (xy 223.52 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26959e21-b850-4c24-846c-2bb6589dd362")
 	)
 	(wire
 		(pts
@@ -5903,7 +5913,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 24.13) (xy 269.24 24.13)
+			(xy 256.54 24.13) (xy 267.97 24.13)
 		)
 		(stroke
 			(width 0)
@@ -6133,7 +6143,17 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 29.21) (xy 274.32 29.21)
+			(xy 274.32 25.4) (xy 274.32 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96e07354-623b-443f-965b-c25c69e5771e")
+	)
+	(wire
+		(pts
+			(xy 267.97 33.02) (xy 274.32 33.02)
 		)
 		(stroke
 			(width 0)
@@ -6333,7 +6353,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 91.44) (xy 218.44 96.52)
+			(xy 214.63 91.44) (xy 214.63 100.33)
 		)
 		(stroke
 			(width 0)
@@ -6443,7 +6463,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 158.75) (xy 134.62 158.75)
+			(xy 128.27 162.56) (xy 134.62 162.56)
 		)
 		(stroke
 			(width 0)
@@ -6470,6 +6490,16 @@
 			(type default)
 		)
 		(uuid "c0d39dff-2bc0-43a8-b604-b3aa84fc80b0")
+	)
+	(wire
+		(pts
+			(xy 134.62 154.94) (xy 134.62 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c17a7b84-2099-41ea-b1f2-be4f4b9692aa")
 	)
 	(wire
 		(pts
@@ -6513,7 +6543,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 91.44) (xy 218.44 91.44)
+			(xy 203.2 91.44) (xy 214.63 91.44)
 		)
 		(stroke
 			(width 0)
@@ -6703,7 +6733,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 96.52) (xy 223.52 96.52)
+			(xy 214.63 100.33) (xy 223.52 100.33)
 		)
 		(stroke
 			(width 0)
@@ -6773,7 +6803,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 24.13) (xy 269.24 29.21)
+			(xy 267.97 24.13) (xy 267.97 33.02)
 		)
 		(stroke
 			(width 0)
@@ -10641,7 +10671,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2n"
+		(property "Value" "2.2n"
 			(at 146.05 118.1099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11507,7 +11537,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2n"
+		(property "Value" "2.2n"
 			(at 60.96 181.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12535,7 +12565,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SMCJ54CA"
+		(property "Value" ""
 			(at 93.98 109.8549 90)
 			(hide yes)
 			(show_name no)
@@ -12787,7 +12817,7 @@
 	)
 	(symbol
 		(lib_id "Halfdan:0805_H0.8_R_885012207122")
-		(at 134.62 154.94 0)
+		(at 134.62 158.75 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12798,7 +12828,7 @@
 		(fields_autoplaced yes)
 		(uuid "a7b41f8f-d77d-4e0a-a026-37557e611e24")
 		(property "Reference" "C507"
-			(at 138.43 149.8599 0)
+			(at 138.43 153.6699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12809,7 +12839,7 @@
 			)
 		)
 		(property "Value" "10n"
-			(at 138.43 152.3999 0)
+			(at 138.43 156.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12820,7 +12850,7 @@
 			)
 		)
 		(property "Footprint" "Marinor:C_Wurth_WCAP-CSGP-0805_H0.8_R"
-			(at 139.7 134.62 0)
+			(at 139.7 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12832,7 +12862,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/885012207122.pdf?ki"
-			(at 139.7 137.16 0)
+			(at 139.7 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12844,7 +12874,7 @@
 			)
 		)
 		(property "Description" "MLCCs 100 V(DC) ED"
-			(at 134.62 154.94 0)
+			(at 134.62 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12855,7 +12885,7 @@
 			)
 		)
 		(property "Manufacturer" "Wurth Elektronik"
-			(at 139.7 139.7 0)
+			(at 139.7 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12867,7 +12897,7 @@
 			)
 		)
 		(property "Manufacturer URL" "https://www.we-online.com"
-			(at 139.7 142.24 0)
+			(at 139.7 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12879,7 +12909,7 @@
 			)
 		)
 		(property "Created Date" "20251008"
-			(at 139.7 144.78 0)
+			(at 139.7 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12891,7 +12921,7 @@
 			)
 		)
 		(property "Series" "WCAP-CSGP"
-			(at 139.7 147.32 0)
+			(at 139.7 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12903,7 +12933,7 @@
 			)
 		)
 		(property "Size" "0805_H0.8_R"
-			(at 139.7 149.86 0)
+			(at 139.7 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12915,7 +12945,7 @@
 			)
 		)
 		(property "Mounting Technology" "SMT"
-			(at 139.7 152.4 0)
+			(at 139.7 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12927,7 +12957,7 @@
 			)
 		)
 		(property "Part Number" "885012207122"
-			(at 138.43 154.9399 0)
+			(at 138.43 158.7499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12938,7 +12968,7 @@
 			)
 		)
 		(property "Capacitance" "10 nF"
-			(at 138.43 157.4799 0)
+			(at 138.43 161.2899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12949,7 +12979,7 @@
 			)
 		)
 		(property "Voltage" "100.0"
-			(at 138.43 160.0199 0)
+			(at 138.43 163.8299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12960,7 +12990,7 @@
 			)
 		)
 		(property "C" "10 nF"
-			(at 147.32 157.48 0)
+			(at 147.32 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12972,7 +13002,7 @@
 			)
 		)
 		(property "Tol. C" "±10%"
-			(at 147.32 160.02 0)
+			(at 147.32 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12984,7 +13014,7 @@
 			)
 		)
 		(property "VR (V (DC))" "100.0"
-			(at 147.32 162.56 0)
+			(at 147.32 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12996,7 +13026,7 @@
 			)
 		)
 		(property "Operating Temperature" "-55 °C up to +125 °C"
-			(at 147.32 165.1 0)
+			(at 147.32 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13008,7 +13038,7 @@
 			)
 		)
 		(property "Qmin." "1000"
-			(at 139.7 167.64 0)
+			(at 139.7 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13020,7 +13050,7 @@
 			)
 		)
 		(property "DF (%)" "2.5"
-			(at 147.32 167.64 0)
+			(at 147.32 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13032,7 +13062,7 @@
 			)
 		)
 		(property "RISO" "10 Gohm"
-			(at 147.32 170.18 0)
+			(at 147.32 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13044,7 +13074,7 @@
 			)
 		)
 		(property "Ceramic Type" "X7R Class II"
-			(at 147.32 172.72 0)
+			(at 147.32 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13056,7 +13086,7 @@
 			)
 		)
 		(property "L (mm)" "2.0"
-			(at 147.32 175.26 0)
+			(at 147.32 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13068,7 +13098,7 @@
 			)
 		)
 		(property "W (mm)" "1.25"
-			(at 147.32 177.8 0)
+			(at 147.32 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13080,7 +13110,7 @@
 			)
 		)
 		(property "H (mm)" "0.8"
-			(at 147.32 180.34 0)
+			(at 147.32 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13092,7 +13122,7 @@
 			)
 		)
 		(property "Fl (mm)" "0.5"
-			(at 147.32 182.88 0)
+			(at 147.32 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13104,7 +13134,7 @@
 			)
 		)
 		(property "Critical Parameter" ""
-			(at 134.62 162.56 0)
+			(at 134.62 166.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13115,7 +13145,7 @@
 			)
 		)
 		(property "Q (%)" "–"
-			(at 147.32 185.42 0)
+			(at 147.32 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13127,7 +13157,7 @@
 			)
 		)
 		(property "Demoboard" "nan"
-			(at 147.32 187.96 0)
+			(at 147.32 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13139,7 +13169,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 134.62 154.94 0)
+			(at 134.62 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13150,7 +13180,7 @@
 			)
 		)
 		(property "del" ""
-			(at 134.62 154.94 0)
+			(at 134.62 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14001,7 +14031,7 @@
 	)
 	(symbol
 		(lib_id "Halfdan:0805_H0.8_R_885012207122")
-		(at 223.52 92.71 0)
+		(at 223.52 96.52 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14012,7 +14042,7 @@
 		(fields_autoplaced yes)
 		(uuid "cad52751-6579-4e8f-b47b-c808c32bd9e3")
 		(property "Reference" "C504"
-			(at 227.33 87.6299 0)
+			(at 227.33 91.4399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14023,7 +14053,7 @@
 			)
 		)
 		(property "Value" "10n"
-			(at 227.33 90.1699 0)
+			(at 227.33 93.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14034,7 +14064,7 @@
 			)
 		)
 		(property "Footprint" "Marinor:C_Wurth_WCAP-CSGP-0805_H0.8_R"
-			(at 228.6 72.39 0)
+			(at 228.6 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14046,7 +14076,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/885012207122.pdf?ki"
-			(at 228.6 74.93 0)
+			(at 228.6 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14058,7 +14088,7 @@
 			)
 		)
 		(property "Description" "MLCCs 100 V(DC) ED"
-			(at 223.52 92.71 0)
+			(at 223.52 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14069,7 +14099,7 @@
 			)
 		)
 		(property "Manufacturer" "Wurth Elektronik"
-			(at 228.6 77.47 0)
+			(at 228.6 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14081,7 +14111,7 @@
 			)
 		)
 		(property "Manufacturer URL" "https://www.we-online.com"
-			(at 228.6 80.01 0)
+			(at 228.6 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14093,7 +14123,7 @@
 			)
 		)
 		(property "Created Date" "20251008"
-			(at 228.6 82.55 0)
+			(at 228.6 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14105,7 +14135,7 @@
 			)
 		)
 		(property "Series" "WCAP-CSGP"
-			(at 228.6 85.09 0)
+			(at 228.6 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14117,7 +14147,7 @@
 			)
 		)
 		(property "Size" "0805_H0.8_R"
-			(at 228.6 87.63 0)
+			(at 228.6 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14129,7 +14159,7 @@
 			)
 		)
 		(property "Mounting Technology" "SMT"
-			(at 228.6 90.17 0)
+			(at 228.6 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14141,7 +14171,7 @@
 			)
 		)
 		(property "Part Number" "885012207122"
-			(at 227.33 92.7099 0)
+			(at 227.33 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14152,7 +14182,7 @@
 			)
 		)
 		(property "Capacitance" "10 nF"
-			(at 227.33 95.2499 0)
+			(at 227.33 99.0599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14163,7 +14193,7 @@
 			)
 		)
 		(property "Voltage" "100.0"
-			(at 227.33 97.7899 0)
+			(at 227.33 101.5999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14174,7 +14204,7 @@
 			)
 		)
 		(property "C" "10 nF"
-			(at 236.22 95.25 0)
+			(at 236.22 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14186,7 +14216,7 @@
 			)
 		)
 		(property "Tol. C" "±10%"
-			(at 236.22 97.79 0)
+			(at 236.22 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14198,7 +14228,7 @@
 			)
 		)
 		(property "VR (V (DC))" "100.0"
-			(at 236.22 100.33 0)
+			(at 236.22 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14210,7 +14240,7 @@
 			)
 		)
 		(property "Operating Temperature" "-55 °C up to +125 °C"
-			(at 236.22 102.87 0)
+			(at 236.22 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14222,7 +14252,7 @@
 			)
 		)
 		(property "DF (%)" "2.5"
-			(at 236.22 105.41 0)
+			(at 236.22 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14234,7 +14264,7 @@
 			)
 		)
 		(property "RISO" "10 Gohm"
-			(at 236.22 107.95 0)
+			(at 236.22 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14246,7 +14276,7 @@
 			)
 		)
 		(property "Ceramic Type" "X7R Class II"
-			(at 236.22 110.49 0)
+			(at 236.22 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14258,7 +14288,7 @@
 			)
 		)
 		(property "L (mm)" "2.0"
-			(at 236.22 113.03 0)
+			(at 236.22 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14270,7 +14300,7 @@
 			)
 		)
 		(property "W (mm)" "1.25"
-			(at 236.22 115.57 0)
+			(at 236.22 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14282,7 +14312,7 @@
 			)
 		)
 		(property "H (mm)" "0.8"
-			(at 236.22 118.11 0)
+			(at 236.22 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14294,7 +14324,7 @@
 			)
 		)
 		(property "Fl (mm)" "0.5"
-			(at 236.22 120.65 0)
+			(at 236.22 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14306,7 +14336,7 @@
 			)
 		)
 		(property "Q (%)" "–"
-			(at 236.22 123.19 0)
+			(at 236.22 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14318,7 +14348,7 @@
 			)
 		)
 		(property "Demoboard" "nan"
-			(at 236.22 125.73 0)
+			(at 236.22 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14330,7 +14360,7 @@
 			)
 		)
 		(property "Critical Parameter" ""
-			(at 223.52 100.33 0)
+			(at 223.52 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14341,7 +14371,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 223.52 92.71 0)
+			(at 223.52 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14352,7 +14382,7 @@
 			)
 		)
 		(property "del" ""
-			(at 223.52 92.71 0)
+			(at 223.52 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14379,7 +14409,7 @@
 	)
 	(symbol
 		(lib_id "Halfdan:0805_H1.25_R_885342007005")
-		(at 274.32 25.4 0)
+		(at 274.32 29.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14390,7 +14420,7 @@
 		(fields_autoplaced yes)
 		(uuid "d24ae6dd-ffa3-4771-b6ab-712fac312a26")
 		(property "Reference" "C501"
-			(at 278.13 20.3199 0)
+			(at 278.13 24.1299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14401,7 +14431,7 @@
 			)
 		)
 		(property "Value" "2.2n"
-			(at 278.13 22.8599 0)
+			(at 278.13 26.6699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14412,7 +14442,7 @@
 			)
 		)
 		(property "Footprint" "Marinor:C_Wurth_WCAP-CSMH-0805_H1.25_R"
-			(at 279.4 5.08 0)
+			(at 279.4 8.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14424,7 +14454,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/885342007005.pdf?ki"
-			(at 279.4 7.62 0)
+			(at 279.4 11.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14436,7 +14466,7 @@
 			)
 		)
 		(property "Description" "MLCCS Mid and High Voltage"
-			(at 274.32 25.4 0)
+			(at 274.32 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14447,7 +14477,7 @@
 			)
 		)
 		(property "Manufacturer" "Wurth Elektronik"
-			(at 279.4 10.16 0)
+			(at 279.4 13.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14459,7 +14489,7 @@
 			)
 		)
 		(property "Manufacturer URL" "https://www.we-online.com"
-			(at 279.4 12.7 0)
+			(at 279.4 16.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14471,7 +14501,7 @@
 			)
 		)
 		(property "Created Date" "20250416"
-			(at 279.4 15.24 0)
+			(at 279.4 19.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14483,7 +14513,7 @@
 			)
 		)
 		(property "Series" "WCAP-CSMH"
-			(at 279.4 17.78 0)
+			(at 279.4 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14495,7 +14525,7 @@
 			)
 		)
 		(property "Size" "0805_H1.25_R"
-			(at 279.4 20.32 0)
+			(at 279.4 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14507,7 +14537,7 @@
 			)
 		)
 		(property "Mounting Technology" "SMT"
-			(at 279.4 22.86 0)
+			(at 279.4 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14519,7 +14549,7 @@
 			)
 		)
 		(property "Part Number" "885342007005"
-			(at 278.13 25.3999 0)
+			(at 278.13 29.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14530,7 +14560,7 @@
 			)
 		)
 		(property "Capacitance" "2.2 nF"
-			(at 278.13 27.9399 0)
+			(at 278.13 31.7499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14541,7 +14571,7 @@
 			)
 		)
 		(property "Voltage" "250"
-			(at 278.13 30.4799 0)
+			(at 278.13 34.2899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14552,7 +14582,7 @@
 			)
 		)
 		(property "C" "2.2 nF"
-			(at 279.4 27.94 0)
+			(at 279.4 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14564,7 +14594,7 @@
 			)
 		)
 		(property "Tol. C" "±5%"
-			(at 279.4 30.48 0)
+			(at 279.4 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14576,7 +14606,7 @@
 			)
 		)
 		(property "VR (V (DC))" "250"
-			(at 279.4 33.02 0)
+			(at 279.4 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14588,7 +14618,7 @@
 			)
 		)
 		(property "Operating Temperature" "-55 °C up to +125 °C"
-			(at 279.4 35.56 0)
+			(at 279.4 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14600,7 +14630,7 @@
 			)
 		)
 		(property "Qmin." "1000"
-			(at 279.4 38.1 0)
+			(at 279.4 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14612,7 +14642,7 @@
 			)
 		)
 		(property "DF (%)" "–"
-			(at 279.4 40.64 0)
+			(at 279.4 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14624,7 +14654,7 @@
 			)
 		)
 		(property "RISO" "10 Gohm"
-			(at 279.4 43.18 0)
+			(at 279.4 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14636,7 +14666,7 @@
 			)
 		)
 		(property "Ceramic Type" "NP0 Class I"
-			(at 279.4 45.72 0)
+			(at 279.4 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14648,7 +14678,7 @@
 			)
 		)
 		(property "L (mm)" "2.0"
-			(at 279.4 48.26 0)
+			(at 279.4 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14660,7 +14690,7 @@
 			)
 		)
 		(property "W (mm)" "1.25"
-			(at 279.4 50.8 0)
+			(at 279.4 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14672,7 +14702,7 @@
 			)
 		)
 		(property "H (mm)" "1.25"
-			(at 279.4 53.34 0)
+			(at 279.4 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14684,7 +14714,7 @@
 			)
 		)
 		(property "Fl (mm)" "0.5"
-			(at 279.4 55.88 0)
+			(at 279.4 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14696,7 +14726,7 @@
 			)
 		)
 		(property "Critical Parameter" ""
-			(at 274.32 33.02 0)
+			(at 274.32 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14706,7 +14736,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 274.32 25.4 0)
+			(at 274.32 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14717,7 +14747,7 @@
 			)
 		)
 		(property "del" ""
-			(at 274.32 25.4 0)
+			(at 274.32 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14776,7 +14806,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 151.892 49.53 90)
 			(hide yes)
 			(show_name no)
@@ -15447,7 +15477,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SMCJ54CA"
+		(property "Value" ""
 			(at 139.7 38.7349 90)
 			(hide yes)
 			(show_name no)
@@ -15719,7 +15749,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SMCJ54CA"
+		(property "Value" ""
 			(at 16.002 172.212 90)
 			(hide yes)
 			(show_name no)
@@ -16004,7 +16034,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 151.892 41.91 90)
 			(hide yes)
 			(show_name no)

@@ -16098,7 +16098,7 @@
 				)
 			)
 		)
-		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
+		(property "Footprint" "Marinor:NetTie"
 			(at 127 100.33 0)
 			(hide yes)
 			(show_name no)

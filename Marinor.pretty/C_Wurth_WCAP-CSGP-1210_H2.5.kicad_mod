@@ -9,7 +9,7 @@
 		(at 0 -2.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "313a942f-5b0a-4612-a79b-af2e0c26c7c9")
+		(uuid "53da8105-1778-4b1b-9970-f09c97386612")
 		(effects
 			(font
 				(size 1 1)
@@ -22,7 +22,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "6b614343-2188-4ee5-88f6-1e7740633d95")
+		(uuid "32a6766a-8459-4fa9-a8a3-10ff1fc70f1c")
 		(effects
 			(font
 				(size 1 1)
@@ -34,7 +34,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "5e14dcbe-4a11-43e9-9972-cc2c04afbda7")
+		(uuid "f1f01cee-8497-4a6e-9704-eeae80bdfa3a")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45,7 +45,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "0c3f145c-56eb-44fe-a7b0-aef67a490119")
+		(uuid "9b304113-0b75-458d-8ddc-69ba48b705c1")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -62,7 +62,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "6be1bffe-460a-492c-b401-aac4e9bbe3be")
+		(uuid "76d26b59-bc22-40d8-928f-84452f01a09e")
 	)
 	(fp_line
 		(start -1.6 1.51)
@@ -72,7 +72,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "32a685e8-5a37-4ec9-bebe-05b8890ca189")
+		(uuid "781e0783-26f5-496d-b954-baf779a55ee1")
 	)
 	(fp_rect
 		(start -2.25 -1.5)
@@ -83,7 +83,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "8725471a-d602-429f-abff-4bd559756243")
+		(uuid "6e60c39f-c259-490a-bedc-15d9e3c5d9f6")
 	)
 	(fp_rect
 		(start -1.6 -1.25)
@@ -94,13 +94,13 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "e95bd53d-dded-46e3-8ed1-3e9963255a10")
+		(uuid "f4337073-87b5-43e8-ab99-523576cb2669")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "b273c38a-c2fd-46c0-80f4-78105f351501")
+		(uuid "170b56d2-af34-4786-bcf8-c15fac9f7870")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -112,13 +112,13 @@
 		(at -1.55 0)
 		(size 0.9 2.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "a25c29e3-9d88-42e7-ac01-173a61593d06")
+		(uuid "b7d21837-94c2-427e-a1db-34ec03bfe573")
 	)
 	(pad "2" smd rect
 		(at 1.55 0)
 		(size 0.9 2.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "ff2d4d3d-ec2a-48c1-9083-6742e97ca802")
+		(uuid "bb2ec71b-4bd3-43c3-9f41-4d106fc64150")
 	)
 	(embedded_fonts no)
 	(model "${WE_3DMODEL_DIR}/Capacitor_SMD_Wurth.3dshapes/C_Wurth_WCAP-CSGP-1210_H2.5.step"

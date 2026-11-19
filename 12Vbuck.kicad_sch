@@ -5362,6 +5362,16 @@
 		)
 		(uuid "d9924582-563e-419e-b49d-f69249ed325a")
 	)
+	(text "C220 -> C303\n"
+		(exclude_from_sim no)
+		(at 66.294 118.872 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5f24f668-7822-45b9-8be6-f83b6393548b")
+	)
 	(junction
 		(at 252.73 106.68)
 		(diameter 0)
@@ -10237,7 +10247,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "748c0264-5297-4f86-a9a9-0159d66a0073")
-		(property "Reference" "C220"
+		(property "Reference" "C303"
 			(at 71.12 115.062 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10605,7 +10615,7 @@
 		(instances
 			(project "ProteusPowerManagment"
 				(path "/c24111dd-5300-4143-a3c3-2d963194a3cb/c1246cae-1020-4e2b-a9f1-a2035453bc0c"
-					(reference "C220")
+					(reference "C303")
 					(unit 1)
 				)
 			)
@@ -11460,7 +11470,7 @@
 				)
 			)
 		)
-		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
+		(property "Footprint" "Marinor:NetTie"
 			(at 132.08 120.65 0)
 			(hide yes)
 			(show_name no)
